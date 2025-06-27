@@ -1,0 +1,7730 @@
+[
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "Ecru",
+    "COLOR_NAME_EN": "Ecru/off-white",
+    "RGB_COLOR": "#fff7e7",
+    "RGB": [
+      255,
+      247,
+      231
+    ],
+    "HSV": [
+      40,
+      9,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "315",
+    "COLOR_NAME_EN": "Antique Mauve - MED DK",
+    "RGB_COLOR": "#7d4246",
+    "RGB": [
+      125,
+      66,
+      70
+    ],
+    "HSV": [
+      356,
+      47,
+      49
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "Blanc",
+    "COLOR_NAME_EN": "White",
+    "RGB_COLOR": "#eeeeee",
+    "RGB": [
+      238,
+      238,
+      238
+    ],
+    "HSV": [
+      0,
+      0,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "316",
+    "COLOR_NAME_EN": "Antique Mauve - MED",
+    "RGB_COLOR": "#bc757f",
+    "RGB": [
+      188,
+      117,
+      127
+    ],
+    "HSV": [
+      352,
+      38,
+      74
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "B5200",
+    "COLOR_NAME_EN": "Snow White",
+    "RGB_COLOR": "#fcfcff",
+    "RGB": [
+      252,
+      252,
+      255
+    ],
+    "HSV": [
+      240,
+      1,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "317",
+    "COLOR_NAME_EN": "Pewter Gray",
+    "RGB_COLOR": "#6d6469",
+    "RGB": [
+      109,
+      100,
+      105
+    ],
+    "HSV": [
+      327,
+      8,
+      43
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "White",
+    "COLOR_NAME_EN": "White",
+    "RGB_COLOR": "#ffffff",
+    "RGB": [
+      255,
+      255,
+      255
+    ],
+    "HSV": [
+      0,
+      0,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "318",
+    "COLOR_NAME_EN": "Steel Gray - LT",
+    "RGB_COLOR": "#999b9d",
+    "RGB": [
+      153,
+      155,
+      157
+    ],
+    "HSV": [
+      210,
+      3,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "150",
+    "COLOR_NAME_EN": "Red - BRIGHT",
+    "RGB_COLOR": "#cf0053",
+    "RGB": [
+      207,
+      0,
+      83
+    ],
+    "HSV": [
+      336,
+      100,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "319",
+    "COLOR_NAME_EN": "Pistachio Green - VY DK",
+    "RGB_COLOR": "#3a553b",
+    "RGB": [
+      58,
+      85,
+      59
+    ],
+    "HSV": [
+      122,
+      32,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "151",
+    "COLOR_NAME_EN": "Pink",
+    "RGB_COLOR": "#ffcbd7",
+    "RGB": [
+      255,
+      203,
+      215
+    ],
+    "HSV": [
+      346,
+      20,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "320",
+    "COLOR_NAME_EN": "Pistachio Green - MED",
+    "RGB_COLOR": "#608c59",
+    "RGB": [
+      96,
+      140,
+      89
+    ],
+    "HSV": [
+      112,
+      36,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "152",
+    "COLOR_NAME_EN": "Tawny - DK",
+    "RGB_COLOR": "#e1a1a1",
+    "RGB": [
+      225,
+      161,
+      161
+    ],
+    "HSV": [
+      0,
+      28,
+      88
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "321",
+    "COLOR_NAME_EN": "Red",
+    "RGB_COLOR": "#bd1136",
+    "RGB": [
+      189,
+      17,
+      54
+    ],
+    "HSV": [
+      347,
+      91,
+      74
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "153",
+    "COLOR_NAME_EN": "Lilac",
+    "RGB_COLOR": "#eac5eb",
+    "RGB": [
+      234,
+      197,
+      235
+    ],
+    "HSV": [
+      298,
+      16,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "322",
+    "COLOR_NAME_EN": "Baby Blue",
+    "RGB_COLOR": "#3a609d",
+    "RGB": [
+      58,
+      96,
+      157
+    ],
+    "HSV": [
+      217,
+      63,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "154",
+    "COLOR_NAME_EN": "Red - VY DK",
+    "RGB_COLOR": "#4b233a",
+    "RGB": [
+      75,
+      35,
+      58
+    ],
+    "HSV": [
+      326,
+      53,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "326",
+    "COLOR_NAME_EN": "Rose - VY DK",
+    "RGB_COLOR": "#ac1c37",
+    "RGB": [
+      172,
+      28,
+      55
+    ],
+    "HSV": [
+      349,
+      84,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "155",
+    "COLOR_NAME_EN": "Forget-me-not Blue",
+    "RGB_COLOR": "#9774b6",
+    "RGB": [
+      151,
+      116,
+      182
+    ],
+    "HSV": [
+      272,
+      36,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "327",
+    "COLOR_NAME_EN": "Violet",
+    "RGB_COLOR": "#5e0f77",
+    "RGB": [
+      94,
+      15,
+      119
+    ],
+    "HSV": [
+      286,
+      87,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "156",
+    "COLOR_NAME_EN": "Blue - MED",
+    "RGB_COLOR": "#8577b4",
+    "RGB": [
+      133,
+      119,
+      180
+    ],
+    "HSV": [
+      254,
+      34,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "333",
+    "COLOR_NAME_EN": "Blue Violet - VY DK",
+    "RGB_COLOR": "#6e2e9b",
+    "RGB": [
+      110,
+      46,
+      155
+    ],
+    "HSV": [
+      275,
+      70,
+      61
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "157",
+    "COLOR_NAME_EN": "Blue - LT",
+    "RGB_COLOR": "#b5b8ea",
+    "RGB": [
+      181,
+      184,
+      234
+    ],
+    "HSV": [
+      237,
+      23,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "334",
+    "COLOR_NAME_EN": "Baby Blue - MED",
+    "RGB_COLOR": "#6085b8",
+    "RGB": [
+      96,
+      133,
+      184
+    ],
+    "HSV": [
+      215,
+      48,
+      72
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "158",
+    "COLOR_NAME_EN": "Blue - DK",
+    "RGB_COLOR": "#393068",
+    "RGB": [
+      57,
+      48,
+      104
+    ],
+    "HSV": [
+      250,
+      54,
+      41
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "335",
+    "COLOR_NAME_EN": "Rose",
+    "RGB_COLOR": "#d63d57",
+    "RGB": [
+      214,
+      61,
+      87
+    ],
+    "HSV": [
+      350,
+      71,
+      84
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "159",
+    "COLOR_NAME_EN": "Petrol Blue - LT",
+    "RGB_COLOR": "#bcb5de",
+    "RGB": [
+      188,
+      181,
+      222
+    ],
+    "HSV": [
+      250,
+      18,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "336",
+    "COLOR_NAME_EN": "Blue",
+    "RGB_COLOR": "#0c275e",
+    "RGB": [
+      12,
+      39,
+      94
+    ],
+    "HSV": [
+      220,
+      87,
+      37
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "160",
+    "COLOR_NAME_EN": "Petrol Blue - MED",
+    "RGB_COLOR": "#8178a9",
+    "RGB": [
+      129,
+      120,
+      169
+    ],
+    "HSV": [
+      251,
+      29,
+      66
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "340",
+    "COLOR_NAME_EN": "Blue Violet - MED",
+    "RGB_COLOR": "#996dc3",
+    "RGB": [
+      153,
+      109,
+      195
+    ],
+    "HSV": [
+      271,
+      44,
+      76
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "161",
+    "COLOR_NAME_EN": "Petrol Blue - DK",
+    "RGB_COLOR": "#60568b",
+    "RGB": [
+      96,
+      86,
+      139
+    ],
+    "HSV": [
+      251,
+      38,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "341",
+    "COLOR_NAME_EN": "Blue Violet - LT",
+    "RGB_COLOR": "#a39ad7",
+    "RGB": [
+      163,
+      154,
+      215
+    ],
+    "HSV": [
+      249,
+      28,
+      84
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "162",
+    "COLOR_NAME_EN": "Baby Blue - LT",
+    "RGB_COLOR": "#cae7f0",
+    "RGB": [
+      202,
+      231,
+      240
+    ],
+    "HSV": [
+      194,
+      16,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "347",
+    "COLOR_NAME_EN": "Salmon - VY DK",
+    "RGB_COLOR": "#ab1b33",
+    "RGB": [
+      171,
+      27,
+      51
+    ],
+    "HSV": [
+      350,
+      84,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "163",
+    "COLOR_NAME_EN": "Green",
+    "RGB_COLOR": "#557a60",
+    "RGB": [
+      85,
+      122,
+      96
+    ],
+    "HSV": [
+      138,
+      30,
+      48
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "349",
+    "COLOR_NAME_EN": "Coral - DK",
+    "RGB_COLOR": "#c62c38",
+    "RGB": [
+      198,
+      44,
+      56
+    ],
+    "HSV": [
+      355,
+      78,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "164",
+    "COLOR_NAME_EN": "Green - LT",
+    "RGB_COLOR": "#bae4b6",
+    "RGB": [
+      186,
+      228,
+      182
+    ],
+    "HSV": [
+      115,
+      20,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "350",
+    "COLOR_NAME_EN": "Coral - MED",
+    "RGB_COLOR": "#de3f40",
+    "RGB": [
+      222,
+      63,
+      64
+    ],
+    "HSV": [
+      360,
+      72,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "165",
+    "COLOR_NAME_EN": "Green - BRIGHT",
+    "RGB_COLOR": "#e1f477",
+    "RGB": [
+      225,
+      244,
+      119
+    ],
+    "HSV": [
+      69,
+      51,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "351",
+    "COLOR_NAME_EN": "Coral",
+    "RGB_COLOR": "#ed625b",
+    "RGB": [
+      237,
+      98,
+      91
+    ],
+    "HSV": [
+      3,
+      62,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "166",
+    "COLOR_NAME_EN": "Lime Green",
+    "RGB_COLOR": "#adc238",
+    "RGB": [
+      173,
+      194,
+      56
+    ],
+    "HSV": [
+      69,
+      71,
+      76
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "352",
+    "COLOR_NAME_EN": "Coral - LT",
+    "RGB_COLOR": "#f78372",
+    "RGB": [
+      247,
+      131,
+      114
+    ],
+    "HSV": [
+      8,
+      54,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "167",
+    "COLOR_NAME_EN": "Khaki Brown",
+    "RGB_COLOR": "#855d31",
+    "RGB": [
+      133,
+      93,
+      49
+    ],
+    "HSV": [
+      31,
+      63,
+      52
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "353",
+    "COLOR_NAME_EN": "Peach",
+    "RGB_COLOR": "#fdb4a1",
+    "RGB": [
+      253,
+      180,
+      161
+    ],
+    "HSV": [
+      12,
+      36,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "168",
+    "COLOR_NAME_EN": "Silver Gray",
+    "RGB_COLOR": "#b1aeb7",
+    "RGB": [
+      177,
+      174,
+      183
+    ],
+    "HSV": [
+      260,
+      5,
+      72
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "355",
+    "COLOR_NAME_EN": "Terra Cotta - DK",
+    "RGB_COLOR": "#97382b",
+    "RGB": [
+      151,
+      56,
+      43
+    ],
+    "HSV": [
+      7,
+      72,
+      59
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "169",
+    "COLOR_NAME_EN": "Pewter Gray",
+    "RGB_COLOR": "#827d7d",
+    "RGB": [
+      130,
+      125,
+      125
+    ],
+    "HSV": [
+      0,
+      4,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "356",
+    "COLOR_NAME_EN": "Terra Cotta - MED",
+    "RGB_COLOR": "#be5c4b",
+    "RGB": [
+      190,
+      92,
+      75
+    ],
+    "HSV": [
+      9,
+      61,
+      75
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "208",
+    "COLOR_NAME_EN": "Lavender - VY DK",
+    "RGB_COLOR": "#9442a7",
+    "RGB": [
+      148,
+      66,
+      167
+    ],
+    "HSV": [
+      289,
+      60,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "367",
+    "COLOR_NAME_EN": "Pistachio Green - DK",
+    "RGB_COLOR": "#446b45",
+    "RGB": [
+      68,
+      107,
+      69
+    ],
+    "HSV": [
+      122,
+      36,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "209",
+    "COLOR_NAME_EN": "Lavender - DK",
+    "RGB_COLOR": "#ba72c6",
+    "RGB": [
+      186,
+      114,
+      198
+    ],
+    "HSV": [
+      291,
+      42,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "368",
+    "COLOR_NAME_EN": "Pistachio Green - LT",
+    "RGB_COLOR": "#7fc66d",
+    "RGB": [
+      127,
+      198,
+      109
+    ],
+    "HSV": [
+      108,
+      45,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "210",
+    "COLOR_NAME_EN": "Lavender - MED",
+    "RGB_COLOR": "#d49fe1",
+    "RGB": [
+      212,
+      159,
+      225
+    ],
+    "HSV": [
+      288,
+      29,
+      88
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "369",
+    "COLOR_NAME_EN": "Pistachio Green - VY LT",
+    "RGB_COLOR": "#cdefa6",
+    "RGB": [
+      205,
+      239,
+      166
+    ],
+    "HSV": [
+      88,
+      31,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "211",
+    "COLOR_NAME_EN": "Lavender - LT",
+    "RGB_COLOR": "#e5bded",
+    "RGB": [
+      229,
+      189,
+      237
+    ],
+    "HSV": [
+      290,
+      20,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "370",
+    "COLOR_NAME_EN": "Mustard - MED",
+    "RGB_COLOR": "#917245",
+    "RGB": [
+      145,
+      114,
+      69
+    ],
+    "HSV": [
+      36,
+      52,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "221",
+    "COLOR_NAME_EN": "Shell Pink - VY DK",
+    "RGB_COLOR": "#792631",
+    "RGB": [
+      121,
+      38,
+      49
+    ],
+    "HSV": [
+      352,
+      69,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "371",
+    "COLOR_NAME_EN": "Mustard",
+    "RGB_COLOR": "#9f8352",
+    "RGB": [
+      159,
+      131,
+      82
+    ],
+    "HSV": [
+      38,
+      48,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "223",
+    "COLOR_NAME_EN": "Shell Pink - LT",
+    "RGB_COLOR": "#bb6864",
+    "RGB": [
+      187,
+      104,
+      100
+    ],
+    "HSV": [
+      3,
+      47,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "372",
+    "COLOR_NAME_EN": "Mustard - LT",
+    "RGB_COLOR": "#ad9564",
+    "RGB": [
+      173,
+      149,
+      100
+    ],
+    "HSV": [
+      40,
+      42,
+      68
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "224",
+    "COLOR_NAME_EN": "Shell Pink - VY LT",
+    "RGB_COLOR": "#e2a598",
+    "RGB": [
+      226,
+      165,
+      152
+    ],
+    "HSV": [
+      11,
+      33,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "400",
+    "COLOR_NAME_EN": "Mahogany - DK",
+    "RGB_COLOR": "#813718",
+    "RGB": [
+      129,
+      55,
+      24
+    ],
+    "HSV": [
+      18,
+      81,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "225",
+    "COLOR_NAME_EN": "Shell Pink - ULT VY LT",
+    "RGB_COLOR": "#f8d9cd",
+    "RGB": [
+      248,
+      217,
+      205
+    ],
+    "HSV": [
+      17,
+      17,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "402",
+    "COLOR_NAME_EN": "Mahogany - VY LT",
+    "RGB_COLOR": "#ef9e74",
+    "RGB": [
+      239,
+      158,
+      116
+    ],
+    "HSV": [
+      20,
+      51,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "300",
+    "COLOR_NAME_EN": "Mahogany - VY DK",
+    "RGB_COLOR": "#6c3116",
+    "RGB": [
+      108,
+      49,
+      22
+    ],
+    "HSV": [
+      19,
+      80,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "407",
+    "COLOR_NAME_EN": "Desert Sand - DK",
+    "RGB_COLOR": "#b77159",
+    "RGB": [
+      183,
+      113,
+      89
+    ],
+    "HSV": [
+      15,
+      51,
+      72
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "301",
+    "COLOR_NAME_EN": "Mahogany - MED",
+    "RGB_COLOR": "#aa5237",
+    "RGB": [
+      170,
+      82,
+      55
+    ],
+    "HSV": [
+      14,
+      68,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "413",
+    "COLOR_NAME_EN": "Pewter Gray - DK",
+    "RGB_COLOR": "#4a4749",
+    "RGB": [
+      74,
+      71,
+      73
+    ],
+    "HSV": [
+      320,
+      4,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "304",
+    "COLOR_NAME_EN": "Red - MED",
+    "RGB_COLOR": "#a10c39",
+    "RGB": [
+      161,
+      12,
+      57
+    ],
+    "HSV": [
+      342,
+      93,
+      63
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "414",
+    "COLOR_NAME_EN": "Steel Gray - DK",
+    "RGB_COLOR": "#766e72",
+    "RGB": [
+      118,
+      110,
+      114
+    ],
+    "HSV": [
+      330,
+      7,
+      46
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "307",
+    "COLOR_NAME_EN": "Lemon",
+    "RGB_COLOR": "#fde949",
+    "RGB": [
+      253,
+      233,
+      73
+    ],
+    "HSV": [
+      53,
+      71,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "415",
+    "COLOR_NAME_EN": "Pearl Gray",
+    "RGB_COLOR": "#b8b9bd",
+    "RGB": [
+      184,
+      185,
+      189
+    ],
+    "HSV": [
+      228,
+      3,
+      74
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "309",
+    "COLOR_NAME_EN": "Rose - DK",
+    "RGB_COLOR": "#ba2044",
+    "RGB": [
+      186,
+      32,
+      68
+    ],
+    "HSV": [
+      346,
+      83,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "420",
+    "COLOR_NAME_EN": "Hazelnut Brown - DK",
+    "RGB_COLOR": "#855a30",
+    "RGB": [
+      133,
+      90,
+      48
+    ],
+    "HSV": [
+      30,
+      64,
+      52
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "310",
+    "COLOR_NAME_EN": "Black",
+    "RGB_COLOR": "#000000",
+    "RGB": [
+      0,
+      0,
+      0
+    ],
+    "HSV": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "422",
+    "COLOR_NAME_EN": "Hazelnut Brown - LT",
+    "RGB_COLOR": "#c99a67",
+    "RGB": [
+      201,
+      154,
+      103
+    ],
+    "HSV": [
+      31,
+      49,
+      79
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "311",
+    "COLOR_NAME_EN": "Blue - MED",
+    "RGB_COLOR": "#002a64",
+    "RGB": [
+      0,
+      42,
+      100
+    ],
+    "HSV": [
+      215,
+      100,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "433",
+    "COLOR_NAME_EN": "Brown - MED",
+    "RGB_COLOR": "#73421e",
+    "RGB": [
+      115,
+      66,
+      30
+    ],
+    "HSV": [
+      25,
+      74,
+      45
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "312",
+    "COLOR_NAME_EN": "Baby Blue - VY DK",
+    "RGB_COLOR": "#1f3279",
+    "RGB": [
+      31,
+      50,
+      121
+    ],
+    "HSV": [
+      227,
+      74,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "434",
+    "COLOR_NAME_EN": "Brown - LT",
+    "RGB_COLOR": "#8f5332",
+    "RGB": [
+      143,
+      83,
+      50
+    ],
+    "HSV": [
+      21,
+      65,
+      56
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "435",
+    "COLOR_NAME_EN": "Brown - VY LT",
+    "RGB_COLOR": "#a96538",
+    "RGB": [
+      169,
+      101,
+      56
+    ],
+    "HSV": [
+      24,
+      67,
+      66
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "600",
+    "COLOR_NAME_EN": "Cranberry - VY DK",
+    "RGB_COLOR": "#bf1c48",
+    "RGB": [
+      191,
+      28,
+      72
+    ],
+    "HSV": [
+      344,
+      85,
+      75
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "436",
+    "COLOR_NAME_EN": "Tan",
+    "RGB_COLOR": "#c78559",
+    "RGB": [
+      199,
+      133,
+      89
+    ],
+    "HSV": [
+      24,
+      55,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "601",
+    "COLOR_NAME_EN": "Cranberry - DK",
+    "RGB_COLOR": "#c62a53",
+    "RGB": [
+      198,
+      42,
+      83
+    ],
+    "HSV": [
+      344,
+      79,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "437",
+    "COLOR_NAME_EN": "Tan - LT",
+    "RGB_COLOR": "#daa26f",
+    "RGB": [
+      218,
+      162,
+      111
+    ],
+    "HSV": [
+      29,
+      49,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "602",
+    "COLOR_NAME_EN": "Cranberry - MED",
+    "RGB_COLOR": "#d63f68",
+    "RGB": [
+      214,
+      63,
+      104
+    ],
+    "HSV": [
+      344,
+      71,
+      84
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "444",
+    "COLOR_NAME_EN": "Lemon - DK",
+    "RGB_COLOR": "#f5bc13",
+    "RGB": [
+      245,
+      188,
+      19
+    ],
+    "HSV": [
+      45,
+      92,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "603",
+    "COLOR_NAME_EN": "Cranberry",
+    "RGB_COLOR": "#ed5d84",
+    "RGB": [
+      237,
+      93,
+      132
+    ],
+    "HSV": [
+      344,
+      61,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "445",
+    "COLOR_NAME_EN": "Lemon - LT",
+    "RGB_COLOR": "#fcf999",
+    "RGB": [
+      252,
+      249,
+      153
+    ],
+    "HSV": [
+      58,
+      39,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "604",
+    "COLOR_NAME_EN": "Cranberry - LT",
+    "RGB_COLOR": "#f793b2",
+    "RGB": [
+      247,
+      147,
+      178
+    ],
+    "HSV": [
+      341,
+      40,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "451",
+    "COLOR_NAME_EN": "Shell Gray - DK",
+    "RGB_COLOR": "#887773",
+    "RGB": [
+      136,
+      119,
+      115
+    ],
+    "HSV": [
+      11,
+      15,
+      53
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "605",
+    "COLOR_NAME_EN": "Cranberry - VY LT",
+    "RGB_COLOR": "#fbacc4",
+    "RGB": [
+      251,
+      172,
+      196
+    ],
+    "HSV": [
+      342,
+      31,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "452",
+    "COLOR_NAME_EN": "Shell Gray - MED",
+    "RGB_COLOR": "#ad9994",
+    "RGB": [
+      173,
+      153,
+      148
+    ],
+    "HSV": [
+      12,
+      14,
+      68
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "606",
+    "COLOR_NAME_EN": "Orange-red - BRIGHT",
+    "RGB_COLOR": "#f70f00",
+    "RGB": [
+      247,
+      15,
+      0
+    ],
+    "HSV": [
+      4,
+      100,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "453",
+    "COLOR_NAME_EN": "Shell Gray - LT",
+    "RGB_COLOR": "#ccb8aa",
+    "RGB": [
+      204,
+      184,
+      170
+    ],
+    "HSV": [
+      25,
+      17,
+      80
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "608",
+    "COLOR_NAME_EN": "Orange - BRIGHT",
+    "RGB_COLOR": "#fd480c",
+    "RGB": [
+      253,
+      72,
+      12
+    ],
+    "HSV": [
+      15,
+      95,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "469",
+    "COLOR_NAME_EN": "Avocado Green",
+    "RGB_COLOR": "#5b6533",
+    "RGB": [
+      91,
+      101,
+      51
+    ],
+    "HSV": [
+      72,
+      50,
+      40
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "610",
+    "COLOR_NAME_EN": "Drab Brown - DK",
+    "RGB_COLOR": "#6b5039",
+    "RGB": [
+      107,
+      80,
+      57
+    ],
+    "HSV": [
+      28,
+      47,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "470",
+    "COLOR_NAME_EN": "Avocado Green - LT",
+    "RGB_COLOR": "#72813e",
+    "RGB": [
+      114,
+      129,
+      62
+    ],
+    "HSV": [
+      73,
+      52,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "611",
+    "COLOR_NAME_EN": "Drab Brown",
+    "RGB_COLOR": "#7c5f46",
+    "RGB": [
+      124,
+      95,
+      70
+    ],
+    "HSV": [
+      28,
+      44,
+      49
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "471",
+    "COLOR_NAME_EN": "Avocado Green - VY LT",
+    "RGB_COLOR": "#9eb357",
+    "RGB": [
+      158,
+      179,
+      87
+    ],
+    "HSV": [
+      74,
+      51,
+      70
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "612",
+    "COLOR_NAME_EN": "Drab Brown - LT",
+    "RGB_COLOR": "#a6885e",
+    "RGB": [
+      166,
+      136,
+      94
+    ],
+    "HSV": [
+      35,
+      43,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "472",
+    "COLOR_NAME_EN": "Avocado Green - ULT LT",
+    "RGB_COLOR": "#d1de75",
+    "RGB": [
+      209,
+      222,
+      117
+    ],
+    "HSV": [
+      67,
+      47,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "613",
+    "COLOR_NAME_EN": "Drab Brown - VY LT",
+    "RGB_COLOR": "#b99f72",
+    "RGB": [
+      185,
+      159,
+      114
+    ],
+    "HSV": [
+      38,
+      38,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "498",
+    "COLOR_NAME_EN": "Red - DK",
+    "RGB_COLOR": "#970b2c",
+    "RGB": [
+      151,
+      11,
+      44
+    ],
+    "HSV": [
+      346,
+      93,
+      59
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "632",
+    "COLOR_NAME_EN": "Desert Sand - ULT VY DK",
+    "RGB_COLOR": "#7f4232",
+    "RGB": [
+      127,
+      66,
+      50
+    ],
+    "HSV": [
+      12,
+      61,
+      50
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "500",
+    "COLOR_NAME_EN": "Blue Green - VY DK",
+    "RGB_COLOR": "#1d362a",
+    "RGB": [
+      29,
+      54,
+      42
+    ],
+    "HSV": [
+      151,
+      46,
+      21
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "640",
+    "COLOR_NAME_EN": "Beige Gray - VY DK",
+    "RGB_COLOR": "#817868",
+    "RGB": [
+      129,
+      120,
+      104
+    ],
+    "HSV": [
+      38,
+      19,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "501",
+    "COLOR_NAME_EN": "Blue Green - DK",
+    "RGB_COLOR": "#2f5446",
+    "RGB": [
+      47,
+      84,
+      70
+    ],
+    "HSV": [
+      157,
+      44,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "642",
+    "COLOR_NAME_EN": "Beige Gray - DK",
+    "RGB_COLOR": "#958d79",
+    "RGB": [
+      149,
+      141,
+      121
+    ],
+    "HSV": [
+      43,
+      19,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "502",
+    "COLOR_NAME_EN": "Blue Green",
+    "RGB_COLOR": "#57826e",
+    "RGB": [
+      87,
+      130,
+      110
+    ],
+    "HSV": [
+      152,
+      33,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "644",
+    "COLOR_NAME_EN": "Beige Gray - MED",
+    "RGB_COLOR": "#c4bea6",
+    "RGB": [
+      196,
+      190,
+      166
+    ],
+    "HSV": [
+      48,
+      15,
+      77
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "503",
+    "COLOR_NAME_EN": "Blue Green - MED",
+    "RGB_COLOR": "#89b89f",
+    "RGB": [
+      137,
+      184,
+      159
+    ],
+    "HSV": [
+      148,
+      26,
+      72
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "645",
+    "COLOR_NAME_EN": "Beaver Gray - VY DK",
+    "RGB_COLOR": "#5d5d54",
+    "RGB": [
+      93,
+      93,
+      84
+    ],
+    "HSV": [
+      60,
+      10,
+      36
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "646",
+    "COLOR_NAME_EN": "Beaver Gray - DK",
+    "RGB_COLOR": "#6b6860",
+    "RGB": [
+      107,
+      104,
+      96
+    ],
+    "HSV": [
+      44,
+      10,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "505",
+    "COLOR_NAME_EN": "Grass Green - DK",
+    "RGB_COLOR": "#ceddc1",
+    "RGB": [
+      206,
+      221,
+      193
+    ],
+    "HSV": [
+      92,
+      13,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "647",
+    "COLOR_NAME_EN": "Beaver Gray - MED",
+    "RGB_COLOR": "#908e85",
+    "RGB": [
+      144,
+      142,
+      133
+    ],
+    "HSV": [
+      49,
+      8,
+      56
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "517",
+    "COLOR_NAME_EN": "Wedgewood - DK",
+    "RGB_COLOR": "#216285",
+    "RGB": [
+      33,
+      98,
+      133
+    ],
+    "HSV": [
+      201,
+      75,
+      52
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "648",
+    "COLOR_NAME_EN": "Beaver Gray - LT",
+    "RGB_COLOR": "#a7a69f",
+    "RGB": [
+      167,
+      166,
+      159
+    ],
+    "HSV": [
+      53,
+      5,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "518",
+    "COLOR_NAME_EN": "Wedgewood - LT",
+    "RGB_COLOR": "#50819c",
+    "RGB": [
+      80,
+      129,
+      156
+    ],
+    "HSV": [
+      201,
+      49,
+      61
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "666",
+    "COLOR_NAME_EN": "Red - BRIGHT",
+    "RGB_COLOR": "#ce1b33",
+    "RGB": [
+      206,
+      27,
+      51
+    ],
+    "HSV": [
+      352,
+      87,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "519",
+    "COLOR_NAME_EN": "Sky Blue",
+    "RGB_COLOR": "#94b7cb",
+    "RGB": [
+      148,
+      183,
+      203
+    ],
+    "HSV": [
+      202,
+      27,
+      80
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "676",
+    "COLOR_NAME_EN": "Old Gold - LT",
+    "RGB_COLOR": "#ecbf7d",
+    "RGB": [
+      236,
+      191,
+      125
+    ],
+    "HSV": [
+      36,
+      47,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "520",
+    "COLOR_NAME_EN": "Fern Green - DK",
+    "RGB_COLOR": "#384526",
+    "RGB": [
+      56,
+      69,
+      38
+    ],
+    "HSV": [
+      85,
+      45,
+      27
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "677",
+    "COLOR_NAME_EN": "Old Gold - VY LT",
+    "RGB_COLOR": "#f2dc9f",
+    "RGB": [
+      242,
+      220,
+      159
+    ],
+    "HSV": [
+      44,
+      34,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "522",
+    "COLOR_NAME_EN": "Fern Green",
+    "RGB_COLOR": "#808b6e",
+    "RGB": [
+      128,
+      139,
+      110
+    ],
+    "HSV": [
+      83,
+      21,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "680",
+    "COLOR_NAME_EN": "Old Gold - DK",
+    "RGB_COLOR": "#b07b46",
+    "RGB": [
+      176,
+      123,
+      70
+    ],
+    "HSV": [
+      30,
+      60,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "523",
+    "COLOR_NAME_EN": "Fern Green - LT",
+    "RGB_COLOR": "#959f7a",
+    "RGB": [
+      149,
+      159,
+      122
+    ],
+    "HSV": [
+      76,
+      23,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "699",
+    "COLOR_NAME_EN": "Green",
+    "RGB_COLOR": "#075b26",
+    "RGB": [
+      7,
+      91,
+      38
+    ],
+    "HSV": [
+      142,
+      92,
+      36
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "524",
+    "COLOR_NAME_EN": "Fern Green - VY LT",
+    "RGB_COLOR": "#aea78e",
+    "RGB": [
+      174,
+      167,
+      142
+    ],
+    "HSV": [
+      47,
+      18,
+      68
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "700",
+    "COLOR_NAME_EN": "Green - BRIGHT",
+    "RGB_COLOR": "#076c34",
+    "RGB": [
+      7,
+      108,
+      52
+    ],
+    "HSV": [
+      147,
+      94,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "535",
+    "COLOR_NAME_EN": "Ash Gray - VY LT",
+    "RGB_COLOR": "#4b4b49",
+    "RGB": [
+      75,
+      75,
+      73
+    ],
+    "HSV": [
+      60,
+      3,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "701",
+    "COLOR_NAME_EN": "Green - LT",
+    "RGB_COLOR": "#217c36",
+    "RGB": [
+      33,
+      124,
+      54
+    ],
+    "HSV": [
+      134,
+      73,
+      49
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "543",
+    "COLOR_NAME_EN": "Beige Brown - ULT VY LT",
+    "RGB_COLOR": "#ead0b5",
+    "RGB": [
+      234,
+      208,
+      181
+    ],
+    "HSV": [
+      31,
+      23,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "702",
+    "COLOR_NAME_EN": "Kelly Green",
+    "RGB_COLOR": "#379130",
+    "RGB": [
+      55,
+      145,
+      48
+    ],
+    "HSV": [
+      116,
+      67,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "550",
+    "COLOR_NAME_EN": "Violet - VY DK",
+    "RGB_COLOR": "#580e5c",
+    "RGB": [
+      88,
+      14,
+      92
+    ],
+    "HSV": [
+      297,
+      85,
+      36
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "703",
+    "COLOR_NAME_EN": "Chartreuse",
+    "RGB_COLOR": "#63b330",
+    "RGB": [
+      99,
+      179,
+      48
+    ],
+    "HSV": [
+      97,
+      73,
+      70
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "552",
+    "COLOR_NAME_EN": "Violet - MED",
+    "RGB_COLOR": "#902f99",
+    "RGB": [
+      144,
+      47,
+      153
+    ],
+    "HSV": [
+      295,
+      69,
+      60
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "704",
+    "COLOR_NAME_EN": "Chartreuse - BRIGHT",
+    "RGB_COLOR": "#88c53a",
+    "RGB": [
+      136,
+      197,
+      58
+    ],
+    "HSV": [
+      86,
+      71,
+      77
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "553",
+    "COLOR_NAME_EN": "Violet",
+    "RGB_COLOR": "#a449ac",
+    "RGB": [
+      164,
+      73,
+      172
+    ],
+    "HSV": [
+      295,
+      58,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "712",
+    "COLOR_NAME_EN": "Cream",
+    "RGB_COLOR": "#f6efda",
+    "RGB": [
+      246,
+      239,
+      218
+    ],
+    "HSV": [
+      45,
+      11,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "554",
+    "COLOR_NAME_EN": "Violet - LT",
+    "RGB_COLOR": "#dc9cde",
+    "RGB": [
+      220,
+      156,
+      222
+    ],
+    "HSV": [
+      298,
+      30,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "718",
+    "COLOR_NAME_EN": "Plum",
+    "RGB_COLOR": "#cb2089",
+    "RGB": [
+      203,
+      32,
+      137
+    ],
+    "HSV": [
+      323,
+      84,
+      80
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "561",
+    "COLOR_NAME_EN": "Jade - VY DK",
+    "RGB_COLOR": "#285e48",
+    "RGB": [
+      40,
+      94,
+      72
+    ],
+    "HSV": [
+      156,
+      57,
+      37
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "720",
+    "COLOR_NAME_EN": "Orange Spice - DK",
+    "RGB_COLOR": "#c83a24",
+    "RGB": [
+      200,
+      58,
+      36
+    ],
+    "HSV": [
+      8,
+      82,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "562",
+    "COLOR_NAME_EN": "Jade - MED",
+    "RGB_COLOR": "#3b8c5a",
+    "RGB": [
+      59,
+      140,
+      90
+    ],
+    "HSV": [
+      143,
+      58,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "721",
+    "COLOR_NAME_EN": "Orange Spice - MED",
+    "RGB_COLOR": "#f46440",
+    "RGB": [
+      244,
+      100,
+      64
+    ],
+    "HSV": [
+      12,
+      74,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "563",
+    "COLOR_NAME_EN": "Jade - LT",
+    "RGB_COLOR": "#6ed39a",
+    "RGB": [
+      110,
+      211,
+      154
+    ],
+    "HSV": [
+      146,
+      48,
+      83
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "722",
+    "COLOR_NAME_EN": "Orange Spice - LT",
+    "RGB_COLOR": "#f98756",
+    "RGB": [
+      249,
+      135,
+      86
+    ],
+    "HSV": [
+      18,
+      65,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "564",
+    "COLOR_NAME_EN": "Jade - VY LT",
+    "RGB_COLOR": "#95e4af",
+    "RGB": [
+      149,
+      228,
+      175
+    ],
+    "HSV": [
+      140,
+      35,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "725",
+    "COLOR_NAME_EN": "Topaz",
+    "RGB_COLOR": "#f9c15b",
+    "RGB": [
+      249,
+      193,
+      91
+    ],
+    "HSV": [
+      39,
+      63,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "580",
+    "COLOR_NAME_EN": "Moss Green - DK",
+    "RGB_COLOR": "#355f0b",
+    "RGB": [
+      53,
+      95,
+      11
+    ],
+    "HSV": [
+      90,
+      88,
+      37
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "726",
+    "COLOR_NAME_EN": "Topaz - LT",
+    "RGB_COLOR": "#fddb63",
+    "RGB": [
+      253,
+      219,
+      99
+    ],
+    "HSV": [
+      47,
+      61,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "581",
+    "COLOR_NAME_EN": "Moss Green",
+    "RGB_COLOR": "#838a29",
+    "RGB": [
+      131,
+      138,
+      41
+    ],
+    "HSV": [
+      64,
+      70,
+      54
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "727",
+    "COLOR_NAME_EN": "Topaz - VY LT",
+    "RGB_COLOR": "#fde98b",
+    "RGB": [
+      253,
+      233,
+      139
+    ],
+    "HSV": [
+      49,
+      45,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "597",
+    "COLOR_NAME_EN": "Turquoise",
+    "RGB_COLOR": "#52adab",
+    "RGB": [
+      82,
+      173,
+      171
+    ],
+    "HSV": [
+      179,
+      53,
+      68
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "728",
+    "COLOR_NAME_EN": "Golden Yellow",
+    "RGB_COLOR": "#f2ae3f",
+    "RGB": [
+      242,
+      174,
+      63
+    ],
+    "HSV": [
+      37,
+      74,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "598",
+    "COLOR_NAME_EN": "Turquoise - LT",
+    "RGB_COLOR": "#97d8d3",
+    "RGB": [
+      151,
+      216,
+      211
+    ],
+    "HSV": [
+      175,
+      30,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "729",
+    "COLOR_NAME_EN": "Old Gold - MED",
+    "RGB_COLOR": "#ce9657",
+    "RGB": [
+      206,
+      150,
+      87
+    ],
+    "HSV": [
+      32,
+      58,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "730",
+    "COLOR_NAME_EN": "Olive Green - VY DK",
+    "RGB_COLOR": "#63520b",
+    "RGB": [
+      99,
+      82,
+      11
+    ],
+    "HSV": [
+      48,
+      89,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "803",
+    "COLOR_NAME_EN": "Blue - DEEP",
+    "RGB_COLOR": "#202754",
+    "RGB": [
+      32,
+      39,
+      84
+    ],
+    "HSV": [
+      232,
+      62,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "732",
+    "COLOR_NAME_EN": "Olive Green",
+    "RGB_COLOR": "#725c0c",
+    "RGB": [
+      114,
+      92,
+      12
+    ],
+    "HSV": [
+      47,
+      89,
+      45
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "807",
+    "COLOR_NAME_EN": "Peacock Blue",
+    "RGB_COLOR": "#558b9e",
+    "RGB": [
+      85,
+      139,
+      158
+    ],
+    "HSV": [
+      196,
+      46,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "733",
+    "COLOR_NAME_EN": "Olive Green - MED",
+    "RGB_COLOR": "#a78a44",
+    "RGB": [
+      167,
+      138,
+      68
+    ],
+    "HSV": [
+      42,
+      59,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "809",
+    "COLOR_NAME_EN": "Delft Blue",
+    "RGB_COLOR": "#919fd5",
+    "RGB": [
+      145,
+      159,
+      213
+    ],
+    "HSV": [
+      228,
+      32,
+      84
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "734",
+    "COLOR_NAME_EN": "Olive Green - LT",
+    "RGB_COLOR": "#bb9c54",
+    "RGB": [
+      187,
+      156,
+      84
+    ],
+    "HSV": [
+      42,
+      55,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "813",
+    "COLOR_NAME_EN": "Blue - LT",
+    "RGB_COLOR": "#7fa0c6",
+    "RGB": [
+      127,
+      160,
+      198
+    ],
+    "HSV": [
+      212,
+      36,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "738",
+    "COLOR_NAME_EN": "Tan - VY LT",
+    "RGB_COLOR": "#e2b783",
+    "RGB": [
+      226,
+      183,
+      131
+    ],
+    "HSV": [
+      33,
+      42,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "814",
+    "COLOR_NAME_EN": "Garnet - DK",
+    "RGB_COLOR": "#711033",
+    "RGB": [
+      113,
+      16,
+      51
+    ],
+    "HSV": [
+      338,
+      86,
+      44
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "739",
+    "COLOR_NAME_EN": "Tan - ULT VY LT",
+    "RGB_COLOR": "#f2deb9",
+    "RGB": [
+      242,
+      222,
+      185
+    ],
+    "HSV": [
+      39,
+      24,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "815",
+    "COLOR_NAME_EN": "Garnet - MED",
+    "RGB_COLOR": "#800b34",
+    "RGB": [
+      128,
+      11,
+      52
+    ],
+    "HSV": [
+      339,
+      91,
+      50
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "740",
+    "COLOR_NAME_EN": "Tangerine",
+    "RGB_COLOR": "#fd6f1a",
+    "RGB": [
+      253,
+      111,
+      26
+    ],
+    "HSV": [
+      22,
+      90,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "816",
+    "COLOR_NAME_EN": "Garnet",
+    "RGB_COLOR": "#921238",
+    "RGB": [
+      146,
+      18,
+      56
+    ],
+    "HSV": [
+      342,
+      88,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "741",
+    "COLOR_NAME_EN": "Tangerine - MED",
+    "RGB_COLOR": "#fc8b10",
+    "RGB": [
+      252,
+      139,
+      16
+    ],
+    "HSV": [
+      31,
+      94,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "817",
+    "COLOR_NAME_EN": "Coral Red - VY DK",
+    "RGB_COLOR": "#bb1630",
+    "RGB": [
+      187,
+      22,
+      48
+    ],
+    "HSV": [
+      351,
+      88,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "742",
+    "COLOR_NAME_EN": "Tangerine - LT",
+    "RGB_COLOR": "#fdae3c",
+    "RGB": [
+      253,
+      174,
+      60
+    ],
+    "HSV": [
+      35,
+      76,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "818",
+    "COLOR_NAME_EN": "Baby Pink",
+    "RGB_COLOR": "#fededd",
+    "RGB": [
+      254,
+      222,
+      221
+    ],
+    "HSV": [
+      2,
+      13,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "743",
+    "COLOR_NAME_EN": "Yellow - MED",
+    "RGB_COLOR": "#fdd769",
+    "RGB": [
+      253,
+      215,
+      105
+    ],
+    "HSV": [
+      45,
+      58,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "819",
+    "COLOR_NAME_EN": "Baby Pink - LT",
+    "RGB_COLOR": "#fcebde",
+    "RGB": [
+      252,
+      235,
+      222
+    ],
+    "HSV": [
+      26,
+      12,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "744",
+    "COLOR_NAME_EN": "Yellow - PALE",
+    "RGB_COLOR": "#fee88d",
+    "RGB": [
+      254,
+      232,
+      141
+    ],
+    "HSV": [
+      48,
+      44,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "820",
+    "COLOR_NAME_EN": "Royal Blue - VY DK",
+    "RGB_COLOR": "#151264",
+    "RGB": [
+      21,
+      18,
+      100
+    ],
+    "HSV": [
+      242,
+      82,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "745",
+    "COLOR_NAME_EN": "Yellow - LT PALE",
+    "RGB_COLOR": "#feeba5",
+    "RGB": [
+      254,
+      235,
+      165
+    ],
+    "HSV": [
+      47,
+      35,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "822",
+    "COLOR_NAME_EN": "Beige Gray - LT",
+    "RGB_COLOR": "#e8dfc7",
+    "RGB": [
+      232,
+      223,
+      199
+    ],
+    "HSV": [
+      44,
+      14,
+      91
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "746",
+    "COLOR_NAME_EN": "Off White",
+    "RGB_COLOR": "#faf2d5",
+    "RGB": [
+      250,
+      242,
+      213
+    ],
+    "HSV": [
+      47,
+      15,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "823",
+    "COLOR_NAME_EN": "Blue - DK",
+    "RGB_COLOR": "#000b44",
+    "RGB": [
+      0,
+      11,
+      68
+    ],
+    "HSV": [
+      230,
+      100,
+      27
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "747",
+    "COLOR_NAME_EN": "Sky Blue - VY LT",
+    "RGB_COLOR": "#cee9ea",
+    "RGB": [
+      206,
+      233,
+      234
+    ],
+    "HSV": [
+      182,
+      12,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "824",
+    "COLOR_NAME_EN": "Blue - VY DK",
+    "RGB_COLOR": "#284779",
+    "RGB": [
+      40,
+      71,
+      121
+    ],
+    "HSV": [
+      217,
+      67,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "754",
+    "COLOR_NAME_EN": "Peach - LT",
+    "RGB_COLOR": "#f7c9b0",
+    "RGB": [
+      247,
+      201,
+      176
+    ],
+    "HSV": [
+      21,
+      29,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "825",
+    "COLOR_NAME_EN": "Blue - DK",
+    "RGB_COLOR": "#34588f",
+    "RGB": [
+      52,
+      88,
+      143
+    ],
+    "HSV": [
+      216,
+      64,
+      56
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "758",
+    "COLOR_NAME_EN": "Terra Cotta - VY LT",
+    "RGB_COLOR": "#e99f83",
+    "RGB": [
+      233,
+      159,
+      131
+    ],
+    "HSV": [
+      16,
+      44,
+      91
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "826",
+    "COLOR_NAME_EN": "Blue - MED",
+    "RGB_COLOR": "#5075a7",
+    "RGB": [
+      80,
+      117,
+      167
+    ],
+    "HSV": [
+      214,
+      52,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "760",
+    "COLOR_NAME_EN": "Salmon",
+    "RGB_COLOR": "#ec8880",
+    "RGB": [
+      236,
+      136,
+      128
+    ],
+    "HSV": [
+      4,
+      46,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "827",
+    "COLOR_NAME_EN": "Blue - VY LT",
+    "RGB_COLOR": "#a4c1de",
+    "RGB": [
+      164,
+      193,
+      222
+    ],
+    "HSV": [
+      210,
+      26,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "761",
+    "COLOR_NAME_EN": "Salmon - LT",
+    "RGB_COLOR": "#f8b4ad",
+    "RGB": [
+      248,
+      180,
+      173
+    ],
+    "HSV": [
+      6,
+      30,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "828",
+    "COLOR_NAME_EN": "Blue - ULT VY LT",
+    "RGB_COLOR": "#c3d7e6",
+    "RGB": [
+      195,
+      215,
+      230
+    ],
+    "HSV": [
+      206,
+      15,
+      90
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "762",
+    "COLOR_NAME_EN": "Pearl Gray - VY LT",
+    "RGB_COLOR": "#d1d0d2",
+    "RGB": [
+      209,
+      208,
+      210
+    ],
+    "HSV": [
+      270,
+      1,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "829",
+    "COLOR_NAME_EN": "Golden Olive - VY DK",
+    "RGB_COLOR": "#64480c",
+    "RGB": [
+      100,
+      72,
+      12
+    ],
+    "HSV": [
+      41,
+      88,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "772",
+    "COLOR_NAME_EN": "Yellow Green - VY LT",
+    "RGB_COLOR": "#d7efa7",
+    "RGB": [
+      215,
+      239,
+      167
+    ],
+    "HSV": [
+      80,
+      30,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "830",
+    "COLOR_NAME_EN": "Golden Olive - DK",
+    "RGB_COLOR": "#6e501d",
+    "RGB": [
+      110,
+      80,
+      29
+    ],
+    "HSV": [
+      38,
+      74,
+      43
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "775",
+    "COLOR_NAME_EN": "Baby Blue - VY LT",
+    "RGB_COLOR": "#d4e3ef",
+    "RGB": [
+      212,
+      227,
+      239
+    ],
+    "HSV": [
+      207,
+      11,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "831",
+    "COLOR_NAME_EN": "Golden Olive - MED",
+    "RGB_COLOR": "#7c5f20",
+    "RGB": [
+      124,
+      95,
+      32
+    ],
+    "HSV": [
+      41,
+      74,
+      49
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "832",
+    "COLOR_NAME_EN": "Golden Olive",
+    "RGB_COLOR": "#9c7230",
+    "RGB": [
+      156,
+      114,
+      48
+    ],
+    "HSV": [
+      37,
+      69,
+      61
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "777",
+    "COLOR_NAME_EN": "Red - DEEP",
+    "RGB_COLOR": "#9b0042",
+    "RGB": [
+      155,
+      0,
+      66
+    ],
+    "HSV": [
+      334,
+      100,
+      61
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "833",
+    "COLOR_NAME_EN": "Golden Olive - LT",
+    "RGB_COLOR": "#b99956",
+    "RGB": [
+      185,
+      153,
+      86
+    ],
+    "HSV": [
+      41,
+      54,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "778",
+    "COLOR_NAME_EN": "Antique Mauve - VY LT",
+    "RGB_COLOR": "#dca6a4",
+    "RGB": [
+      220,
+      166,
+      164
+    ],
+    "HSV": [
+      2,
+      25,
+      86
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "834",
+    "COLOR_NAME_EN": "Golden Olive - VY LT",
+    "RGB_COLOR": "#d2b468",
+    "RGB": [
+      210,
+      180,
+      104
+    ],
+    "HSV": [
+      43,
+      50,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "779",
+    "COLOR_NAME_EN": "Brown",
+    "RGB_COLOR": "#53332d",
+    "RGB": [
+      83,
+      51,
+      45
+    ],
+    "HSV": [
+      9,
+      46,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "838",
+    "COLOR_NAME_EN": "Beige Brown - VY DK",
+    "RGB_COLOR": "#4a3021",
+    "RGB": [
+      74,
+      48,
+      33
+    ],
+    "HSV": [
+      22,
+      55,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "780",
+    "COLOR_NAME_EN": "Topaz - ULT VY DK",
+    "RGB_COLOR": "#945026",
+    "RGB": [
+      148,
+      80,
+      38
+    ],
+    "HSV": [
+      23,
+      74,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "839",
+    "COLOR_NAME_EN": "Beige Brown - DK",
+    "RGB_COLOR": "#5a3c2d",
+    "RGB": [
+      90,
+      60,
+      45
+    ],
+    "HSV": [
+      20,
+      50,
+      35
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "840",
+    "COLOR_NAME_EN": "Beige Brown - MED",
+    "RGB_COLOR": "#7a5939",
+    "RGB": [
+      122,
+      89,
+      57
+    ],
+    "HSV": [
+      30,
+      53,
+      48
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "782",
+    "COLOR_NAME_EN": "Topaz - DK",
+    "RGB_COLOR": "#b26923",
+    "RGB": [
+      178,
+      105,
+      35
+    ],
+    "HSV": [
+      29,
+      80,
+      70
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "841",
+    "COLOR_NAME_EN": "Beige Brown - LT",
+    "RGB_COLOR": "#a37d64",
+    "RGB": [
+      163,
+      125,
+      100
+    ],
+    "HSV": [
+      24,
+      39,
+      64
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "783",
+    "COLOR_NAME_EN": "Topaz - MED",
+    "RGB_COLOR": "#d0883d",
+    "RGB": [
+      208,
+      136,
+      61
+    ],
+    "HSV": [
+      31,
+      71,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "842",
+    "COLOR_NAME_EN": "Beige Brown - VY LT",
+    "RGB_COLOR": "#cbb094",
+    "RGB": [
+      203,
+      176,
+      148
+    ],
+    "HSV": [
+      31,
+      27,
+      80
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "791",
+    "COLOR_NAME_EN": "Cornflower Blue - VY DK",
+    "RGB_COLOR": "#2d2068",
+    "RGB": [
+      45,
+      32,
+      104
+    ],
+    "HSV": [
+      251,
+      69,
+      41
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "844",
+    "COLOR_NAME_EN": "Beaver Gray - ULT DK",
+    "RGB_COLOR": "#494842",
+    "RGB": [
+      73,
+      72,
+      66
+    ],
+    "HSV": [
+      51,
+      10,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "792",
+    "COLOR_NAME_EN": "Cornflower Blue - DK",
+    "RGB_COLOR": "#454b8b",
+    "RGB": [
+      69,
+      75,
+      139
+    ],
+    "HSV": [
+      235,
+      50,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "793",
+    "COLOR_NAME_EN": "Cornflower Blue - MED",
+    "RGB_COLOR": "#7c82b5",
+    "RGB": [
+      124,
+      130,
+      181
+    ],
+    "HSV": [
+      234,
+      31,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "869",
+    "COLOR_NAME_EN": "Hazelnut Brown - VY DK",
+    "RGB_COLOR": "#784c28",
+    "RGB": [
+      120,
+      76,
+      40
+    ],
+    "HSV": [
+      27,
+      67,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "794",
+    "COLOR_NAME_EN": "Cornflower Blue - LT",
+    "RGB_COLOR": "#a0b2d7",
+    "RGB": [
+      160,
+      178,
+      215
+    ],
+    "HSV": [
+      220,
+      26,
+      84
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "890",
+    "COLOR_NAME_EN": "Pistachio Green - ULT DK",
+    "RGB_COLOR": "#324233",
+    "RGB": [
+      50,
+      66,
+      51
+    ],
+    "HSV": [
+      124,
+      24,
+      26
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "796",
+    "COLOR_NAME_EN": "Royal Blue - DK",
+    "RGB_COLOR": "#272276",
+    "RGB": [
+      39,
+      34,
+      118
+    ],
+    "HSV": [
+      244,
+      71,
+      46
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "891",
+    "COLOR_NAME_EN": "Carnation - DK",
+    "RGB_COLOR": "#ee3246",
+    "RGB": [
+      238,
+      50,
+      70
+    ],
+    "HSV": [
+      354,
+      79,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "797",
+    "COLOR_NAME_EN": "Royal Blue",
+    "RGB_COLOR": "#2b3288",
+    "RGB": [
+      43,
+      50,
+      136
+    ],
+    "HSV": [
+      235,
+      68,
+      53
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "892",
+    "COLOR_NAME_EN": "Carnation - MED",
+    "RGB_COLOR": "#f44753",
+    "RGB": [
+      244,
+      71,
+      83
+    ],
+    "HSV": [
+      356,
+      71,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "798",
+    "COLOR_NAME_EN": "Delft Blue - DK",
+    "RGB_COLOR": "#4e5ca7",
+    "RGB": [
+      78,
+      92,
+      167
+    ],
+    "HSV": [
+      231,
+      53,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "893",
+    "COLOR_NAME_EN": "Carnation - LT",
+    "RGB_COLOR": "#f66879",
+    "RGB": [
+      246,
+      104,
+      121
+    ],
+    "HSV": [
+      353,
+      58,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "799",
+    "COLOR_NAME_EN": "Delft Blue - MED",
+    "RGB_COLOR": "#6b7fc0",
+    "RGB": [
+      107,
+      127,
+      192
+    ],
+    "HSV": [
+      226,
+      44,
+      75
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "894",
+    "COLOR_NAME_EN": "Carnation - VY LT",
+    "RGB_COLOR": "#fd95a3",
+    "RGB": [
+      253,
+      149,
+      163
+    ],
+    "HSV": [
+      352,
+      41,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "800",
+    "COLOR_NAME_EN": "Delft Blue - PALE",
+    "RGB_COLOR": "#b5c7e9",
+    "RGB": [
+      181,
+      199,
+      233
+    ],
+    "HSV": [
+      219,
+      22,
+      91
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "895",
+    "COLOR_NAME_EN": "Hunter Green - VY DK",
+    "RGB_COLOR": "#344b2e",
+    "RGB": [
+      52,
+      75,
+      46
+    ],
+    "HSV": [
+      108,
+      39,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "801",
+    "COLOR_NAME_EN": "Coffee Brown - DK",
+    "RGB_COLOR": "#60391d",
+    "RGB": [
+      96,
+      57,
+      29
+    ],
+    "HSV": [
+      25,
+      70,
+      38
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "898",
+    "COLOR_NAME_EN": "Coffee Brown - VY DK",
+    "RGB_COLOR": "#532f1b",
+    "RGB": [
+      83,
+      47,
+      27
+    ],
+    "HSV": [
+      21,
+      67,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "899",
+    "COLOR_NAME_EN": "Rose - MED",
+    "RGB_COLOR": "#ea6b78",
+    "RGB": [
+      234,
+      107,
+      120
+    ],
+    "HSV": [
+      354,
+      54,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "955",
+    "COLOR_NAME_EN": "Nile Green - LT",
+    "RGB_COLOR": "#a8ebad",
+    "RGB": [
+      168,
+      235,
+      173
+    ],
+    "HSV": [
+      124,
+      29,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "900",
+    "COLOR_NAME_EN": "Burnt Orange - DK",
+    "RGB_COLOR": "#c63117",
+    "RGB": [
+      198,
+      49,
+      23
+    ],
+    "HSV": [
+      9,
+      88,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "956",
+    "COLOR_NAME_EN": "Geranium",
+    "RGB_COLOR": "#f7566d",
+    "RGB": [
+      247,
+      86,
+      109
+    ],
+    "HSV": [
+      351,
+      65,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "902",
+    "COLOR_NAME_EN": "Garnet - VY DK",
+    "RGB_COLOR": "#651329",
+    "RGB": [
+      101,
+      19,
+      41
+    ],
+    "HSV": [
+      344,
+      81,
+      40
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "957",
+    "COLOR_NAME_EN": "Geranium - PALE",
+    "RGB_COLOR": "#fd99af",
+    "RGB": [
+      253,
+      153,
+      175
+    ],
+    "HSV": [
+      347,
+      40,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "904",
+    "COLOR_NAME_EN": "Parrot Green - VY DK",
+    "RGB_COLOR": "#386324",
+    "RGB": [
+      56,
+      99,
+      36
+    ],
+    "HSV": [
+      101,
+      64,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "958",
+    "COLOR_NAME_EN": "Seagreen - DK",
+    "RGB_COLOR": "#0db294",
+    "RGB": [
+      13,
+      178,
+      148
+    ],
+    "HSV": [
+      169,
+      93,
+      70
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "905",
+    "COLOR_NAME_EN": "Parrot Green - DK",
+    "RGB_COLOR": "#467924",
+    "RGB": [
+      70,
+      121,
+      36
+    ],
+    "HSV": [
+      96,
+      70,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "959",
+    "COLOR_NAME_EN": "Seagreen - MED",
+    "RGB_COLOR": "#72d0b7",
+    "RGB": [
+      114,
+      208,
+      183
+    ],
+    "HSV": [
+      164,
+      45,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "906",
+    "COLOR_NAME_EN": "Parrot Green - MED",
+    "RGB_COLOR": "#6c9e29",
+    "RGB": [
+      108,
+      158,
+      41
+    ],
+    "HSV": [
+      86,
+      74,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "961",
+    "COLOR_NAME_EN": "Dusty Rose - DK",
+    "RGB_COLOR": "#de586c",
+    "RGB": [
+      222,
+      88,
+      108
+    ],
+    "HSV": [
+      351,
+      60,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "907",
+    "COLOR_NAME_EN": "Parrot Green - LT",
+    "RGB_COLOR": "#9dc72d",
+    "RGB": [
+      157,
+      199,
+      45
+    ],
+    "HSV": [
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "962",
+    "COLOR_NAME_EN": "Dusty Rose - MED",
+    "RGB_COLOR": "#eb7183",
+    "RGB": [
+      235,
+      113,
+      131
+    ],
+    "HSV": [
+      351,
+      52,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "909",
+    "COLOR_NAME_EN": "Emerald Green - VY DK",
+    "RGB_COLOR": "#106b43",
+    "RGB": [
+      16,
+      107,
+      67
+    ],
+    "HSV": [
+      154,
+      85,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "963",
+    "COLOR_NAME_EN": "Dusty Rose - ULT VY LT",
+    "RGB_COLOR": "#fdccd1",
+    "RGB": [
+      253,
+      204,
+      209
+    ],
+    "HSV": [
+      354,
+      19,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "910",
+    "COLOR_NAME_EN": "Emerald Green - DK",
+    "RGB_COLOR": "#10814e",
+    "RGB": [
+      16,
+      129,
+      78
+    ],
+    "HSV": [
+      153,
+      88,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "964",
+    "COLOR_NAME_EN": "Seagreen - LT",
+    "RGB_COLOR": "#a5e4d4",
+    "RGB": [
+      165,
+      228,
+      212
+    ],
+    "HSV": [
+      165,
+      28,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "911",
+    "COLOR_NAME_EN": "Emerald Green - MED",
+    "RGB_COLOR": "#109256",
+    "RGB": [
+      16,
+      146,
+      86
+    ],
+    "HSV": [
+      152,
+      89,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "966",
+    "COLOR_NAME_EN": "Baby Green - MED",
+    "RGB_COLOR": "#94d28a",
+    "RGB": [
+      148,
+      210,
+      138
+    ],
+    "HSV": [
+      112,
+      34,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "912",
+    "COLOR_NAME_EN": "Emerald Green - LT",
+    "RGB_COLOR": "#36b26b",
+    "RGB": [
+      54,
+      178,
+      107
+    ],
+    "HSV": [
+      146,
+      70,
+      70
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "967",
+    "COLOR_NAME_EN": "Peach - LT",
+    "RGB_COLOR": "#ffc2ac",
+    "RGB": [
+      255,
+      194,
+      172
+    ],
+    "HSV": [
+      16,
+      33,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "913",
+    "COLOR_NAME_EN": "Nile Green - MED",
+    "RGB_COLOR": "#55ca7d",
+    "RGB": [
+      85,
+      202,
+      125
+    ],
+    "HSV": [
+      141,
+      58,
+      79
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "970",
+    "COLOR_NAME_EN": "Pumpkin - LT",
+    "RGB_COLOR": "#fb6721",
+    "RGB": [
+      251,
+      103,
+      33
+    ],
+    "HSV": [
+      19,
+      87,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "915",
+    "COLOR_NAME_EN": "Plum - DK",
+    "RGB_COLOR": "#95085a",
+    "RGB": [
+      149,
+      8,
+      90
+    ],
+    "HSV": [
+      325,
+      95,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "917",
+    "COLOR_NAME_EN": "Plum - MED",
+    "RGB_COLOR": "#ac1071",
+    "RGB": [
+      172,
+      16,
+      113
+    ],
+    "HSV": [
+      323,
+      91,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "972",
+    "COLOR_NAME_EN": "Canary - DEEP",
+    "RGB_COLOR": "#fb9f11",
+    "RGB": [
+      251,
+      159,
+      17
+    ],
+    "HSV": [
+      36,
+      93,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "918",
+    "COLOR_NAME_EN": "Red Copper - DK",
+    "RGB_COLOR": "#883630",
+    "RGB": [
+      136,
+      54,
+      48
+    ],
+    "HSV": [
+      4,
+      65,
+      53
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "973",
+    "COLOR_NAME_EN": "Canary - BRIGHT",
+    "RGB_COLOR": "#fccd2d",
+    "RGB": [
+      252,
+      205,
+      45
+    ],
+    "HSV": [
+      46,
+      82,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "919",
+    "COLOR_NAME_EN": "Red Copper",
+    "RGB_COLOR": "#9b371b",
+    "RGB": [
+      155,
+      55,
+      27
+    ],
+    "HSV": [
+      13,
+      83,
+      61
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "975",
+    "COLOR_NAME_EN": "Golden Brown - DK",
+    "RGB_COLOR": "#813c11",
+    "RGB": [
+      129,
+      60,
+      17
+    ],
+    "HSV": [
+      23,
+      87,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "920",
+    "COLOR_NAME_EN": "Copper - MED",
+    "RGB_COLOR": "#ab4836",
+    "RGB": [
+      171,
+      72,
+      54
+    ],
+    "HSV": [
+      9,
+      68,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "976",
+    "COLOR_NAME_EN": "Golden Brown - MED",
+    "RGB_COLOR": "#cf7532",
+    "RGB": [
+      207,
+      117,
+      50
+    ],
+    "HSV": [
+      26,
+      76,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "921",
+    "COLOR_NAME_EN": "Copper",
+    "RGB_COLOR": "#c0573d",
+    "RGB": [
+      192,
+      87,
+      61
+    ],
+    "HSV": [
+      12,
+      68,
+      75
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "977",
+    "COLOR_NAME_EN": "Golden Brown - LT",
+    "RGB_COLOR": "#ec8f43",
+    "RGB": [
+      236,
+      143,
+      67
+    ],
+    "HSV": [
+      27,
+      72,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "922",
+    "COLOR_NAME_EN": "Copper - LT",
+    "RGB_COLOR": "#dd6e4c",
+    "RGB": [
+      221,
+      110,
+      76
+    ],
+    "HSV": [
+      14,
+      66,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "986",
+    "COLOR_NAME_EN": "Forest Green - VY DK",
+    "RGB_COLOR": "#2e5230",
+    "RGB": [
+      46,
+      82,
+      48
+    ],
+    "HSV": [
+      123,
+      44,
+      32
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "924",
+    "COLOR_NAME_EN": "Gray Green - VY DK",
+    "RGB_COLOR": "#384a4a",
+    "RGB": [
+      56,
+      74,
+      74
+    ],
+    "HSV": [
+      180,
+      24,
+      29
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "987",
+    "COLOR_NAME_EN": "Forest Green - DK",
+    "RGB_COLOR": "#436838",
+    "RGB": [
+      67,
+      104,
+      56
+    ],
+    "HSV": [
+      106,
+      46,
+      41
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "926",
+    "COLOR_NAME_EN": "Gray Green - MED",
+    "RGB_COLOR": "#617674",
+    "RGB": [
+      97,
+      118,
+      116
+    ],
+    "HSV": [
+      174,
+      18,
+      46
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "988",
+    "COLOR_NAME_EN": "Forest Green - MED",
+    "RGB_COLOR": "#66924a",
+    "RGB": [
+      102,
+      146,
+      74
+    ],
+    "HSV": [
+      97,
+      49,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "927",
+    "COLOR_NAME_EN": "Gray Green - LT",
+    "RGB_COLOR": "#9fa8a5",
+    "RGB": [
+      159,
+      168,
+      165
+    ],
+    "HSV": [
+      160,
+      5,
+      66
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "989",
+    "COLOR_NAME_EN": "Forest Green",
+    "RGB_COLOR": "#71a74e",
+    "RGB": [
+      113,
+      167,
+      78
+    ],
+    "HSV": [
+      96,
+      53,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "928",
+    "COLOR_NAME_EN": "Gray Green - VY LT",
+    "RGB_COLOR": "#c0c6c0",
+    "RGB": [
+      192,
+      198,
+      192
+    ],
+    "HSV": [
+      120,
+      3,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "991",
+    "COLOR_NAME_EN": "Aquamarine - DK",
+    "RGB_COLOR": "#135f55",
+    "RGB": [
+      19,
+      95,
+      85
+    ],
+    "HSV": [
+      172,
+      80,
+      37
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "930",
+    "COLOR_NAME_EN": "Antique Blue - DK",
+    "RGB_COLOR": "#495c6b",
+    "RGB": [
+      73,
+      92,
+      107
+    ],
+    "HSV": [
+      206,
+      32,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "992",
+    "COLOR_NAME_EN": "Aquamarine - LT",
+    "RGB_COLOR": "#42b59e",
+    "RGB": [
+      66,
+      181,
+      158
+    ],
+    "HSV": [
+      168,
+      64,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "931",
+    "COLOR_NAME_EN": "Antique Blue - MED",
+    "RGB_COLOR": "#667684",
+    "RGB": [
+      102,
+      118,
+      132
+    ],
+    "HSV": [
+      208,
+      23,
+      52
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "993",
+    "COLOR_NAME_EN": "Aquamarine - VY LT",
+    "RGB_COLOR": "#62d8b6",
+    "RGB": [
+      98,
+      216,
+      182
+    ],
+    "HSV": [
+      163,
+      55,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "932",
+    "COLOR_NAME_EN": "Antique Blue - LT",
+    "RGB_COLOR": "#93a0af",
+    "RGB": [
+      147,
+      160,
+      175
+    ],
+    "HSV": [
+      212,
+      16,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "995",
+    "COLOR_NAME_EN": "Electric Blue - DK",
+    "RGB_COLOR": "#0061b0",
+    "RGB": [
+      0,
+      97,
+      176
+    ],
+    "HSV": [
+      207,
+      100,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "934",
+    "COLOR_NAME_EN": "Avocado Green - BLACK",
+    "RGB_COLOR": "#323324",
+    "RGB": [
+      50,
+      51,
+      36
+    ],
+    "HSV": [
+      64,
+      29,
+      20
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "996",
+    "COLOR_NAME_EN": "Electric Blue - MED",
+    "RGB_COLOR": "#49a8eb",
+    "RGB": [
+      73,
+      168,
+      235
+    ],
+    "HSV": [
+      205,
+      69,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "935",
+    "COLOR_NAME_EN": "Avocado Green - DK",
+    "RGB_COLOR": "#383a2a",
+    "RGB": [
+      56,
+      58,
+      42
+    ],
+    "HSV": [
+      68,
+      28,
+      23
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3011",
+    "COLOR_NAME_EN": "Khaki Green - DK",
+    "RGB_COLOR": "#655935",
+    "RGB": [
+      101,
+      89,
+      53
+    ],
+    "HSV": [
+      45,
+      48,
+      40
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "936",
+    "COLOR_NAME_EN": "Avocado Green - VY DK",
+    "RGB_COLOR": "#3f4227",
+    "RGB": [
+      63,
+      66,
+      39
+    ],
+    "HSV": [
+      67,
+      41,
+      26
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3012",
+    "COLOR_NAME_EN": "Khaki Green - MED",
+    "RGB_COLOR": "#8b7b4e",
+    "RGB": [
+      139,
+      123,
+      78
+    ],
+    "HSV": [
+      44,
+      44,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "937",
+    "COLOR_NAME_EN": "Avocado Green - MED",
+    "RGB_COLOR": "#434f2c",
+    "RGB": [
+      67,
+      79,
+      44
+    ],
+    "HSV": [
+      81,
+      44,
+      31
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3013",
+    "COLOR_NAME_EN": "Khaki Green - LT",
+    "RGB_COLOR": "#afa97b",
+    "RGB": [
+      175,
+      169,
+      123
+    ],
+    "HSV": [
+      53,
+      30,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "938",
+    "COLOR_NAME_EN": "Coffee Brown - ULT DK",
+    "RGB_COLOR": "#45271a",
+    "RGB": [
+      69,
+      39,
+      26
+    ],
+    "HSV": [
+      18,
+      62,
+      27
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3021",
+    "COLOR_NAME_EN": "Brown Gray - VY DK",
+    "RGB_COLOR": "#50403b",
+    "RGB": [
+      80,
+      64,
+      59
+    ],
+    "HSV": [
+      14,
+      26,
+      31
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "939",
+    "COLOR_NAME_EN": "Blue - VY DK",
+    "RGB_COLOR": "#09092f",
+    "RGB": [
+      9,
+      9,
+      47
+    ],
+    "HSV": [
+      240,
+      81,
+      18
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3022",
+    "COLOR_NAME_EN": "Brown Gray - MED",
+    "RGB_COLOR": "#848274",
+    "RGB": [
+      132,
+      130,
+      116
+    ],
+    "HSV": [
+      52,
+      12,
+      52
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "943",
+    "COLOR_NAME_EN": "Aquamarine - MED",
+    "RGB_COLOR": "#009a77",
+    "RGB": [
+      0,
+      154,
+      119
+    ],
+    "HSV": [
+      166,
+      100,
+      60
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3023",
+    "COLOR_NAME_EN": "Brown Gray - LT",
+    "RGB_COLOR": "#a29b86",
+    "RGB": [
+      162,
+      155,
+      134
+    ],
+    "HSV": [
+      45,
+      17,
+      64
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "945",
+    "COLOR_NAME_EN": "Tawny",
+    "RGB_COLOR": "#f6c19a",
+    "RGB": [
+      246,
+      193,
+      154
+    ],
+    "HSV": [
+      25,
+      37,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3024",
+    "COLOR_NAME_EN": "Brown Gray - VY LT",
+    "RGB_COLOR": "#beb8ac",
+    "RGB": [
+      190,
+      184,
+      172
+    ],
+    "HSV": [
+      40,
+      9,
+      75
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "946",
+    "COLOR_NAME_EN": "Burnt Orange - MED",
+    "RGB_COLOR": "#ed4115",
+    "RGB": [
+      237,
+      65,
+      21
+    ],
+    "HSV": [
+      12,
+      91,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3031",
+    "COLOR_NAME_EN": "Mocha Brown - VY DK",
+    "RGB_COLOR": "#423014",
+    "RGB": [
+      66,
+      48,
+      20
+    ],
+    "HSV": [
+      37,
+      70,
+      26
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "947",
+    "COLOR_NAME_EN": "Burnt Orange",
+    "RGB_COLOR": "#fc4f16",
+    "RGB": [
+      252,
+      79,
+      22
+    ],
+    "HSV": [
+      15,
+      91,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3032",
+    "COLOR_NAME_EN": "Mocha Brown - MED",
+    "RGB_COLOR": "#9d8868",
+    "RGB": [
+      157,
+      136,
+      104
+    ],
+    "HSV": [
+      36,
+      34,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "948",
+    "COLOR_NAME_EN": "Peach - VY LT",
+    "RGB_COLOR": "#fde6d3",
+    "RGB": [
+      253,
+      230,
+      211
+    ],
+    "HSV": [
+      27,
+      17,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3033",
+    "COLOR_NAME_EN": "Mocha Brown - VY LT",
+    "RGB_COLOR": "#dbc7ad",
+    "RGB": [
+      219,
+      199,
+      173
+    ],
+    "HSV": [
+      34,
+      21,
+      86
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "950",
+    "COLOR_NAME_EN": "Desert Sand - LT",
+    "RGB_COLOR": "#e5ac8d",
+    "RGB": [
+      229,
+      172,
+      141
+    ],
+    "HSV": [
+      21,
+      38,
+      90
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3041",
+    "COLOR_NAME_EN": "Antique Violet - MED",
+    "RGB_COLOR": "#866a76",
+    "RGB": [
+      134,
+      106,
+      118
+    ],
+    "HSV": [
+      334,
+      21,
+      53
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "951",
+    "COLOR_NAME_EN": "Tawny - LT",
+    "RGB_COLOR": "#faddb6",
+    "RGB": [
+      250,
+      221,
+      182
+    ],
+    "HSV": [
+      34,
+      27,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3042",
+    "COLOR_NAME_EN": "Antique Violet - LT",
+    "RGB_COLOR": "#af98a0",
+    "RGB": [
+      175,
+      152,
+      160
+    ],
+    "HSV": [
+      339,
+      13,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "954",
+    "COLOR_NAME_EN": "Nile Green",
+    "RGB_COLOR": "#6fda8a",
+    "RGB": [
+      111,
+      218,
+      138
+    ],
+    "HSV": [
+      135,
+      49,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3045",
+    "COLOR_NAME_EN": "Yellow Beige - DK",
+    "RGB_COLOR": "#af8152",
+    "RGB": [
+      175,
+      129,
+      82
+    ],
+    "HSV": [
+      30,
+      53,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3046",
+    "COLOR_NAME_EN": "Yellow Beige - MED",
+    "RGB_COLOR": "#ceb074",
+    "RGB": [
+      206,
+      176,
+      116
+    ],
+    "HSV": [
+      40,
+      44,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3731",
+    "COLOR_NAME_EN": "Dusty Rose - VY DK",
+    "RGB_COLOR": "#c34c5c",
+    "RGB": [
+      195,
+      76,
+      92
+    ],
+    "HSV": [
+      352,
+      61,
+      76
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3047",
+    "COLOR_NAME_EN": "Yellow Beige - LT",
+    "RGB_COLOR": "#ead8ab",
+    "RGB": [
+      234,
+      216,
+      171
+    ],
+    "HSV": [
+      43,
+      27,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3733",
+    "COLOR_NAME_EN": "Dusty Rose",
+    "RGB_COLOR": "#ea7e86",
+    "RGB": [
+      234,
+      126,
+      134
+    ],
+    "HSV": [
+      356,
+      46,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3051",
+    "COLOR_NAME_EN": "Green Gray - DK",
+    "RGB_COLOR": "#4c4c1e",
+    "RGB": [
+      76,
+      76,
+      30
+    ],
+    "HSV": [
+      60,
+      61,
+      30
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3740",
+    "COLOR_NAME_EN": "Antique Violet - DK",
+    "RGB_COLOR": "#71535d",
+    "RGB": [
+      113,
+      83,
+      93
+    ],
+    "HSV": [
+      340,
+      27,
+      44
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3052",
+    "COLOR_NAME_EN": "Green Gray - MED",
+    "RGB_COLOR": "#787e5c",
+    "RGB": [
+      120,
+      126,
+      92
+    ],
+    "HSV": [
+      71,
+      27,
+      49
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3743",
+    "COLOR_NAME_EN": "Antique Violet - VY LT",
+    "RGB_COLOR": "#cfc2c9",
+    "RGB": [
+      207,
+      194,
+      201
+    ],
+    "HSV": [
+      328,
+      6,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3053",
+    "COLOR_NAME_EN": "Green Gray",
+    "RGB_COLOR": "#999d75",
+    "RGB": [
+      153,
+      157,
+      117
+    ],
+    "HSV": [
+      66,
+      25,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3746",
+    "COLOR_NAME_EN": "Blue Violet - DK",
+    "RGB_COLOR": "#844ab5",
+    "RGB": [
+      132,
+      74,
+      181
+    ],
+    "HSV": [
+      273,
+      59,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3064",
+    "COLOR_NAME_EN": "Desert Sand",
+    "RGB_COLOR": "#ba7056",
+    "RGB": [
+      186,
+      112,
+      86
+    ],
+    "HSV": [
+      16,
+      54,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3747",
+    "COLOR_NAME_EN": "Blue Violet - VY LT",
+    "RGB_COLOR": "#d0c5ec",
+    "RGB": [
+      208,
+      197,
+      236
+    ],
+    "HSV": [
+      257,
+      17,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3072",
+    "COLOR_NAME_EN": "Beaver Gray - VY LT",
+    "RGB_COLOR": "#d2d2ca",
+    "RGB": [
+      210,
+      210,
+      202
+    ],
+    "HSV": [
+      60,
+      4,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3750",
+    "COLOR_NAME_EN": "Antique Blue - VY DK",
+    "RGB_COLOR": "#1d4552",
+    "RGB": [
+      29,
+      69,
+      82
+    ],
+    "HSV": [
+      195,
+      65,
+      32
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3078",
+    "COLOR_NAME_EN": "Golden Yellow - VY LT",
+    "RGB_COLOR": "#fcf6b6",
+    "RGB": [
+      252,
+      246,
+      182
+    ],
+    "HSV": [
+      55,
+      28,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3752",
+    "COLOR_NAME_EN": "Antique Blue - VY LT",
+    "RGB_COLOR": "#bac9cc",
+    "RGB": [
+      186,
+      201,
+      204
+    ],
+    "HSV": [
+      190,
+      9,
+      80
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3325",
+    "COLOR_NAME_EN": "Baby Blue - LT",
+    "RGB_COLOR": "#adcde7",
+    "RGB": [
+      173,
+      205,
+      231
+    ],
+    "HSV": [
+      207,
+      25,
+      91
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3753",
+    "COLOR_NAME_EN": "Antique Blue - ULT VY LT",
+    "RGB_COLOR": "#d9e6ec",
+    "RGB": [
+      217,
+      230,
+      236
+    ],
+    "HSV": [
+      199,
+      8,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3326",
+    "COLOR_NAME_EN": "Rose - LT",
+    "RGB_COLOR": "#f9979c",
+    "RGB": [
+      249,
+      151,
+      156
+    ],
+    "HSV": [
+      357,
+      39,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3755",
+    "COLOR_NAME_EN": "Baby Blue (?)",
+    "RGB_COLOR": "#81a5d8",
+    "RGB": [
+      129,
+      165,
+      216
+    ],
+    "HSV": [
+      215,
+      40,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3328",
+    "COLOR_NAME_EN": "Salmon - DK",
+    "RGB_COLOR": "#be444a",
+    "RGB": [
+      190,
+      68,
+      74
+    ],
+    "HSV": [
+      357,
+      64,
+      75
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3756",
+    "COLOR_NAME_EN": "Baby Blue",
+    "RGB_COLOR": "#e9f4fa",
+    "RGB": [
+      233,
+      244,
+      250
+    ],
+    "HSV": [
+      201,
+      7,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3340",
+    "COLOR_NAME_EN": "Apricot - MED",
+    "RGB_COLOR": "#fd6b4f",
+    "RGB": [
+      253,
+      107,
+      79
+    ],
+    "HSV": [
+      10,
+      69,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3760",
+    "COLOR_NAME_EN": "Wedgewood - MED",
+    "RGB_COLOR": "#467293",
+    "RGB": [
+      70,
+      114,
+      147
+    ],
+    "HSV": [
+      206,
+      52,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3341",
+    "COLOR_NAME_EN": "Apricot",
+    "RGB_COLOR": "#fd8e78",
+    "RGB": [
+      253,
+      142,
+      120
+    ],
+    "HSV": [
+      10,
+      53,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3761",
+    "COLOR_NAME_EN": "Sky Blue - LT",
+    "RGB_COLOR": "#b1d0df",
+    "RGB": [
+      177,
+      208,
+      223
+    ],
+    "HSV": [
+      200,
+      21,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3345",
+    "COLOR_NAME_EN": "Hunter Green - DK",
+    "RGB_COLOR": "#40552e",
+    "RGB": [
+      64,
+      85,
+      46
+    ],
+    "HSV": [
+      92,
+      46,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3765",
+    "COLOR_NAME_EN": "Peacock Blue - VY DK",
+    "RGB_COLOR": "#175e78",
+    "RGB": [
+      23,
+      94,
+      120
+    ],
+    "HSV": [
+      196,
+      81,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3346",
+    "COLOR_NAME_EN": "Hunter Green",
+    "RGB_COLOR": "#56743b",
+    "RGB": [
+      86,
+      116,
+      59
+    ],
+    "HSV": [
+      92,
+      49,
+      45
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3766",
+    "COLOR_NAME_EN": "Peacock Blue - LT",
+    "RGB_COLOR": "#4b8aa1",
+    "RGB": [
+      75,
+      138,
+      161
+    ],
+    "HSV": [
+      196,
+      53,
+      63
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3347",
+    "COLOR_NAME_EN": "Yellow Green - MED",
+    "RGB_COLOR": "#6d9646",
+    "RGB": [
+      109,
+      150,
+      70
+    ],
+    "HSV": [
+      91,
+      53,
+      59
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3768",
+    "COLOR_NAME_EN": "Gray Green - DK",
+    "RGB_COLOR": "#4c605f",
+    "RGB": [
+      76,
+      96,
+      95
+    ],
+    "HSV": [
+      177,
+      21,
+      38
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3348",
+    "COLOR_NAME_EN": "Yellow Green - LT",
+    "RGB_COLOR": "#bedf74",
+    "RGB": [
+      190,
+      223,
+      116
+    ],
+    "HSV": [
+      79,
+      48,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3770",
+    "COLOR_NAME_EN": "Tawny - VY LT",
+    "RGB_COLOR": "#fef1d8",
+    "RGB": [
+      254,
+      241,
+      216
+    ],
+    "HSV": [
+      39,
+      15,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3350",
+    "COLOR_NAME_EN": "Dusty Rose - ULT DK",
+    "RGB_COLOR": "#aa3949",
+    "RGB": [
+      170,
+      57,
+      73
+    ],
+    "HSV": [
+      352,
+      66,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3771",
+    "COLOR_NAME_EN": "Peach - DK",
+    "RGB_COLOR": "#e8ac9b",
+    "RGB": [
+      232,
+      172,
+      155
+    ],
+    "HSV": [
+      13,
+      33,
+      91
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3354",
+    "COLOR_NAME_EN": "Dusty Rose - LT",
+    "RGB_COLOR": "#efa5ac",
+    "RGB": [
+      239,
+      165,
+      172
+    ],
+    "HSV": [
+      354,
+      31,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3772",
+    "COLOR_NAME_EN": "Desert Sand - VY DK",
+    "RGB_COLOR": "#995744",
+    "RGB": [
+      153,
+      87,
+      68
+    ],
+    "HSV": [
+      13,
+      56,
+      60
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3362",
+    "COLOR_NAME_EN": "Pine Green - DK",
+    "RGB_COLOR": "#49523c",
+    "RGB": [
+      73,
+      82,
+      60
+    ],
+    "HSV": [
+      85,
+      27,
+      32
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3363",
+    "COLOR_NAME_EN": "Pine Green - MED",
+    "RGB_COLOR": "#617451",
+    "RGB": [
+      97,
+      116,
+      81
+    ],
+    "HSV": [
+      93,
+      30,
+      45
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3774",
+    "COLOR_NAME_EN": "Desert Sand - VY LT",
+    "RGB_COLOR": "#f3cfb4",
+    "RGB": [
+      243,
+      207,
+      180
+    ],
+    "HSV": [
+      26,
+      26,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3364",
+    "COLOR_NAME_EN": "Pine Green",
+    "RGB_COLOR": "#8e9b6d",
+    "RGB": [
+      142,
+      155,
+      109
+    ],
+    "HSV": [
+      77,
+      30,
+      61
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3776",
+    "COLOR_NAME_EN": "Mahogany - LT",
+    "RGB_COLOR": "#c96444",
+    "RGB": [
+      201,
+      100,
+      68
+    ],
+    "HSV": [
+      14,
+      66,
+      79
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3371",
+    "COLOR_NAME_EN": "Black Brown",
+    "RGB_COLOR": "#36220e",
+    "RGB": [
+      54,
+      34,
+      14
+    ],
+    "HSV": [
+      30,
+      74,
+      21
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3777",
+    "COLOR_NAME_EN": "Terra Cotta - VY DK",
+    "RGB_COLOR": "#922f25",
+    "RGB": [
+      146,
+      47,
+      37
+    ],
+    "HSV": [
+      6,
+      75,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3607",
+    "COLOR_NAME_EN": "Plum - LT",
+    "RGB_COLOR": "#d94c9d",
+    "RGB": [
+      217,
+      76,
+      157
+    ],
+    "HSV": [
+      326,
+      65,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3778",
+    "COLOR_NAME_EN": "Terra Cotta - LT",
+    "RGB_COLOR": "#d2705c",
+    "RGB": [
+      210,
+      112,
+      92
+    ],
+    "HSV": [
+      10,
+      56,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3608",
+    "COLOR_NAME_EN": "Plum - VY LT",
+    "RGB_COLOR": "#ec81be",
+    "RGB": [
+      236,
+      129,
+      190
+    ],
+    "HSV": [
+      326,
+      45,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3779",
+    "COLOR_NAME_EN": "Terra Cotta - ULT VY LT",
+    "RGB_COLOR": "#f2ab95",
+    "RGB": [
+      242,
+      171,
+      149
+    ],
+    "HSV": [
+      14,
+      38,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3609",
+    "COLOR_NAME_EN": "Plum - ULT LT",
+    "RGB_COLOR": "#f6b0df",
+    "RGB": [
+      246,
+      176,
+      223
+    ],
+    "HSV": [
+      320,
+      28,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3781",
+    "COLOR_NAME_EN": "Mocha Brown - DK",
+    "RGB_COLOR": "#593f2b",
+    "RGB": [
+      89,
+      63,
+      43
+    ],
+    "HSV": [
+      26,
+      52,
+      35
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3685",
+    "COLOR_NAME_EN": "Mauve - VY DK",
+    "RGB_COLOR": "#79263b",
+    "RGB": [
+      121,
+      38,
+      59
+    ],
+    "HSV": [
+      345,
+      69,
+      47
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3782",
+    "COLOR_NAME_EN": "Mocha Brown - LT",
+    "RGB_COLOR": "#b69d80",
+    "RGB": [
+      182,
+      157,
+      128
+    ],
+    "HSV": [
+      32,
+      30,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3687",
+    "COLOR_NAME_EN": "Mauve",
+    "RGB_COLOR": "#b5455d",
+    "RGB": [
+      181,
+      69,
+      93
+    ],
+    "HSV": [
+      347,
+      62,
+      71
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3787",
+    "COLOR_NAME_EN": "Brown Gray - DK",
+    "RGB_COLOR": "#62524c",
+    "RGB": [
+      98,
+      82,
+      76
+    ],
+    "HSV": [
+      16,
+      22,
+      38
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3688",
+    "COLOR_NAME_EN": "Mauve - MED",
+    "RGB_COLOR": "#dc7c86",
+    "RGB": [
+      220,
+      124,
+      134
+    ],
+    "HSV": [
+      354,
+      44,
+      86
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3790",
+    "COLOR_NAME_EN": "Beige Gray - ULT DK",
+    "RGB_COLOR": "#6d5a4b",
+    "RGB": [
+      109,
+      90,
+      75
+    ],
+    "HSV": [
+      26,
+      31,
+      43
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3689",
+    "COLOR_NAME_EN": "Mauve - LT",
+    "RGB_COLOR": "#f8bbc8",
+    "RGB": [
+      248,
+      187,
+      200
+    ],
+    "HSV": [
+      347,
+      25,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3799",
+    "COLOR_NAME_EN": "Pewter Gray - VY DK",
+    "RGB_COLOR": "#39393d",
+    "RGB": [
+      57,
+      57,
+      61
+    ],
+    "HSV": [
+      240,
+      7,
+      24
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3705",
+    "COLOR_NAME_EN": "Melon - DK",
+    "RGB_COLOR": "#f2494f",
+    "RGB": [
+      242,
+      73,
+      79
+    ],
+    "HSV": [
+      358,
+      70,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3801",
+    "COLOR_NAME_EN": "Melon - VY DK",
+    "RGB_COLOR": "#e4353d",
+    "RGB": [
+      228,
+      53,
+      61
+    ],
+    "HSV": [
+      357,
+      77,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3706",
+    "COLOR_NAME_EN": "Melon - MED",
+    "RGB_COLOR": "#fd6e70",
+    "RGB": [
+      253,
+      110,
+      112
+    ],
+    "HSV": [
+      359,
+      57,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3802",
+    "COLOR_NAME_EN": "Antique Mauve - VY DK",
+    "RGB_COLOR": "#672a33",
+    "RGB": [
+      103,
+      42,
+      51
+    ],
+    "HSV": [
+      351,
+      59,
+      40
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3708",
+    "COLOR_NAME_EN": "Melon - LT",
+    "RGB_COLOR": "#fda0ae",
+    "RGB": [
+      253,
+      160,
+      174
+    ],
+    "HSV": [
+      351,
+      37,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3803",
+    "COLOR_NAME_EN": "Mauve - DK",
+    "RGB_COLOR": "#872a43",
+    "RGB": [
+      135,
+      42,
+      67
+    ],
+    "HSV": [
+      344,
+      69,
+      53
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3712",
+    "COLOR_NAME_EN": "Salmon - MED",
+    "RGB_COLOR": "#d95d5d",
+    "RGB": [
+      217,
+      93,
+      93
+    ],
+    "HSV": [
+      0,
+      57,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3804",
+    "COLOR_NAME_EN": "Cyclamen Pink - DK",
+    "RGB_COLOR": "#ce2b63",
+    "RGB": [
+      206,
+      43,
+      99
+    ],
+    "HSV": [
+      339,
+      79,
+      81
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3713",
+    "COLOR_NAME_EN": "Salmon - VY LT",
+    "RGB_COLOR": "#fdd5d0",
+    "RGB": [
+      253,
+      213,
+      208
+    ],
+    "HSV": [
+      7,
+      18,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3805",
+    "COLOR_NAME_EN": "Cyclamen Pink",
+    "RGB_COLOR": "#df3c73",
+    "RGB": [
+      223,
+      60,
+      115
+    ],
+    "HSV": [
+      340,
+      73,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3716",
+    "COLOR_NAME_EN": "Dusty Rose - VY LT",
+    "RGB_COLOR": "#fcafb9",
+    "RGB": [
+      252,
+      175,
+      185
+    ],
+    "HSV": [
+      352,
+      31,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3806",
+    "COLOR_NAME_EN": "Cyclamen Pink - LT",
+    "RGB_COLOR": "#f15a91",
+    "RGB": [
+      241,
+      90,
+      145
+    ],
+    "HSV": [
+      338,
+      63,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3721",
+    "COLOR_NAME_EN": "Shell Pink - DK",
+    "RGB_COLOR": "#933b3d",
+    "RGB": [
+      147,
+      59,
+      61
+    ],
+    "HSV": [
+      359,
+      60,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3807",
+    "COLOR_NAME_EN": "Cornflower Blue",
+    "RGB_COLOR": "#4b599e",
+    "RGB": [
+      75,
+      89,
+      158
+    ],
+    "HSV": [
+      230,
+      53,
+      62
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3722",
+    "COLOR_NAME_EN": "Shell Pink - MED",
+    "RGB_COLOR": "#a04b4c",
+    "RGB": [
+      160,
+      75,
+      76
+    ],
+    "HSV": [
+      359,
+      53,
+      63
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3808",
+    "COLOR_NAME_EN": "Turquoise - ULT VY DK",
+    "RGB_COLOR": "#03535c",
+    "RGB": [
+      3,
+      83,
+      92
+    ],
+    "HSV": [
+      186,
+      97,
+      36
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3726",
+    "COLOR_NAME_EN": "Antique Mauve - DK",
+    "RGB_COLOR": "#95565c",
+    "RGB": [
+      149,
+      86,
+      92
+    ],
+    "HSV": [
+      354,
+      42,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3809",
+    "COLOR_NAME_EN": "Turquoise - VY DK",
+    "RGB_COLOR": "#136a75",
+    "RGB": [
+      19,
+      106,
+      117
+    ],
+    "HSV": [
+      187,
+      84,
+      46
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3727",
+    "COLOR_NAME_EN": "Antique Mauve - LT",
+    "RGB_COLOR": "#da9ea6",
+    "RGB": [
+      218,
+      158,
+      166
+    ],
+    "HSV": [
+      352,
+      28,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3810",
+    "COLOR_NAME_EN": "Turquoise - DK",
+    "RGB_COLOR": "#2d8d98",
+    "RGB": [
+      45,
+      141,
+      152
+    ],
+    "HSV": [
+      186,
+      70,
+      60
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3811",
+    "COLOR_NAME_EN": "Turquoise - VY LT",
+    "RGB_COLOR": "#a8e2e5",
+    "RGB": [
+      168,
+      226,
+      229
+    ],
+    "HSV": [
+      183,
+      27,
+      90
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3839",
+    "COLOR_NAME_EN": "Lavender Blue - MED",
+    "RGB_COLOR": "#7a7ec5",
+    "RGB": [
+      122,
+      126,
+      197
+    ],
+    "HSV": [
+      237,
+      38,
+      77
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3812",
+    "COLOR_NAME_EN": "Seagreen - VY DK",
+    "RGB_COLOR": "#07a184",
+    "RGB": [
+      7,
+      161,
+      132
+    ],
+    "HSV": [
+      169,
+      96,
+      63
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3840",
+    "COLOR_NAME_EN": "Lavender Blue - LT",
+    "RGB_COLOR": "#b2bdea",
+    "RGB": [
+      178,
+      189,
+      234
+    ],
+    "HSV": [
+      228,
+      24,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3813",
+    "COLOR_NAME_EN": "Blue Green - LT",
+    "RGB_COLOR": "#86c3ab",
+    "RGB": [
+      134,
+      195,
+      171
+    ],
+    "HSV": [
+      156,
+      31,
+      76
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3841",
+    "COLOR_NAME_EN": "Baby Blue - PALE",
+    "RGB_COLOR": "#d9eaf2",
+    "RGB": [
+      217,
+      234,
+      242
+    ],
+    "HSV": [
+      199,
+      10,
+      95
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3814",
+    "COLOR_NAME_EN": "Aquamarine",
+    "RGB_COLOR": "#0b8673",
+    "RGB": [
+      11,
+      134,
+      115
+    ],
+    "HSV": [
+      171,
+      92,
+      53
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3842",
+    "COLOR_NAME_EN": "Wedgewood - DK",
+    "RGB_COLOR": "#06506a",
+    "RGB": [
+      6,
+      80,
+      106
+    ],
+    "HSV": [
+      196,
+      94,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3815",
+    "COLOR_NAME_EN": "Celadon Green - DK",
+    "RGB_COLOR": "#437259",
+    "RGB": [
+      67,
+      114,
+      89
+    ],
+    "HSV": [
+      148,
+      41,
+      45
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3843",
+    "COLOR_NAME_EN": "Electric Blue",
+    "RGB_COLOR": "#28a3de",
+    "RGB": [
+      40,
+      163,
+      222
+    ],
+    "HSV": [
+      199,
+      82,
+      87
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3816",
+    "COLOR_NAME_EN": "Celadon Green",
+    "RGB_COLOR": "#60937a",
+    "RGB": [
+      96,
+      147,
+      122
+    ],
+    "HSV": [
+      151,
+      35,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3844",
+    "COLOR_NAME_EN": "Bright Turquoise - DK",
+    "RGB_COLOR": "#1f7fa0",
+    "RGB": [
+      31,
+      127,
+      160
+    ],
+    "HSV": [
+      195,
+      81,
+      63
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3817",
+    "COLOR_NAME_EN": "Celadon Green - LT",
+    "RGB_COLOR": "#81c6a4",
+    "RGB": [
+      129,
+      198,
+      164
+    ],
+    "HSV": [
+      150,
+      35,
+      78
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3845",
+    "COLOR_NAME_EN": "Bright Turquoise - MED",
+    "RGB_COLOR": "#2badd1",
+    "RGB": [
+      43,
+      173,
+      209
+    ],
+    "HSV": [
+      193,
+      79,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3818",
+    "COLOR_NAME_EN": "Emerald Green - ULT VY DK",
+    "RGB_COLOR": "#005d2e",
+    "RGB": [
+      0,
+      93,
+      46
+    ],
+    "HSV": [
+      150,
+      100,
+      36
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3846",
+    "COLOR_NAME_EN": "Bright Turquoise - LT",
+    "RGB_COLOR": "#5eccec",
+    "RGB": [
+      94,
+      204,
+      236
+    ],
+    "HSV": [
+      194,
+      60,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3819",
+    "COLOR_NAME_EN": "Moss Green - LT",
+    "RGB_COLOR": "#ccc959",
+    "RGB": [
+      204,
+      201,
+      89
+    ],
+    "HSV": [
+      58,
+      56,
+      80
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3847",
+    "COLOR_NAME_EN": "Teal Green - DK",
+    "RGB_COLOR": "#186358",
+    "RGB": [
+      24,
+      99,
+      88
+    ],
+    "HSV": [
+      171,
+      76,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3820",
+    "COLOR_NAME_EN": "Straw - DK",
+    "RGB_COLOR": "#dba53e",
+    "RGB": [
+      219,
+      165,
+      62
+    ],
+    "HSV": [
+      39,
+      72,
+      86
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3848",
+    "COLOR_NAME_EN": "Teal Green - MED",
+    "RGB_COLOR": "#207e72",
+    "RGB": [
+      32,
+      126,
+      114
+    ],
+    "HSV": [
+      172,
+      75,
+      49
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3821",
+    "COLOR_NAME_EN": "Straw",
+    "RGB_COLOR": "#ebbb52",
+    "RGB": [
+      235,
+      187,
+      82
+    ],
+    "HSV": [
+      41,
+      65,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3849",
+    "COLOR_NAME_EN": "Teal Green - LT",
+    "RGB_COLOR": "#35b193",
+    "RGB": [
+      53,
+      177,
+      147
+    ],
+    "HSV": [
+      165,
+      70,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3822",
+    "COLOR_NAME_EN": "Straw - LT",
+    "RGB_COLOR": "#f7d169",
+    "RGB": [
+      247,
+      209,
+      105
+    ],
+    "HSV": [
+      44,
+      57,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3850",
+    "COLOR_NAME_EN": "Bright Green - DK",
+    "RGB_COLOR": "#208b46",
+    "RGB": [
+      32,
+      139,
+      70
+    ],
+    "HSV": [
+      141,
+      77,
+      55
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3823",
+    "COLOR_NAME_EN": "Yellow - ULT PALE",
+    "RGB_COLOR": "#fef5cd",
+    "RGB": [
+      254,
+      245,
+      205
+    ],
+    "HSV": [
+      49,
+      19,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3851",
+    "COLOR_NAME_EN": "Bright Green - LT",
+    "RGB_COLOR": "#61bb84",
+    "RGB": [
+      97,
+      187,
+      132
+    ],
+    "HSV": [
+      143,
+      48,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3824",
+    "COLOR_NAME_EN": "Apricot - LT",
+    "RGB_COLOR": "#fcae99",
+    "RGB": [
+      252,
+      174,
+      153
+    ],
+    "HSV": [
+      13,
+      39,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3852",
+    "COLOR_NAME_EN": "Straw - VY DK",
+    "RGB_COLOR": "#e3a730",
+    "RGB": [
+      227,
+      167,
+      48
+    ],
+    "HSV": [
+      40,
+      79,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3825",
+    "COLOR_NAME_EN": "Pumpkin - PALE",
+    "RGB_COLOR": "#fea370",
+    "RGB": [
+      254,
+      163,
+      112
+    ],
+    "HSV": [
+      22,
+      56,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3853",
+    "COLOR_NAME_EN": "Autumn Gold - DK",
+    "RGB_COLOR": "#ef8125",
+    "RGB": [
+      239,
+      129,
+      37
+    ],
+    "HSV": [
+      27,
+      85,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3826",
+    "COLOR_NAME_EN": "Golden Brown",
+    "RGB_COLOR": "#b16633",
+    "RGB": [
+      177,
+      102,
+      51
+    ],
+    "HSV": [
+      24,
+      71,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3854",
+    "COLOR_NAME_EN": "Autumn Gold - MED",
+    "RGB_COLOR": "#fbac56",
+    "RGB": [
+      251,
+      172,
+      86
+    ],
+    "HSV": [
+      31,
+      66,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3827",
+    "COLOR_NAME_EN": "Golden Brown - PALE",
+    "RGB_COLOR": "#eaa664",
+    "RGB": [
+      234,
+      166,
+      100
+    ],
+    "HSV": [
+      30,
+      57,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3855",
+    "COLOR_NAME_EN": "Autumn Gold - LT",
+    "RGB_COLOR": "#fddfa0",
+    "RGB": [
+      253,
+      223,
+      160
+    ],
+    "HSV": [
+      41,
+      37,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3828",
+    "COLOR_NAME_EN": "Hazelnut Brown",
+    "RGB_COLOR": "#aa7c43",
+    "RGB": [
+      170,
+      124,
+      67
+    ],
+    "HSV": [
+      33,
+      61,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3856",
+    "COLOR_NAME_EN": "Mahogany - ULT VY LT",
+    "RGB_COLOR": "#fdbe8e",
+    "RGB": [
+      253,
+      190,
+      142
+    ],
+    "HSV": [
+      26,
+      44,
+      99
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3829",
+    "COLOR_NAME_EN": "Old Gold - VY DK",
+    "RGB_COLOR": "#a7671d",
+    "RGB": [
+      167,
+      103,
+      29
+    ],
+    "HSV": [
+      32,
+      83,
+      65
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3857",
+    "COLOR_NAME_EN": "Rosewood - DK",
+    "RGB_COLOR": "#6a2f26",
+    "RGB": [
+      106,
+      47,
+      38
+    ],
+    "HSV": [
+      8,
+      64,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3830",
+    "COLOR_NAME_EN": "Terra Cotta",
+    "RGB_COLOR": "#a94138",
+    "RGB": [
+      169,
+      65,
+      56
+    ],
+    "HSV": [
+      5,
+      67,
+      66
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3858",
+    "COLOR_NAME_EN": "Rosewood - MED",
+    "RGB_COLOR": "#803a32",
+    "RGB": [
+      128,
+      58,
+      50
+    ],
+    "HSV": [
+      6,
+      61,
+      50
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3831",
+    "COLOR_NAME_EN": "Raspberry - DK",
+    "RGB_COLOR": "#c12b52",
+    "RGB": [
+      193,
+      43,
+      82
+    ],
+    "HSV": [
+      344,
+      78,
+      76
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3859",
+    "COLOR_NAME_EN": "Rosewood - LT",
+    "RGB_COLOR": "#ba7a6c",
+    "RGB": [
+      186,
+      122,
+      108
+    ],
+    "HSV": [
+      11,
+      42,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3832",
+    "COLOR_NAME_EN": "Raspberry - MED",
+    "RGB_COLOR": "#e36370",
+    "RGB": [
+      227,
+      99,
+      112
+    ],
+    "HSV": [
+      354,
+      56,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3860",
+    "COLOR_NAME_EN": "Cocoa",
+    "RGB_COLOR": "#896362",
+    "RGB": [
+      137,
+      99,
+      98
+    ],
+    "HSV": [
+      2,
+      28,
+      54
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3833",
+    "COLOR_NAME_EN": "Raspberry - LT",
+    "RGB_COLOR": "#ea8b96",
+    "RGB": [
+      234,
+      139,
+      150
+    ],
+    "HSV": [
+      353,
+      41,
+      92
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3861",
+    "COLOR_NAME_EN": "Cocoa - LT",
+    "RGB_COLOR": "#ac8583",
+    "RGB": [
+      172,
+      133,
+      131
+    ],
+    "HSV": [
+      3,
+      24,
+      67
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3834",
+    "COLOR_NAME_EN": "Grape - DK",
+    "RGB_COLOR": "#6a2258",
+    "RGB": [
+      106,
+      34,
+      88
+    ],
+    "HSV": [
+      315,
+      68,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3862",
+    "COLOR_NAME_EN": "Mocha Beige - DK",
+    "RGB_COLOR": "#6e492a",
+    "RGB": [
+      110,
+      73,
+      42
+    ],
+    "HSV": [
+      27,
+      62,
+      43
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3835",
+    "COLOR_NAME_EN": "Grape - MED",
+    "RGB_COLOR": "#924d78",
+    "RGB": [
+      146,
+      77,
+      120
+    ],
+    "HSV": [
+      323,
+      47,
+      57
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3863",
+    "COLOR_NAME_EN": "Mocha Beige - MED",
+    "RGB_COLOR": "#94725d",
+    "RGB": [
+      148,
+      114,
+      93
+    ],
+    "HSV": [
+      23,
+      37,
+      58
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3836",
+    "COLOR_NAME_EN": "Grape - LT",
+    "RGB_COLOR": "#c597b9",
+    "RGB": [
+      197,
+      151,
+      185
+    ],
+    "HSV": [
+      316,
+      23,
+      77
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3864",
+    "COLOR_NAME_EN": "Mocha Beige - LT",
+    "RGB_COLOR": "#c9aa92",
+    "RGB": [
+      201,
+      170,
+      146
+    ],
+    "HSV": [
+      26,
+      27,
+      79
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3837",
+    "COLOR_NAME_EN": "Lavender - ULT DK",
+    "RGB_COLOR": "#8a2a8f",
+    "RGB": [
+      138,
+      42,
+      143
+    ],
+    "HSV": [
+      297,
+      71,
+      56
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3865",
+    "COLOR_NAME_EN": "Winter White",
+    "RGB_COLOR": "#fffdf9",
+    "RGB": [
+      255,
+      253,
+      249
+    ],
+    "HSV": [
+      40,
+      2,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3838",
+    "COLOR_NAME_EN": "Lavender Blue - DK",
+    "RGB_COLOR": "#606bad",
+    "RGB": [
+      96,
+      107,
+      173
+    ],
+    "HSV": [
+      231,
+      45,
+      68
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "3866",
+    "COLOR_NAME_EN": "Mocha Brown - ULT VY LT",
+    "RGB_COLOR": "#f0e6d7",
+    "RGB": [
+      240,
+      230,
+      215
+    ],
+    "HSV": [
+      36,
+      10,
+      94
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "01",
+    "COLOR_NAME_EN": "White Tin",
+    "RGB_COLOR": "#E3E3E6",
+    "RGB": [
+      227,
+      227,
+      230
+    ],
+    "HSV": [
+      240,
+      1,
+      90
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "02",
+    "COLOR_NAME_EN": "Tin",
+    "RGB_COLOR": "#D7D7D8",
+    "RGB": [
+      215,
+      215,
+      216
+    ],
+    "HSV": [
+      240,
+      0,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "03",
+    "COLOR_NAME_EN": "Tin Medium",
+    "RGB_COLOR": "#B8B8BB",
+    "RGB": [
+      184,
+      184,
+      187
+    ],
+    "HSV": [
+      240,
+      2,
+      73
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "04",
+    "COLOR_NAME_EN": "Tin Dark",
+    "RGB_COLOR": "#AEAEB1",
+    "RGB": [
+      174,
+      174,
+      177
+    ],
+    "HSV": [
+      240,
+      2,
+      69
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "05",
+    "COLOR_NAME_EN": "Driftwood Light",
+    "RGB_COLOR": "#E3CCBE",
+    "RGB": [
+      227,
+      204,
+      190
+    ],
+    "HSV": [
+      23,
+      16,
+      89
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "06",
+    "COLOR_NAME_EN": "Driftwood Medium Light",
+    "RGB_COLOR": "#DCC6B8",
+    "RGB": [
+      220,
+      198,
+      184
+    ],
+    "HSV": [
+      23,
+      16,
+      86
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "07",
+    "COLOR_NAME_EN": "Driftwood",
+    "RGB_COLOR": "#8F7B6E",
+    "RGB": [
+      143,
+      123,
+      110
+    ],
+    "HSV": [
+      24,
+      23,
+      56
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "08",
+    "COLOR_NAME_EN": "Driftwood Dark",
+    "RGB_COLOR": "#6A5046",
+    "RGB": [
+      106,
+      80,
+      70
+    ],
+    "HSV": [
+      17,
+      34,
+      42
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "09",
+    "COLOR_NAME_EN": "Cocoa Very Dark",
+    "RGB_COLOR": "#552014",
+    "RGB": [
+      85,
+      32,
+      20
+    ],
+    "HSV": [
+      11,
+      76,
+      33
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "10",
+    "COLOR_NAME_EN": "Tender Green Very Light",
+    "RGB_COLOR": "#EDFED9",
+    "RGB": [
+      237,
+      254,
+      217
+    ],
+    "HSV": [
+      88,
+      15,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "11",
+    "COLOR_NAME_EN": "Tender Green Light",
+    "RGB_COLOR": "#E2EDB5",
+    "RGB": [
+      226,
+      237,
+      181
+    ],
+    "HSV": [
+      72,
+      24,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "12",
+    "COLOR_NAME_EN": "Tender Green",
+    "RGB_COLOR": "#CDD99A",
+    "RGB": [
+      205,
+      217,
+      154
+    ],
+    "HSV": [
+      71,
+      29,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "13",
+    "COLOR_NAME_EN": "Nile Green Medium Light",
+    "RGB_COLOR": "#BFF6E0",
+    "RGB": [
+      191,
+      246,
+      224
+    ],
+    "HSV": [
+      156,
+      22,
+      96
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "14",
+    "COLOR_NAME_EN": "Apple Green Pale",
+    "RGB_COLOR": "#D0FBB2",
+    "RGB": [
+      208,
+      251,
+      178
+    ],
+    "HSV": [
+      95,
+      29,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "15",
+    "COLOR_NAME_EN": "Apple Green",
+    "RGB_COLOR": "#D1EDA4",
+    "RGB": [
+      209,
+      237,
+      164
+    ],
+    "HSV": [
+      83,
+      31,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "16",
+    "COLOR_NAME_EN": "Chartreuse Light",
+    "RGB_COLOR": "#C9C258",
+    "RGB": [
+      201,
+      194,
+      88
+    ],
+    "HSV": [
+      56,
+      56,
+      79
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "17",
+    "COLOR_NAME_EN": "Yellow Plum Light",
+    "RGB_COLOR": "#E5E272",
+    "RGB": [
+      229,
+      226,
+      114
+    ],
+    "HSV": [
+      58,
+      50,
+      90
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "18",
+    "COLOR_NAME_EN": "Yellow Plum",
+    "RGB_COLOR": "#D9D56D",
+    "RGB": [
+      217,
+      213,
+      109
+    ],
+    "HSV": [
+      58,
+      50,
+      85
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "19",
+    "COLOR_NAME_EN": "Autumn Gold medium Light",
+    "RGB_COLOR": "#F7C95F",
+    "RGB": [
+      247,
+      201,
+      95
+    ],
+    "HSV": [
+      42,
+      62,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "20",
+    "COLOR_NAME_EN": "Shrimp",
+    "RGB_COLOR": "#F7AF93",
+    "RGB": [
+      247,
+      175,
+      147
+    ],
+    "HSV": [
+      17,
+      40,
+      97
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "21",
+    "COLOR_NAME_EN": "Alizarin Light",
+    "RGB_COLOR": "#D79982",
+    "RGB": [
+      215,
+      153,
+      130
+    ],
+    "HSV": [
+      16,
+      40,
+      84
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "22",
+    "COLOR_NAME_EN": "Alizarin",
+    "RGB_COLOR": "#BC604E",
+    "RGB": [
+      188,
+      96,
+      78
+    ],
+    "HSV": [
+      10,
+      59,
+      74
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "23",
+    "COLOR_NAME_EN": "Apple Blossom",
+    "RGB_COLOR": "#EDE2ED",
+    "RGB": [
+      237,
+      226,
+      237
+    ],
+    "HSV": [
+      300,
+      5,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "24",
+    "COLOR_NAME_EN": "White Lavender",
+    "RGB_COLOR": "#E0D7EE",
+    "RGB": [
+      224,
+      215,
+      238
+    ],
+    "HSV": [
+      263,
+      10,
+      93
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "25",
+    "COLOR_NAME_EN": "Lavender Ultra Light",
+    "RGB_COLOR": "#DAD2E9",
+    "RGB": [
+      218,
+      210,
+      233
+    ],
+    "HSV": [
+      261,
+      10,
+      91
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "26",
+    "COLOR_NAME_EN": "Lavender Pale",
+    "RGB_COLOR": "#D7CAE6",
+    "RGB": [
+      215,
+      202,
+      230
+    ],
+    "HSV": [
+      268,
+      12,
+      90
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "27",
+    "COLOR_NAME_EN": "White Violet",
+    "RGB_COLOR": "#F0EEF9",
+    "RGB": [
+      240,
+      238,
+      249
+    ],
+    "HSV": [
+      251,
+      4,
+      98
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "28",
+    "COLOR_NAME_EN": "Raspberry Medium Light",
+    "RGB_COLOR": "#D0BAC3",
+    "RGB": [
+      208,
+      186,
+      195
+    ],
+    "HSV": [
+      335,
+      11,
+      82
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "29",
+    "COLOR_NAME_EN": "Raspberry Medium",
+    "RGB_COLOR": "#A38194",
+    "RGB": [
+      163,
+      129,
+      148
+    ],
+    "HSV": [
+      326,
+      21,
+      64
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "30",
+    "COLOR_NAME_EN": "Raspberry Dark",
+    "RGB_COLOR": "#836376",
+    "RGB": [
+      131,
+      99,
+      118
+    ],
+    "HSV": [
+      324,
+      24,
+      51
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "31",
+    "COLOR_NAME_EN": "Raspberry Very Dark",
+    "RGB_COLOR": "#64465C",
+    "RGB": [
+      100,
+      70,
+      92
+    ],
+    "HSV": [
+      316,
+      30,
+      39
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "32",
+    "COLOR_NAME_EN": "Satchel Tan",
+    "RGB_COLOR": "#4F364A",
+    "RGB": [
+      79,
+      54,
+      74
+    ],
+    "HSV": [
+      312,
+      32,
+      31
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "33",
+    "COLOR_NAME_EN": "Pink",
+    "RGB_COLOR": "#FFC0CB",
+    "RGB": [
+      255,
+      192,
+      203
+    ],
+    "HSV": [
+      350,
+      25,
+      100
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "34",
+    "COLOR_NAME_EN": "Deep Pink",
+    "RGB_COLOR": "#DB7093",
+    "RGB": [
+      219,
+      112,
+      147
+    ],
+    "HSV": [
+      340,
+      49,
+      86
+    ]
+  },
+  {
+    "BRAND": "DMC",
+    "COLOR_CODE": "35",
+    "COLOR_NAME_EN": "Hot Pink",
+    "RGB_COLOR": "#C71585",
+    "RGB": [
+      199,
+      21,
+      133
+    ],
+    "HSV": [
+      322,
+      89,
+      78
+    ]
+  }
+]

@@ -1,0 +1,8002 @@
+[
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "351",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F8DFD8",
+    "RGB": [
+      248,
+      223,
+      216
+    ],
+    "HSV": [
+      13,
+      13,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "352",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F9D1DF",
+    "RGB": [
+      249,
+      209,
+      223
+    ],
+    "HSV": [
+      339,
+      16,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "353",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F49DC7",
+    "RGB": [
+      244,
+      157,
+      199
+    ],
+    "HSV": [
+      331,
+      36,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "354",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F287BC",
+    "RGB": [
+      242,
+      135,
+      188
+    ],
+    "HSV": [
+      330,
+      44,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "480A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F4D6E3",
+    "RGB": [
+      244,
+      214,
+      227
+    ],
+    "HSV": [
+      334,
+      12,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2111",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F5C2DA",
+    "RGB": [
+      245,
+      194,
+      218
+    ],
+    "HSV": [
+      332,
+      21,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "112",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F2A5CC",
+    "RGB": [
+      242,
+      165,
+      204
+    ],
+    "HSV": [
+      330,
+      32,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "113",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EE8ABF",
+    "RGB": [
+      238,
+      138,
+      191
+    ],
+    "HSV": [
+      328,
+      42,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "114",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EB60A7",
+    "RGB": [
+      235,
+      96,
+      167
+    ],
+    "HSV": [
+      329,
+      59,
+      92
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2114",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E93F82",
+    "RGB": [
+      233,
+      63,
+      130
+    ],
+    "HSV": [
+      336,
+      73,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "115A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E63270",
+    "RGB": [
+      230,
+      50,
+      112
+    ],
+    "HSV": [
+      339,
+      78,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2115",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D9225D",
+    "RGB": [
+      217,
+      34,
+      93
+    ],
+    "HSV": [
+      341,
+      84,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "3115",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C81B45",
+    "RGB": [
+      200,
+      27,
+      69
+    ],
+    "HSV": [
+      345,
+      87,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "203",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EE68A4",
+    "RGB": [
+      238,
+      104,
+      164
+    ],
+    "HSV": [
+      333,
+      56,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "204",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#ED579E",
+    "RGB": [
+      237,
+      87,
+      158
+    ],
+    "HSV": [
+      332,
+      63,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "205A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E8427A",
+    "RGB": [
+      232,
+      66,
+      122
+    ],
+    "HSV": [
+      340,
+      72,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "240",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CF2448",
+    "RGB": [
+      207,
+      36,
+      72
+    ],
+    "HSV": [
+      347,
+      83,
+      81
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "241A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B0202F",
+    "RGB": [
+      176,
+      32,
+      47
+    ],
+    "HSV": [
+      354,
+      82,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "1241",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AA163C",
+    "RGB": [
+      170,
+      22,
+      60
+    ],
+    "HSV": [
+      345,
+      87,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "242",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#921B36",
+    "RGB": [
+      146,
+      27,
+      54
+    ],
+    "HSV": [
+      346,
+      82,
+      57
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2241",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#89212B",
+    "RGB": [
+      137,
+      33,
+      43
+    ],
+    "HSV": [
+      354,
+      76,
+      54
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "245",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#611921",
+    "RGB": [
+      97,
+      25,
+      33
+    ],
+    "HSV": [
+      353,
+      74,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2245",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#711331",
+    "RGB": [
+      113,
+      19,
+      49
+    ],
+    "HSV": [
+      341,
+      83,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "246",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6B1828",
+    "RGB": [
+      107,
+      24,
+      40
+    ],
+    "HSV": [
+      348,
+      78,
+      42
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "247",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#351D21",
+    "RGB": [
+      53,
+      29,
+      33
+    ],
+    "HSV": [
+      350,
+      45,
+      21
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "499",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F1A8D0",
+    "RGB": [
+      241,
+      168,
+      208
+    ],
+    "HSV": [
+      327,
+      30,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "501",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#ED8BC4",
+    "RGB": [
+      237,
+      139,
+      196
+    ],
+    "HSV": [
+      325,
+      41,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "502",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E45BAB",
+    "RGB": [
+      228,
+      91,
+      171
+    ],
+    "HSV": [
+      325,
+      60,
+      89
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "503",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D33B92",
+    "RGB": [
+      211,
+      59,
+      146
+    ],
+    "HSV": [
+      326,
+      72,
+      83
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "504",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D73386",
+    "RGB": [
+      215,
+      51,
+      134
+    ],
+    "HSV": [
+      330,
+      76,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "505A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CD2C71",
+    "RGB": [
+      205,
+      44,
+      113
+    ],
+    "HSV": [
+      334,
+      79,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "506",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B91D58",
+    "RGB": [
+      185,
+      29,
+      88
+    ],
+    "HSV": [
+      337,
+      84,
+      73
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2480",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EFB7D9",
+    "RGB": [
+      239,
+      183,
+      217
+    ],
+    "HSV": [
+      324,
+      23,
+      94
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "481A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EDB3D7",
+    "RGB": [
+      237,
+      179,
+      215
+    ],
+    "HSV": [
+      323,
+      24,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "482",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D677B9",
+    "RGB": [
+      214,
+      119,
+      185
+    ],
+    "HSV": [
+      318,
+      44,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "483",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BC4A9B",
+    "RGB": [
+      188,
+      74,
+      155
+    ],
+    "HSV": [
+      317,
+      61,
+      74
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "484A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A63C8A",
+    "RGB": [
+      166,
+      60,
+      138
+    ],
+    "HSV": [
+      316,
+      64,
+      65
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "485A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9E2679",
+    "RGB": [
+      158,
+      38,
+      121
+    ],
+    "HSV": [
+      319,
+      76,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "486",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#802064",
+    "RGB": [
+      128,
+      32,
+      100
+    ],
+    "HSV": [
+      318,
+      75,
+      50
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "220",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F7DBE2",
+    "RGB": [
+      247,
+      219,
+      226
+    ],
+    "HSV": [
+      345,
+      11,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "221",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F4C1D9",
+    "RGB": [
+      244,
+      193,
+      217
+    ],
+    "HSV": [
+      332,
+      21,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2221",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E79DB9",
+    "RGB": [
+      231,
+      157,
+      185
+    ],
+    "HSV": [
+      337,
+      32,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "222",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DC80AC",
+    "RGB": [
+      220,
+      128,
+      172
+    ],
+    "HSV": [
+      331,
+      42,
+      86
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2222",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C96899",
+    "RGB": [
+      201,
+      104,
+      153
+    ],
+    "HSV": [
+      330,
+      48,
+      79
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "223",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AA427B",
+    "RGB": [
+      170,
+      66,
+      123
+    ],
+    "HSV": [
+      327,
+      61,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2223",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9E3061",
+    "RGB": [
+      158,
+      48,
+      97
+    ],
+    "HSV": [
+      333,
+      70,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "224",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#91375B",
+    "RGB": [
+      145,
+      55,
+      91
+    ],
+    "HSV": [
+      336,
+      62,
+      57
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2224",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#841F4A",
+    "RGB": [
+      132,
+      31,
+      74
+    ],
+    "HSV": [
+      334,
+      77,
+      52
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "225",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5A1526",
+    "RGB": [
+      90,
+      21,
+      38
+    ],
+    "HSV": [
+      345,
+      77,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "226",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F1426",
+    "RGB": [
+      79,
+      20,
+      38
+    ],
+    "HSV": [
+      342,
+      75,
+      31
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "811",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E8ACBE",
+    "RGB": [
+      232,
+      172,
+      190
+    ],
+    "HSV": [
+      342,
+      26,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "812",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DD90A5",
+    "RGB": [
+      221,
+      144,
+      165
+    ],
+    "HSV": [
+      344,
+      35,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "813",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CE6B8B",
+    "RGB": [
+      206,
+      107,
+      139
+    ],
+    "HSV": [
+      341,
+      48,
+      81
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "814",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BB4170",
+    "RGB": [
+      187,
+      65,
+      112
+    ],
+    "HSV": [
+      337,
+      65,
+      73
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "815",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A42F5B",
+    "RGB": [
+      164,
+      47,
+      91
+    ],
+    "HSV": [
+      337,
+      71,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "816A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9C2B54",
+    "RGB": [
+      156,
+      43,
+      84
+    ],
+    "HSV": [
+      338,
+      72,
+      61
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "431",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DAA5B7",
+    "RGB": [
+      218,
+      165,
+      183
+    ],
+    "HSV": [
+      340,
+      24,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "432A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D69FB7",
+    "RGB": [
+      214,
+      159,
+      183
+    ],
+    "HSV": [
+      334,
+      26,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "433",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B16D8A",
+    "RGB": [
+      177,
+      109,
+      138
+    ],
+    "HSV": [
+      334,
+      38,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "434",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8E4E61",
+    "RGB": [
+      142,
+      78,
+      97
+    ],
+    "HSV": [
+      342,
+      45,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "435",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#713B48",
+    "RGB": [
+      113,
+      59,
+      72
+    ],
+    "HSV": [
+      346,
+      48,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "437",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#651A28",
+    "RGB": [
+      101,
+      26,
+      40
+    ],
+    "HSV": [
+      349,
+      74,
+      40
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "232",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DAB6B7",
+    "RGB": [
+      218,
+      182,
+      183
+    ],
+    "HSV": [
+      358,
+      17,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "233",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CEA7AE",
+    "RGB": [
+      206,
+      167,
+      174
+    ],
+    "HSV": [
+      349,
+      19,
+      81
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "234",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B08294",
+    "RGB": [
+      176,
+      130,
+      148
+    ],
+    "HSV": [
+      337,
+      26,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "235",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8F6672",
+    "RGB": [
+      143,
+      102,
+      114
+    ],
+    "HSV": [
+      342,
+      29,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "236",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7C474F",
+    "RGB": [
+      124,
+      71,
+      79
+    ],
+    "HSV": [
+      351,
+      43,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "3651",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EBC7C7",
+    "RGB": [
+      235,
+      199,
+      199
+    ],
+    "HSV": [
+      0,
+      15,
+      92
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "652",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D296A3",
+    "RGB": [
+      210,
+      150,
+      163
+    ],
+    "HSV": [
+      347,
+      29,
+      82
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2652",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CC7F91",
+    "RGB": [
+      204,
+      127,
+      145
+    ],
+    "HSV": [
+      346,
+      38,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "653",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AA6074",
+    "RGB": [
+      170,
+      96,
+      116
+    ],
+    "HSV": [
+      344,
+      44,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "654",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#99465A",
+    "RGB": [
+      153,
+      70,
+      90
+    ],
+    "HSV": [
+      346,
+      54,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "655",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#75262F",
+    "RGB": [
+      117,
+      38,
+      47
+    ],
+    "HSV": [
+      353,
+      68,
+      46
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "656",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#522022",
+    "RGB": [
+      82,
+      32,
+      34
+    ],
+    "HSV": [
+      358,
+      61,
+      32
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "101",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F9E9DE",
+    "RGB": [
+      249,
+      233,
+      222
+    ],
+    "HSV": [
+      24,
+      11,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "102",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F8DFD7",
+    "RGB": [
+      248,
+      223,
+      215
+    ],
+    "HSV": [
+      15,
+      13,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "103A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F4C7C9",
+    "RGB": [
+      244,
+      199,
+      201
+    ],
+    "HSV": [
+      357,
+      18,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "104",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EFA3AF",
+    "RGB": [
+      239,
+      163,
+      175
+    ],
+    "HSV": [
+      351,
+      32,
+      94
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "105",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E57F95",
+    "RGB": [
+      229,
+      127,
+      149
+    ],
+    "HSV": [
+      347,
+      45,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "1105",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E06080",
+    "RGB": [
+      224,
+      96,
+      128
+    ],
+    "HSV": [
+      345,
+      57,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2105",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DB4F6E",
+    "RGB": [
+      219,
+      79,
+      110
+    ],
+    "HSV": [
+      347,
+      64,
+      86
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "106",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BE374C",
+    "RGB": [
+      190,
+      55,
+      76
+    ],
+    "HSV": [
+      351,
+      71,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "107",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B32B41",
+    "RGB": [
+      179,
+      43,
+      65
+    ],
+    "HSV": [
+      350,
+      76,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2242",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B62D53",
+    "RGB": [
+      182,
+      45,
+      83
+    ],
+    "HSV": [
+      343,
+      75,
+      71
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "108",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A82231",
+    "RGB": [
+      168,
+      34,
+      49
+    ],
+    "HSV": [
+      353,
+      80,
+      66
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "4300",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#71202B",
+    "RGB": [
+      113,
+      32,
+      43
+    ],
+    "HSV": [
+      352,
+      72,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "111",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F9E5E9",
+    "RGB": [
+      249,
+      229,
+      233
+    ],
+    "HSV": [
+      348,
+      8,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "832",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F8D2DD",
+    "RGB": [
+      248,
+      210,
+      221
+    ],
+    "HSV": [
+      343,
+      15,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "833",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F4A5BC",
+    "RGB": [
+      244,
+      165,
+      188
+    ],
+    "HSV": [
+      343,
+      32,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "834A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DB6684",
+    "RGB": [
+      219,
+      102,
+      132
+    ],
+    "HSV": [
+      345,
+      53,
+      86
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2835",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D34668",
+    "RGB": [
+      211,
+      70,
+      104
+    ],
+    "HSV": [
+      346,
+      67,
+      83
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "206",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E02C4F",
+    "RGB": [
+      224,
+      44,
+      79
+    ],
+    "HSV": [
+      348,
+      80,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "836",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E95359",
+    "RGB": [
+      233,
+      83,
+      89
+    ],
+    "HSV": [
+      358,
+      64,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "838",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E22C33",
+    "RGB": [
+      226,
+      44,
+      51
+    ],
+    "HSV": [
+      358,
+      81,
+      89
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "341",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6CCA7",
+    "RGB": [
+      246,
+      204,
+      167
+    ],
+    "HSV": [
+      28,
+      32,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2341",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EC916F",
+    "RGB": [
+      236,
+      145,
+      111
+    ],
+    "HSV": [
+      16,
+      53,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "342",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E66A5A",
+    "RGB": [
+      230,
+      106,
+      90
+    ],
+    "HSV": [
+      7,
+      61,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "343",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E24945",
+    "RGB": [
+      226,
+      73,
+      69
+    ],
+    "HSV": [
+      2,
+      69,
+      89
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2343",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DD3B3C",
+    "RGB": [
+      221,
+      59,
+      60
+    ],
+    "HSV": [
+      360,
+      73,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "344",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CA2D32",
+    "RGB": [
+      202,
+      45,
+      50
+    ],
+    "HSV": [
+      358,
+      78,
+      79
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "345",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B6232A",
+    "RGB": [
+      182,
+      35,
+      42
+    ],
+    "HSV": [
+      357,
+      81,
+      71
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "346",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AE2229",
+    "RGB": [
+      174,
+      34,
+      41
+    ],
+    "HSV": [
+      357,
+      80,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "798",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DD1F2C",
+    "RGB": [
+      221,
+      31,
+      44
+    ],
+    "HSV": [
+      356,
+      86,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "800",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C02129",
+    "RGB": [
+      192,
+      33,
+      41
+    ],
+    "HSV": [
+      357,
+      83,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "851",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F0B4AB",
+    "RGB": [
+      240,
+      180,
+      171
+    ],
+    "HSV": [
+      8,
+      29,
+      94
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "852",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FA978F",
+    "RGB": [
+      250,
+      151,
+      143
+    ],
+    "HSV": [
+      4,
+      43,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "853",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DF726A",
+    "RGB": [
+      223,
+      114,
+      106
+    ],
+    "HSV": [
+      4,
+      52,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "854",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D65650",
+    "RGB": [
+      214,
+      86,
+      80
+    ],
+    "HSV": [
+      3,
+      63,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "855",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BE3B39",
+    "RGB": [
+      190,
+      59,
+      57
+    ],
+    "HSV": [
+      1,
+      70,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "857",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B82931",
+    "RGB": [
+      184,
+      41,
+      49
+    ],
+    "HSV": [
+      357,
+      78,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "858",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A4232A",
+    "RGB": [
+      164,
+      35,
+      42
+    ],
+    "HSV": [
+      357,
+      79,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "461",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E1A29A",
+    "RGB": [
+      225,
+      162,
+      154
+    ],
+    "HSV": [
+      7,
+      32,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "462",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D28984",
+    "RGB": [
+      210,
+      137,
+      132
+    ],
+    "HSV": [
+      4,
+      37,
+      82
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "463",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BF706B",
+    "RGB": [
+      191,
+      112,
+      107
+    ],
+    "HSV": [
+      4,
+      44,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "464",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AE534F",
+    "RGB": [
+      174,
+      83,
+      79
+    ],
+    "HSV": [
+      3,
+      55,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "465",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9E3F3D",
+    "RGB": [
+      158,
+      63,
+      61
+    ],
+    "HSV": [
+      1,
+      61,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "466",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8F3234",
+    "RGB": [
+      143,
+      50,
+      52
+    ],
+    "HSV": [
+      359,
+      65,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "467",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#792224",
+    "RGB": [
+      121,
+      34,
+      36
+    ],
+    "HSV": [
+      359,
+      72,
+      47
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2001",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E82670",
+    "RGB": [
+      232,
+      38,
+      112
+    ],
+    "HSV": [
+      337,
+      84,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2002",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B32370",
+    "RGB": [
+      179,
+      35,
+      112
+    ],
+    "HSV": [
+      328,
+      80,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2003",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7B235F",
+    "RGB": [
+      123,
+      35,
+      95
+    ],
+    "HSV": [
+      319,
+      72,
+      48
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "185A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F5BD99",
+    "RGB": [
+      245,
+      189,
+      153
+    ],
+    "HSV": [
+      23,
+      38,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2185",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#ECA189",
+    "RGB": [
+      236,
+      161,
+      137
+    ],
+    "HSV": [
+      15,
+      42,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "3185",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E88F75",
+    "RGB": [
+      232,
+      143,
+      117
+    ],
+    "HSV": [
+      14,
+      50,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "186",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DA6746",
+    "RGB": [
+      218,
+      103,
+      70
+    ],
+    "HSV": [
+      13,
+      68,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2186",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CB5435",
+    "RGB": [
+      203,
+      84,
+      53
+    ],
+    "HSV": [
+      12,
+      74,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "187",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C33F2C",
+    "RGB": [
+      195,
+      63,
+      44
+    ],
+    "HSV": [
+      8,
+      77,
+      76
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "188",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A43328",
+    "RGB": [
+      164,
+      51,
+      40
+    ],
+    "HSV": [
+      5,
+      76,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "402",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6C28B",
+    "RGB": [
+      246,
+      194,
+      139
+    ],
+    "HSV": [
+      31,
+      43,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "1402",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F5A966",
+    "RGB": [
+      245,
+      169,
+      102
+    ],
+    "HSV": [
+      28,
+      58,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2402",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F29561",
+    "RGB": [
+      242,
+      149,
+      97
+    ],
+    "HSV": [
+      22,
+      60,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "403",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EF7447",
+    "RGB": [
+      239,
+      116,
+      71
+    ],
+    "HSV": [
+      16,
+      70,
+      94
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "404",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E6532D",
+    "RGB": [
+      230,
+      83,
+      45
+    ],
+    "HSV": [
+      12,
+      80,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "405",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DA4125",
+    "RGB": [
+      218,
+      65,
+      37
+    ],
+    "HSV": [
+      9,
+      83,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "406",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C03627",
+    "RGB": [
+      192,
+      54,
+      39
+    ],
+    "HSV": [
+      6,
+      80,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "440",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6A6A1",
+    "RGB": [
+      246,
+      166,
+      161
+    ],
+    "HSV": [
+      4,
+      35,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "441",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F28981",
+    "RGB": [
+      242,
+      137,
+      129
+    ],
+    "HSV": [
+      4,
+      47,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "443",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F06051",
+    "RGB": [
+      240,
+      96,
+      81
+    ],
+    "HSV": [
+      6,
+      66,
+      94
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "444A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F05144",
+    "RGB": [
+      240,
+      81,
+      68
+    ],
+    "HSV": [
+      5,
+      72,
+      94
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "445A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EC3F35",
+    "RGB": [
+      236,
+      63,
+      53
+    ],
+    "HSV": [
+      3,
+      78,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "340",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F5BD9A",
+    "RGB": [
+      245,
+      189,
+      154
+    ],
+    "HSV": [
+      23,
+      37,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "750A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6AC89",
+    "RGB": [
+      246,
+      172,
+      137
+    ],
+    "HSV": [
+      19,
+      44,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "752",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F5A080",
+    "RGB": [
+      245,
+      160,
+      128
+    ],
+    "HSV": [
+      16,
+      48,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "753",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F1734D",
+    "RGB": [
+      241,
+      115,
+      77
+    ],
+    "HSV": [
+      14,
+      68,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "754",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#ED5031",
+    "RGB": [
+      237,
+      80,
+      49
+    ],
+    "HSV": [
+      10,
+      79,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "757",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EC392B",
+    "RGB": [
+      236,
+      57,
+      43
+    ],
+    "HSV": [
+      4,
+      82,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "758",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E82D2A",
+    "RGB": [
+      232,
+      45,
+      42
+    ],
+    "HSV": [
+      1,
+      82,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "140",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FAF3D5",
+    "RGB": [
+      250,
+      243,
+      213
+    ],
+    "HSV": [
+      49,
+      15,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "141",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FBF6C7",
+    "RGB": [
+      251,
+      246,
+      199
+    ],
+    "HSV": [
+      54,
+      21,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "142",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FBED9A",
+    "RGB": [
+      251,
+      237,
+      154
+    ],
+    "HSV": [
+      51,
+      39,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "143",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FAE376",
+    "RGB": [
+      250,
+      227,
+      118
+    ],
+    "HSV": [
+      50,
+      53,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "144A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F8C354",
+    "RGB": [
+      248,
+      195,
+      84
+    ],
+    "HSV": [
+      41,
+      66,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "145",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6A73A",
+    "RGB": [
+      246,
+      167,
+      58
+    ],
+    "HSV": [
+      35,
+      76,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "146",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F27E36",
+    "RGB": [
+      242,
+      126,
+      54
+    ],
+    "HSV": [
+      23,
+      78,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "147",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EE6B2F",
+    "RGB": [
+      238,
+      107,
+      47
+    ],
+    "HSV": [
+      19,
+      80,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "297",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FAF5B0",
+    "RGB": [
+      250,
+      245,
+      176
+    ],
+    "HSV": [
+      56,
+      30,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2297",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FAF585",
+    "RGB": [
+      250,
+      245,
+      133
+    ],
+    "HSV": [
+      57,
+      47,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "300",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FAEC4D",
+    "RGB": [
+      250,
+      236,
+      77
+    ],
+    "HSV": [
+      55,
+      69,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "301",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FBE339",
+    "RGB": [
+      251,
+      227,
+      57
+    ],
+    "HSV": [
+      53,
+      77,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2301",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FBD821",
+    "RGB": [
+      251,
+      216,
+      33
+    ],
+    "HSV": [
+      50,
+      87,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "302",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FAD532",
+    "RGB": [
+      250,
+      213,
+      50
+    ],
+    "HSV": [
+      49,
+      80,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "3297",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FBF8A4",
+    "RGB": [
+      251,
+      248,
+      164
+    ],
+    "HSV": [
+      58,
+      35,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "298",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FBF183",
+    "RGB": [
+      251,
+      241,
+      131
+    ],
+    "HSV": [
+      55,
+      48,
+      98
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "299",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6EF72",
+    "RGB": [
+      246,
+      239,
+      114
+    ],
+    "HSV": [
+      57,
+      54,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2299",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6F054",
+    "RGB": [
+      246,
+      240,
+      84
+    ],
+    "HSV": [
+      58,
+      66,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "3299",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F8E524",
+    "RGB": [
+      248,
+      229,
+      36
+    ],
+    "HSV": [
+      55,
+      85,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "700",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F6E47B",
+    "RGB": [
+      246,
+      228,
+      123
+    ],
+    "HSV": [
+      51,
+      50,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "701",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F4D96A",
+    "RGB": [
+      244,
+      217,
+      106
+    ],
+    "HSV": [
+      48,
+      57,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "702",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EBC546",
+    "RGB": [
+      235,
+      197,
+      70
+    ],
+    "HSV": [
+      46,
+      70,
+      92
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2702",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D89B31",
+    "RGB": [
+      216,
+      155,
+      49
+    ],
+    "HSV": [
+      38,
+      77,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "703",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C68030",
+    "RGB": [
+      198,
+      128,
+      48
+    ],
+    "HSV": [
+      32,
+      76,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "704",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C1782B",
+    "RGB": [
+      193,
+      120,
+      43
+    ],
+    "HSV": [
+      31,
+      78,
+      76
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "705A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AE6F29",
+    "RGB": [
+      174,
+      111,
+      41
+    ],
+    "HSV": [
+      32,
+      76,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "706",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9A5D26",
+    "RGB": [
+      154,
+      93,
+      38
+    ],
+    "HSV": [
+      28,
+      75,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "572",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E7CB98",
+    "RGB": [
+      231,
+      203,
+      152
+    ],
+    "HSV": [
+      39,
+      34,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "573",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CDAA6D",
+    "RGB": [
+      205,
+      170,
+      109
+    ],
+    "HSV": [
+      38,
+      47,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2573",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D5A354",
+    "RGB": [
+      213,
+      163,
+      84
+    ],
+    "HSV": [
+      37,
+      61,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "574",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C5984B",
+    "RGB": [
+      197,
+      152,
+      75
+    ],
+    "HSV": [
+      38,
+      62,
+      77
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "575A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B28034",
+    "RGB": [
+      178,
+      128,
+      52
+    ],
+    "HSV": [
+      36,
+      71,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "576",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8B6129",
+    "RGB": [
+      139,
+      97,
+      41
+    ],
+    "HSV": [
+      34,
+      71,
+      55
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "577A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#855B2A",
+    "RGB": [
+      133,
+      91,
+      42
+    ],
+    "HSV": [
+      32,
+      68,
+      52
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "578",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#714324",
+    "RGB": [
+      113,
+      67,
+      36
+    ],
+    "HSV": [
+      24,
+      68,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "771",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C8B060",
+    "RGB": [
+      200,
+      176,
+      96
+    ],
+    "HSV": [
+      46,
+      52,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "772",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B89B46",
+    "RGB": [
+      184,
+      155,
+      70
+    ],
+    "HSV": [
+      45,
+      62,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "773",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A38B35",
+    "RGB": [
+      163,
+      139,
+      53
+    ],
+    "HSV": [
+      47,
+      67,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "774",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#876C2B",
+    "RGB": [
+      135,
+      108,
+      43
+    ],
+    "HSV": [
+      42,
+      68,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "775A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#725727",
+    "RGB": [
+      114,
+      87,
+      39
+    ],
+    "HSV": [
+      38,
+      66,
+      45
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "776",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#635025",
+    "RGB": [
+      99,
+      80,
+      37
+    ],
+    "HSV": [
+      42,
+      63,
+      39
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2004",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DAC654",
+    "RGB": [
+      218,
+      198,
+      84
+    ],
+    "HSV": [
+      51,
+      61,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2005",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C6B244",
+    "RGB": [
+      198,
+      178,
+      68
+    ],
+    "HSV": [
+      51,
+      66,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2006",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C5AA33",
+    "RGB": [
+      197,
+      170,
+      51
+    ],
+    "HSV": [
+      49,
+      74,
+      77
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2007",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D8E266",
+    "RGB": [
+      216,
+      226,
+      102
+    ],
+    "HSV": [
+      65,
+      55,
+      89
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2008",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E3E73F",
+    "RGB": [
+      227,
+      231,
+      63
+    ],
+    "HSV": [
+      61,
+      73,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2009",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B4AE3F",
+    "RGB": [
+      180,
+      174,
+      63
+    ],
+    "HSV": [
+      57,
+      65,
+      71
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "820",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D7D27F",
+    "RGB": [
+      215,
+      210,
+      127
+    ],
+    "HSV": [
+      57,
+      41,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "821",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C0B65B",
+    "RGB": [
+      192,
+      182,
+      91
+    ],
+    "HSV": [
+      54,
+      53,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "822",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A59A3E",
+    "RGB": [
+      165,
+      154,
+      62
+    ],
+    "HSV": [
+      54,
+      62,
+      65
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "823",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#888133",
+    "RGB": [
+      136,
+      129,
+      51
+    ],
+    "HSV": [
+      55,
+      63,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "825",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6F6B2C",
+    "RGB": [
+      111,
+      107,
+      44
+    ],
+    "HSV": [
+      56,
+      60,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "826",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#535227",
+    "RGB": [
+      83,
+      82,
+      39
+    ],
+    "HSV": [
+      59,
+      53,
+      33
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "671",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B2AF50",
+    "RGB": [
+      178,
+      175,
+      80
+    ],
+    "HSV": [
+      58,
+      55,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "673",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#858F37",
+    "RGB": [
+      133,
+      143,
+      55
+    ],
+    "HSV": [
+      67,
+      62,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "674",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#666D2D",
+    "RGB": [
+      102,
+      109,
+      45
+    ],
+    "HSV": [
+      67,
+      59,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "675A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5B5F2A",
+    "RGB": [
+      91,
+      95,
+      42
+    ],
+    "HSV": [
+      65,
+      56,
+      37
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "676",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4A4F2B",
+    "RGB": [
+      74,
+      79,
+      43
+    ],
+    "HSV": [
+      68,
+      46,
+      31
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "681",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DEE0B9",
+    "RGB": [
+      222,
+      224,
+      185
+    ],
+    "HSV": [
+      63,
+      17,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "682",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D2D5A1",
+    "RGB": [
+      210,
+      213,
+      161
+    ],
+    "HSV": [
+      63,
+      24,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "683",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#ABAE71",
+    "RGB": [
+      171,
+      174,
+      113
+    ],
+    "HSV": [
+      63,
+      35,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "684",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#818751",
+    "RGB": [
+      129,
+      135,
+      81
+    ],
+    "HSV": [
+      67,
+      40,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "685",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5E6233",
+    "RGB": [
+      94,
+      98,
+      51
+    ],
+    "HSV": [
+      65,
+      48,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "686",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4A4C26",
+    "RGB": [
+      74,
+      76,
+      38
+    ],
+    "HSV": [
+      63,
+      50,
+      30
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "687",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#36381E",
+    "RGB": [
+      54,
+      56,
+      30
+    ],
+    "HSV": [
+      65,
+      46,
+      22
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "921",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B9C8A3",
+    "RGB": [
+      185,
+      200,
+      163
+    ],
+    "HSV": [
+      84,
+      19,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "922",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A7B88E",
+    "RGB": [
+      167,
+      184,
+      142
+    ],
+    "HSV": [
+      84,
+      23,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "923",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#85996C",
+    "RGB": [
+      133,
+      153,
+      108
+    ],
+    "HSV": [
+      87,
+      29,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "924",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#697E52",
+    "RGB": [
+      105,
+      126,
+      82
+    ],
+    "HSV": [
+      89,
+      35,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2924",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#597037",
+    "RGB": [
+      89,
+      112,
+      55
+    ],
+    "HSV": [
+      84,
+      51,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "925",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#485930",
+    "RGB": [
+      72,
+      89,
+      48
+    ],
+    "HSV": [
+      85,
+      46,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "926",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#344223",
+    "RGB": [
+      52,
+      66,
+      35
+    ],
+    "HSV": [
+      87,
+      47,
+      26
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "927",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2D301B",
+    "RGB": [
+      45,
+      48,
+      27
+    ],
+    "HSV": [
+      69,
+      44,
+      19
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "629",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CED78E",
+    "RGB": [
+      206,
+      215,
+      142
+    ],
+    "HSV": [
+      67,
+      34,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "630A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B8CC78",
+    "RGB": [
+      184,
+      204,
+      120
+    ],
+    "HSV": [
+      74,
+      41,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "631",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8EAA4B",
+    "RGB": [
+      142,
+      170,
+      75
+    ],
+    "HSV": [
+      78,
+      56,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2631",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7A9F3D",
+    "RGB": [
+      122,
+      159,
+      61
+    ],
+    "HSV": [
+      83,
+      62,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "632",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#688E38",
+    "RGB": [
+      104,
+      142,
+      56
+    ],
+    "HSV": [
+      87,
+      61,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "633",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#517734",
+    "RGB": [
+      81,
+      119,
+      52
+    ],
+    "HSV": [
+      94,
+      56,
+      47
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "634",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#435E2E",
+    "RGB": [
+      67,
+      94,
+      46
+    ],
+    "HSV": [
+      94,
+      51,
+      37
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "635A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#395029",
+    "RGB": [
+      57,
+      80,
+      41
+    ],
+    "HSV": [
+      95,
+      49,
+      31
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "636",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#324324",
+    "RGB": [
+      50,
+      67,
+      36
+    ],
+    "HSV": [
+      93,
+      46,
+      26
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "637",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2F3F23",
+    "RGB": [
+      47,
+      63,
+      35
+    ],
+    "HSV": [
+      94,
+      44,
+      25
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "116",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D1DD8C",
+    "RGB": [
+      209,
+      221,
+      140
+    ],
+    "HSV": [
+      69,
+      37,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "117",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AABE69",
+    "RGB": [
+      170,
+      190,
+      105
+    ],
+    "HSV": [
+      74,
+      45,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2117",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#99B060",
+    "RGB": [
+      153,
+      176,
+      96
+    ],
+    "HSV": [
+      77,
+      45,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "118",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#769E45",
+    "RGB": [
+      118,
+      158,
+      69
+    ],
+    "HSV": [
+      87,
+      56,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2118",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6B8F42",
+    "RGB": [
+      107,
+      143,
+      66
+    ],
+    "HSV": [
+      88,
+      54,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "119",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#557535",
+    "RGB": [
+      85,
+      117,
+      53
+    ],
+    "HSV": [
+      90,
+      55,
+      46
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "120",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#416E36",
+    "RGB": [
+      65,
+      110,
+      54
+    ],
+    "HSV": [
+      108,
+      51,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2120",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#325930",
+    "RGB": [
+      50,
+      89,
+      48
+    ],
+    "HSV": [
+      117,
+      46,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "121",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#254628",
+    "RGB": [
+      37,
+      70,
+      40
+    ],
+    "HSV": [
+      125,
+      47,
+      27
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "122",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#1C2C1B",
+    "RGB": [
+      28,
+      44,
+      27
+    ],
+    "HSV": [
+      116,
+      39,
+      17
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "323",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CCE08B",
+    "RGB": [
+      204,
+      224,
+      139
+    ],
+    "HSV": [
+      74,
+      38,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2323",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BFD771",
+    "RGB": [
+      191,
+      215,
+      113
+    ],
+    "HSV": [
+      74,
+      47,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "324",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9CC448",
+    "RGB": [
+      156,
+      196,
+      72
+    ],
+    "HSV": [
+      79,
+      63,
+      77
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "325A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7DAC3E",
+    "RGB": [
+      125,
+      172,
+      62
+    ],
+    "HSV": [
+      86,
+      64,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "326",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#609C37",
+    "RGB": [
+      96,
+      156,
+      55
+    ],
+    "HSV": [
+      96,
+      65,
+      61
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "327",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4C8738",
+    "RGB": [
+      76,
+      135,
+      56
+    ],
+    "HSV": [
+      105,
+      59,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "328",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3B6C36",
+    "RGB": [
+      59,
+      108,
+      54
+    ],
+    "HSV": [
+      114,
+      50,
+      42
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "329",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#326132",
+    "RGB": [
+      50,
+      97,
+      50
+    ],
+    "HSV": [
+      120,
+      48,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "269",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C2DE70",
+    "RGB": [
+      194,
+      222,
+      112
+    ],
+    "HSV": [
+      75,
+      50,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "270",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AFD762",
+    "RGB": [
+      175,
+      215,
+      98
+    ],
+    "HSV": [
+      81,
+      54,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "271",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8DC64E",
+    "RGB": [
+      141,
+      198,
+      78
+    ],
+    "HSV": [
+      89,
+      61,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "272",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#63AA44",
+    "RGB": [
+      99,
+      170,
+      68
+    ],
+    "HSV": [
+      102,
+      60,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "273",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4D983E",
+    "RGB": [
+      77,
+      152,
+      62
+    ],
+    "HSV": [
+      110,
+      59,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "274",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#40873D",
+    "RGB": [
+      64,
+      135,
+      61
+    ],
+    "HSV": [
+      118,
+      55,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "275",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#377E3E",
+    "RGB": [
+      55,
+      126,
+      62
+    ],
+    "HSV": [
+      126,
+      56,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "276",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#31743D",
+    "RGB": [
+      49,
+      116,
+      61
+    ],
+    "HSV": [
+      131,
+      58,
+      45
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "4905",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#284D2C",
+    "RGB": [
+      40,
+      77,
+      44
+    ],
+    "HSV": [
+      126,
+      48,
+      30
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "316A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A9CBA8",
+    "RGB": [
+      169,
+      203,
+      168
+    ],
+    "HSV": [
+      118,
+      17,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "317",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8FB98E",
+    "RGB": [
+      143,
+      185,
+      142
+    ],
+    "HSV": [
+      119,
+      23,
+      73
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2317",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#79AB7F",
+    "RGB": [
+      121,
+      171,
+      127
+    ],
+    "HSV": [
+      127,
+      29,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "318",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#659971",
+    "RGB": [
+      101,
+      153,
+      113
+    ],
+    "HSV": [
+      134,
+      34,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "319",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#45754A",
+    "RGB": [
+      69,
+      117,
+      74
+    ],
+    "HSV": [
+      126,
+      41,
+      46
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2319",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#376541",
+    "RGB": [
+      55,
+      101,
+      65
+    ],
+    "HSV": [
+      133,
+      46,
+      40
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "320",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2D5333",
+    "RGB": [
+      45,
+      83,
+      51
+    ],
+    "HSV": [
+      129,
+      46,
+      33
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "533A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A6C49E",
+    "RGB": [
+      166,
+      196,
+      158
+    ],
+    "HSV": [
+      107,
+      19,
+      77
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "534A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#89A98C",
+    "RGB": [
+      137,
+      169,
+      140
+    ],
+    "HSV": [
+      126,
+      19,
+      66
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "535",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#608C77",
+    "RGB": [
+      96,
+      140,
+      119
+    ],
+    "HSV": [
+      151,
+      31,
+      55
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2535",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#588873",
+    "RGB": [
+      88,
+      136,
+      115
+    ],
+    "HSV": [
+      154,
+      35,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "536A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#466457",
+    "RGB": [
+      70,
+      100,
+      87
+    ],
+    "HSV": [
+      154,
+      30,
+      39
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2536A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2F5A44",
+    "RGB": [
+      47,
+      90,
+      68
+    ],
+    "HSV": [
+      149,
+      48,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "537",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#214331",
+    "RGB": [
+      33,
+      67,
+      49
+    ],
+    "HSV": [
+      148,
+      51,
+      26
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "538",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#26362C",
+    "RGB": [
+      38,
+      54,
+      44
+    ],
+    "HSV": [
+      143,
+      30,
+      21
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "333",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B3DDB3",
+    "RGB": [
+      179,
+      221,
+      179
+    ],
+    "HSV": [
+      120,
+      19,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "334",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8BC895",
+    "RGB": [
+      139,
+      200,
+      149
+    ],
+    "HSV": [
+      130,
+      31,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "335",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5EAD6D",
+    "RGB": [
+      94,
+      173,
+      109
+    ],
+    "HSV": [
+      131,
+      46,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "336",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#56A265",
+    "RGB": [
+      86,
+      162,
+      101
+    ],
+    "HSV": [
+      132,
+      47,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "337",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#418751",
+    "RGB": [
+      65,
+      135,
+      81
+    ],
+    "HSV": [
+      134,
+      52,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "338",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2A6337",
+    "RGB": [
+      42,
+      99,
+      55
+    ],
+    "HSV": [
+      134,
+      58,
+      39
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "842",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9DD5B7",
+    "RGB": [
+      157,
+      213,
+      183
+    ],
+    "HSV": [
+      148,
+      26,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "843",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#73BE9C",
+    "RGB": [
+      115,
+      190,
+      156
+    ],
+    "HSV": [
+      153,
+      39,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "844",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#54A181",
+    "RGB": [
+      84,
+      161,
+      129
+    ],
+    "HSV": [
+      155,
+      48,
+      63
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "845",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3C7E61",
+    "RGB": [
+      60,
+      126,
+      97
+    ],
+    "HSV": [
+      154,
+      52,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "846",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#306753",
+    "RGB": [
+      48,
+      103,
+      83
+    ],
+    "HSV": [
+      158,
+      53,
+      40
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "896",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A9DBD0",
+    "RGB": [
+      169,
+      219,
+      208
+    ],
+    "HSV": [
+      167,
+      23,
+      86
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "897",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8BCDBD",
+    "RGB": [
+      139,
+      205,
+      189
+    ],
+    "HSV": [
+      165,
+      32,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "898",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#61AD9C",
+    "RGB": [
+      97,
+      173,
+      156
+    ],
+    "HSV": [
+      167,
+      44,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "899",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4D9D8B",
+    "RGB": [
+      77,
+      157,
+      139
+    ],
+    "HSV": [
+      167,
+      51,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "900",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#367B6E",
+    "RGB": [
+      54,
+      123,
+      110
+    ],
+    "HSV": [
+      169,
+      56,
+      48
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "902",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2C675D",
+    "RGB": [
+      44,
+      103,
+      93
+    ],
+    "HSV": [
+      170,
+      57,
+      40
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2010",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CCDE52",
+    "RGB": [
+      204,
+      222,
+      82
+    ],
+    "HSV": [
+      68,
+      63,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2011",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A9D150",
+    "RGB": [
+      169,
+      209,
+      80
+    ],
+    "HSV": [
+      79,
+      62,
+      82
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2012",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#75784D",
+    "RGB": [
+      117,
+      120,
+      77
+    ],
+    "HSV": [
+      64,
+      36,
+      47
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2013",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#636D34",
+    "RGB": [
+      99,
+      109,
+      52
+    ],
+    "HSV": [
+      71,
+      52,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2014",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#505C2E",
+    "RGB": [
+      80,
+      92,
+      46
+    ],
+    "HSV": [
+      76,
+      50,
+      36
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2015",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#616E53",
+    "RGB": [
+      97,
+      110,
+      83
+    ],
+    "HSV": [
+      89,
+      25,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2016",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#324227",
+    "RGB": [
+      50,
+      66,
+      39
+    ],
+    "HSV": [
+      96,
+      41,
+      26
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2211",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D8E9DF",
+    "RGB": [
+      216,
+      233,
+      223
+    ],
+    "HSV": [
+      145,
+      7,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "561",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BEE5D0",
+    "RGB": [
+      190,
+      229,
+      208
+    ],
+    "HSV": [
+      148,
+      17,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "562",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A3D1C2",
+    "RGB": [
+      163,
+      209,
+      194
+    ],
+    "HSV": [
+      160,
+      22,
+      82
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "563",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#84B9B3",
+    "RGB": [
+      132,
+      185,
+      179
+    ],
+    "HSV": [
+      173,
+      29,
+      73
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2563",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#71ADA8",
+    "RGB": [
+      113,
+      173,
+      168
+    ],
+    "HSV": [
+      175,
+      35,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "564",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5C9494",
+    "RGB": [
+      92,
+      148,
+      148
+    ],
+    "HSV": [
+      180,
+      38,
+      58
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "566",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#457A88",
+    "RGB": [
+      69,
+      122,
+      136
+    ],
+    "HSV": [
+      193,
+      49,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "980",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A7BFC0",
+    "RGB": [
+      167,
+      191,
+      192
+    ],
+    "HSV": [
+      182,
+      13,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "981A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#819FA2",
+    "RGB": [
+      129,
+      159,
+      162
+    ],
+    "HSV": [
+      185,
+      20,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2981",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#75989D",
+    "RGB": [
+      117,
+      152,
+      157
+    ],
+    "HSV": [
+      188,
+      25,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "982",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#597E89",
+    "RGB": [
+      89,
+      126,
+      137
+    ],
+    "HSV": [
+      194,
+      35,
+      54
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "983",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3C5E6A",
+    "RGB": [
+      60,
+      94,
+      106
+    ],
+    "HSV": [
+      196,
+      43,
+      42
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "984",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2B4A53",
+    "RGB": [
+      43,
+      74,
+      83
+    ],
+    "HSV": [
+      194,
+      48,
+      33
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "371",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9CC8C7",
+    "RGB": [
+      156,
+      200,
+      199
+    ],
+    "HSV": [
+      179,
+      22,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "372",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#90C6CF",
+    "RGB": [
+      144,
+      198,
+      207
+    ],
+    "HSV": [
+      189,
+      30,
+      81
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "373",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#77B8BE",
+    "RGB": [
+      119,
+      184,
+      190
+    ],
+    "HSV": [
+      185,
+      37,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "374",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5A99A6",
+    "RGB": [
+      90,
+      153,
+      166
+    ],
+    "HSV": [
+      190,
+      46,
+      65
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "375",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3D748C",
+    "RGB": [
+      61,
+      116,
+      140
+    ],
+    "HSV": [
+      198,
+      56,
+      55
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "376",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2F5C83",
+    "RGB": [
+      47,
+      92,
+      131
+    ],
+    "HSV": [
+      208,
+      64,
+      51
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "211",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E9F1EF",
+    "RGB": [
+      233,
+      241,
+      239
+    ],
+    "HSV": [
+      165,
+      3,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2251",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B9DCDD",
+    "RGB": [
+      185,
+      220,
+      221
+    ],
+    "HSV": [
+      182,
+      16,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "252",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#92C2CF",
+    "RGB": [
+      146,
+      194,
+      207
+    ],
+    "HSV": [
+      193,
+      29,
+      81
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "253",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#598FB0",
+    "RGB": [
+      89,
+      143,
+      176
+    ],
+    "HSV": [
+      203,
+      49,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2253",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5281A9",
+    "RGB": [
+      82,
+      129,
+      169
+    ],
+    "HSV": [
+      208,
+      51,
+      66
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "254",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#35588F",
+    "RGB": [
+      53,
+      88,
+      143
+    ],
+    "HSV": [
+      217,
+      63,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "730",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C0D5DE",
+    "RGB": [
+      192,
+      213,
+      222
+    ],
+    "HSV": [
+      198,
+      14,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "731",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#98B3C8",
+    "RGB": [
+      152,
+      179,
+      200
+    ],
+    "HSV": [
+      206,
+      24,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "732",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#819DBB",
+    "RGB": [
+      129,
+      157,
+      187
+    ],
+    "HSV": [
+      211,
+      31,
+      73
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "733",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5E7E9D",
+    "RGB": [
+      94,
+      126,
+      157
+    ],
+    "HSV": [
+      210,
+      40,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "734",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#465F80",
+    "RGB": [
+      70,
+      95,
+      128
+    ],
+    "HSV": [
+      214,
+      45,
+      50
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "735",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#334768",
+    "RGB": [
+      51,
+      71,
+      104
+    ],
+    "HSV": [
+      217,
+      51,
+      41
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "162A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AFC6D4",
+    "RGB": [
+      175,
+      198,
+      212
+    ],
+    "HSV": [
+      203,
+      17,
+      83
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "163",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#94B9D7",
+    "RGB": [
+      148,
+      185,
+      215
+    ],
+    "HSV": [
+      207,
+      31,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "164",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6B93BF",
+    "RGB": [
+      107,
+      147,
+      191
+    ],
+    "HSV": [
+      211,
+      44,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "165A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5774A1",
+    "RGB": [
+      87,
+      116,
+      161
+    ],
+    "HSV": [
+      216,
+      46,
+      63
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "166",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#365186",
+    "RGB": [
+      54,
+      81,
+      134
+    ],
+    "HSV": [
+      220,
+      60,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "167",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2E4277",
+    "RGB": [
+      46,
+      66,
+      119
+    ],
+    "HSV": [
+      224,
+      61,
+      47
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2167",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#363D64",
+    "RGB": [
+      54,
+      61,
+      100
+    ],
+    "HSV": [
+      231,
+      46,
+      39
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "168",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#282B54",
+    "RGB": [
+      40,
+      43,
+      84
+    ],
+    "HSV": [
+      236,
+      52,
+      33
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "169",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#1F203B",
+    "RGB": [
+      31,
+      32,
+      59
+    ],
+    "HSV": [
+      238,
+      47,
+      23
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "602",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#15192E",
+    "RGB": [
+      21,
+      25,
+      46
+    ],
+    "HSV": [
+      230,
+      54,
+      18
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "410A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DAEFF6",
+    "RGB": [
+      218,
+      239,
+      246
+    ],
+    "HSV": [
+      195,
+      11,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "411",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BDE4F2",
+    "RGB": [
+      189,
+      228,
+      242
+    ],
+    "HSV": [
+      196,
+      22,
+      95
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "412",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9BD2EE",
+    "RGB": [
+      155,
+      210,
+      238
+    ],
+    "HSV": [
+      200,
+      35,
+      93
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2412",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6CAFE0",
+    "RGB": [
+      108,
+      175,
+      224
+    ],
+    "HSV": [
+      205,
+      52,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "413",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F8BCD",
+    "RGB": [
+      79,
+      139,
+      205
+    ],
+    "HSV": [
+      211,
+      61,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "414A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3E79C1",
+    "RGB": [
+      62,
+      121,
+      193
+    ],
+    "HSV": [
+      213,
+      68,
+      76
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "415A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3365B1",
+    "RGB": [
+      51,
+      101,
+      177
+    ],
+    "HSV": [
+      216,
+      71,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "520",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D9E1E5",
+    "RGB": [
+      217,
+      225,
+      229
+    ],
+    "HSV": [
+      200,
+      5,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "521A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CDE0E2",
+    "RGB": [
+      205,
+      224,
+      226
+    ],
+    "HSV": [
+      186,
+      9,
+      89
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "522",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B1C9DE",
+    "RGB": [
+      177,
+      201,
+      222
+    ],
+    "HSV": [
+      208,
+      20,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "523",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#96B6DA",
+    "RGB": [
+      150,
+      182,
+      218
+    ],
+    "HSV": [
+      212,
+      31,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2212",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7BA2D2",
+    "RGB": [
+      123,
+      162,
+      210
+    ],
+    "HSV": [
+      213,
+      41,
+      82
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "214",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F70B3",
+    "RGB": [
+      79,
+      112,
+      179
+    ],
+    "HSV": [
+      220,
+      56,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "525",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5272B7",
+    "RGB": [
+      82,
+      114,
+      183
+    ],
+    "HSV": [
+      221,
+      55,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "526",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4966B1",
+    "RGB": [
+      73,
+      102,
+      177
+    ],
+    "HSV": [
+      223,
+      59,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2214",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3B54A1",
+    "RGB": [
+      59,
+      84,
+      161
+    ],
+    "HSV": [
+      225,
+      63,
+      63
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "216",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2D3880",
+    "RGB": [
+      45,
+      56,
+      128
+    ],
+    "HSV": [
+      232,
+      65,
+      50
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "218",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2D2F5E",
+    "RGB": [
+      45,
+      47,
+      94
+    ],
+    "HSV": [
+      238,
+      52,
+      37
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "4792",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#31336D",
+    "RGB": [
+      49,
+      51,
+      109
+    ],
+    "HSV": [
+      238,
+      55,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "662",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#929EC5",
+    "RGB": [
+      146,
+      158,
+      197
+    ],
+    "HSV": [
+      226,
+      26,
+      77
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2662",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7A85B7",
+    "RGB": [
+      122,
+      133,
+      183
+    ],
+    "HSV": [
+      229,
+      33,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "663",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#646FAF",
+    "RGB": [
+      100,
+      111,
+      175
+    ],
+    "HSV": [
+      231,
+      43,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "664A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F569C",
+    "RGB": [
+      79,
+      86,
+      156
+    ],
+    "HSV": [
+      235,
+      49,
+      61
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2664",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3C438A",
+    "RGB": [
+      60,
+      67,
+      138
+    ],
+    "HSV": [
+      235,
+      57,
+      54
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "665",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#353A7D",
+    "RGB": [
+      53,
+      58,
+      125
+    ],
+    "HSV": [
+      236,
+      58,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "667A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2A2A53",
+    "RGB": [
+      42,
+      42,
+      83
+    ],
+    "HSV": [
+      240,
+      49,
+      33
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "668",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2E2F52",
+    "RGB": [
+      46,
+      47,
+      82
+    ],
+    "HSV": [
+      238,
+      44,
+      32
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "669A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#19192C",
+    "RGB": [
+      25,
+      25,
+      44
+    ],
+    "HSV": [
+      240,
+      43,
+      17
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2017",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#92B7B8",
+    "RGB": [
+      146,
+      183,
+      184
+    ],
+    "HSV": [
+      182,
+      21,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2018",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#809BA5",
+    "RGB": [
+      128,
+      155,
+      165
+    ],
+    "HSV": [
+      196,
+      22,
+      65
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2019",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3E637E",
+    "RGB": [
+      62,
+      99,
+      126
+    ],
+    "HSV": [
+      205,
+      51,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2020",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#535656",
+    "RGB": [
+      83,
+      86,
+      86
+    ],
+    "HSV": [
+      180,
+      3,
+      34
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2021",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AEE2E9",
+    "RGB": [
+      174,
+      226,
+      233
+    ],
+    "HSV": [
+      187,
+      25,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2022",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#74CAE6",
+    "RGB": [
+      116,
+      202,
+      230
+    ],
+    "HSV": [
+      195,
+      50,
+      90
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2023",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#469FC6",
+    "RGB": [
+      70,
+      159,
+      198
+    ],
+    "HSV": [
+      198,
+      65,
+      78
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2024",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#326683",
+    "RGB": [
+      50,
+      102,
+      131
+    ],
+    "HSV": [
+      201,
+      62,
+      51
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2025",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7DABCB",
+    "RGB": [
+      125,
+      171,
+      203
+    ],
+    "HSV": [
+      205,
+      38,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2026",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5087B0",
+    "RGB": [
+      80,
+      135,
+      176
+    ],
+    "HSV": [
+      206,
+      55,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2027",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3A67B4",
+    "RGB": [
+      58,
+      103,
+      180
+    ],
+    "HSV": [
+      218,
+      68,
+      71
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "171A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C1BCDB",
+    "RGB": [
+      193,
+      188,
+      219
+    ],
+    "HSV": [
+      250,
+      14,
+      86
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "172A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A69DCE",
+    "RGB": [
+      166,
+      157,
+      206
+    ],
+    "HSV": [
+      251,
+      24,
+      81
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2172",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8E87C2",
+    "RGB": [
+      142,
+      135,
+      194
+    ],
+    "HSV": [
+      247,
+      30,
+      76
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "173",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7C73B7",
+    "RGB": [
+      124,
+      115,
+      183
+    ],
+    "HSV": [
+      248,
+      37,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "174",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#655AA9",
+    "RGB": [
+      101,
+      90,
+      169
+    ],
+    "HSV": [
+      248,
+      47,
+      66
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "175",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5F50A3",
+    "RGB": [
+      95,
+      80,
+      163
+    ],
+    "HSV": [
+      251,
+      51,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "176",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#544799",
+    "RGB": [
+      84,
+      71,
+      153
+    ],
+    "HSV": [
+      250,
+      54,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "551",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C9BCD8",
+    "RGB": [
+      201,
+      188,
+      216
+    ],
+    "HSV": [
+      268,
+      13,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "552",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A89CCB",
+    "RGB": [
+      168,
+      156,
+      203
+    ],
+    "HSV": [
+      255,
+      23,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "553",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8E83B8",
+    "RGB": [
+      142,
+      131,
+      184
+    ],
+    "HSV": [
+      252,
+      29,
+      72
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "554",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7868A2",
+    "RGB": [
+      120,
+      104,
+      162
+    ],
+    "HSV": [
+      257,
+      36,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "555",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#564E88",
+    "RGB": [
+      86,
+      78,
+      136
+    ],
+    "HSV": [
+      248,
+      43,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "556",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#403B71",
+    "RGB": [
+      64,
+      59,
+      113
+    ],
+    "HSV": [
+      246,
+      48,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "557",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#352E56",
+    "RGB": [
+      53,
+      46,
+      86
+    ],
+    "HSV": [
+      251,
+      47,
+      34
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "761",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C0A9BC",
+    "RGB": [
+      192,
+      169,
+      188
+    ],
+    "HSV": [
+      310,
+      12,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "762",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9C849D",
+    "RGB": [
+      156,
+      132,
+      157
+    ],
+    "HSV": [
+      298,
+      16,
+      62
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2762",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8E7193",
+    "RGB": [
+      142,
+      113,
+      147
+    ],
+    "HSV": [
+      291,
+      23,
+      58
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "763",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#88698A",
+    "RGB": [
+      136,
+      105,
+      138
+    ],
+    "HSV": [
+      296,
+      24,
+      54
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "764",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6C4D71",
+    "RGB": [
+      108,
+      77,
+      113
+    ],
+    "HSV": [
+      292,
+      32,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "765",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F3556",
+    "RGB": [
+      79,
+      53,
+      86
+    ],
+    "HSV": [
+      287,
+      38,
+      34
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "766",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#422D47",
+    "RGB": [
+      66,
+      45,
+      71
+    ],
+    "HSV": [
+      288,
+      37,
+      28
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "261",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C6A2CB",
+    "RGB": [
+      198,
+      162,
+      203
+    ],
+    "HSV": [
+      293,
+      20,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "262",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A580BC",
+    "RGB": [
+      165,
+      128,
+      188
+    ],
+    "HSV": [
+      277,
+      32,
+      74
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2262",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#8961A8",
+    "RGB": [
+      137,
+      97,
+      168
+    ],
+    "HSV": [
+      274,
+      42,
+      66
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "263",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6D4C93",
+    "RGB": [
+      109,
+      76,
+      147
+    ],
+    "HSV": [
+      268,
+      48,
+      58
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "264",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#624283",
+    "RGB": [
+      98,
+      66,
+      131
+    ],
+    "HSV": [
+      270,
+      50,
+      51
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "265",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#673C84",
+    "RGB": [
+      103,
+      60,
+      132
+    ],
+    "HSV": [
+      276,
+      55,
+      52
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "266",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#553273",
+    "RGB": [
+      85,
+      50,
+      115
+    ],
+    "HSV": [
+      272,
+      57,
+      45
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "281",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D3B2D5",
+    "RGB": [
+      211,
+      178,
+      213
+    ],
+    "HSV": [
+      297,
+      16,
+      84
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2281",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C19BC9",
+    "RGB": [
+      193,
+      155,
+      201
+    ],
+    "HSV": [
+      290,
+      23,
+      79
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "282",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A674BA",
+    "RGB": [
+      166,
+      116,
+      186
+    ],
+    "HSV": [
+      283,
+      38,
+      73
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "283",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7D4DA2",
+    "RGB": [
+      125,
+      77,
+      162
+    ],
+    "HSV": [
+      274,
+      52,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "284",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#723E94",
+    "RGB": [
+      114,
+      62,
+      148
+    ],
+    "HSV": [
+      276,
+      58,
+      58
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "285",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#653488",
+    "RGB": [
+      101,
+      52,
+      136
+    ],
+    "HSV": [
+      275,
+      62,
+      53
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "286",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4D2A68",
+    "RGB": [
+      77,
+      42,
+      104
+    ],
+    "HSV": [
+      274,
+      60,
+      41
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "287A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#482A67",
+    "RGB": [
+      72,
+      42,
+      103
+    ],
+    "HSV": [
+      270,
+      59,
+      40
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2028",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6C677C",
+    "RGB": [
+      108,
+      103,
+      124
+    ],
+    "HSV": [
+      254,
+      17,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2029",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3E3A4E",
+    "RGB": [
+      62,
+      58,
+      78
+    ],
+    "HSV": [
+      252,
+      26,
+      31
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2030",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#281F24",
+    "RGB": [
+      40,
+      31,
+      36
+    ],
+    "HSV": [
+      327,
+      23,
+      16
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2031",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AE6BA6",
+    "RGB": [
+      174,
+      107,
+      166
+    ],
+    "HSV": [
+      307,
+      39,
+      68
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2032",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#824877",
+    "RGB": [
+      130,
+      72,
+      119
+    ],
+    "HSV": [
+      311,
+      45,
+      51
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2033",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6F3961",
+    "RGB": [
+      111,
+      57,
+      97
+    ],
+    "HSV": [
+      316,
+      49,
+      44
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2034",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AC93A6",
+    "RGB": [
+      172,
+      147,
+      166
+    ],
+    "HSV": [
+      314,
+      15,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2035",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#5E485A",
+    "RGB": [
+      94,
+      72,
+      90
+    ],
+    "HSV": [
+      311,
+      23,
+      37
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "380",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C9B5AC",
+    "RGB": [
+      201,
+      181,
+      172
+    ],
+    "HSV": [
+      19,
+      14,
+      79
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "382",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B69B91",
+    "RGB": [
+      182,
+      155,
+      145
+    ],
+    "HSV": [
+      16,
+      20,
+      71
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "383",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#927C6D",
+    "RGB": [
+      146,
+      124,
+      109
+    ],
+    "HSV": [
+      24,
+      25,
+      57
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "384",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#765B51",
+    "RGB": [
+      118,
+      91,
+      81
+    ],
+    "HSV": [
+      16,
+      31,
+      46
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "386",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#61483D",
+    "RGB": [
+      97,
+      72,
+      61
+    ],
+    "HSV": [
+      18,
+      37,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "423",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DFB5A0",
+    "RGB": [
+      223,
+      181,
+      160
+    ],
+    "HSV": [
+      20,
+      28,
+      87
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "424",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D39D87",
+    "RGB": [
+      211,
+      157,
+      135
+    ],
+    "HSV": [
+      17,
+      36,
+      83
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2424",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BD856F",
+    "RGB": [
+      189,
+      133,
+      111
+    ],
+    "HSV": [
+      17,
+      41,
+      74
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "425",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A16D5B",
+    "RGB": [
+      161,
+      109,
+      91
+    ],
+    "HSV": [
+      15,
+      43,
+      63
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "426",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#74473D",
+    "RGB": [
+      116,
+      71,
+      61
+    ],
+    "HSV": [
+      11,
+      47,
+      45
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "126A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E0A581",
+    "RGB": [
+      224,
+      165,
+      129
+    ],
+    "HSV": [
+      23,
+      42,
+      88
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "127",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#DA8765",
+    "RGB": [
+      218,
+      135,
+      101
+    ],
+    "HSV": [
+      17,
+      54,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "128",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BE5F42",
+    "RGB": [
+      190,
+      95,
+      66
+    ],
+    "HSV": [
+      14,
+      65,
+      75
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "129",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9A412B",
+    "RGB": [
+      154,
+      65,
+      43
+    ],
+    "HSV": [
+      12,
+      72,
+      60
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2129",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#95432C",
+    "RGB": [
+      149,
+      67,
+      44
+    ],
+    "HSV": [
+      13,
+      70,
+      58
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "130",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6D3022",
+    "RGB": [
+      109,
+      48,
+      34
+    ],
+    "HSV": [
+      11,
+      69,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "131",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#58251F",
+    "RGB": [
+      88,
+      37,
+      31
+    ],
+    "HSV": [
+      6,
+      65,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2311",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#40271E",
+    "RGB": [
+      64,
+      39,
+      30
+    ],
+    "HSV": [
+      16,
+      53,
+      25
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "305",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E2C8A3",
+    "RGB": [
+      226,
+      200,
+      163
+    ],
+    "HSV": [
+      35,
+      28,
+      89
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "306",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D4B592",
+    "RGB": [
+      212,
+      181,
+      146
+    ],
+    "HSV": [
+      32,
+      31,
+      83
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "307",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#BC9769",
+    "RGB": [
+      188,
+      151,
+      105
+    ],
+    "HSV": [
+      33,
+      44,
+      74
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2307",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A47348",
+    "RGB": [
+      164,
+      115,
+      72
+    ],
+    "HSV": [
+      28,
+      56,
+      64
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "308",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9B6438",
+    "RGB": [
+      155,
+      100,
+      56
+    ],
+    "HSV": [
+      27,
+      64,
+      61
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "309",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#855430",
+    "RGB": [
+      133,
+      84,
+      48
+    ],
+    "HSV": [
+      25,
+      64,
+      52
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2310",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#76422B",
+    "RGB": [
+      118,
+      66,
+      43
+    ],
+    "HSV": [
+      18,
+      64,
+      46
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "310",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#573E2F",
+    "RGB": [
+      87,
+      62,
+      47
+    ],
+    "HSV": [
+      22,
+      46,
+      34
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "311",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F4036",
+    "RGB": [
+      79,
+      64,
+      54
+    ],
+    "HSV": [
+      24,
+      32,
+      31
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "3311",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6C372A",
+    "RGB": [
+      108,
+      55,
+      42
+    ],
+    "HSV": [
+      12,
+      61,
+      42
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "4311",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#422520",
+    "RGB": [
+      66,
+      37,
+      32
+    ],
+    "HSV": [
+      9,
+      52,
+      26
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "312",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2B2320",
+    "RGB": [
+      43,
+      35,
+      32
+    ],
+    "HSV": [
+      16,
+      26,
+      17
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2036",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#A59087",
+    "RGB": [
+      165,
+      144,
+      135
+    ],
+    "HSV": [
+      18,
+      18,
+      65
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2037",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7C685F",
+    "RGB": [
+      124,
+      104,
+      95
+    ],
+    "HSV": [
+      19,
+      23,
+      49
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2038",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#605042",
+    "RGB": [
+      96,
+      80,
+      66
+    ],
+    "HSV": [
+      28,
+      31,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2039",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6D5D43",
+    "RGB": [
+      109,
+      93,
+      67
+    ],
+    "HSV": [
+      37,
+      39,
+      43
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2040",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4F3D2E",
+    "RGB": [
+      79,
+      61,
+      46
+    ],
+    "HSV": [
+      27,
+      42,
+      31
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "364",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#EAE9D6",
+    "RGB": [
+      234,
+      233,
+      214
+    ],
+    "HSV": [
+      57,
+      9,
+      92
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "365",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D3D2BB",
+    "RGB": [
+      211,
+      210,
+      187
+    ],
+    "HSV": [
+      58,
+      11,
+      83
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "366",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B2B194",
+    "RGB": [
+      178,
+      177,
+      148
+    ],
+    "HSV": [
+      58,
+      17,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "367",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#89816B",
+    "RGB": [
+      137,
+      129,
+      107
+    ],
+    "HSV": [
+      44,
+      22,
+      54
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "368",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6C6454",
+    "RGB": [
+      108,
+      100,
+      84
+    ],
+    "HSV": [
+      40,
+      22,
+      42
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "369",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#474333",
+    "RGB": [
+      71,
+      67,
+      51
+    ],
+    "HSV": [
+      48,
+      28,
+      28
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "370",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#4A3E24",
+    "RGB": [
+      74,
+      62,
+      36
+    ],
+    "HSV": [
+      41,
+      51,
+      29
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "711",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#D8D0BF",
+    "RGB": [
+      216,
+      208,
+      191
+    ],
+    "HSV": [
+      41,
+      12,
+      85
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "712",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C5BFB2",
+    "RGB": [
+      197,
+      191,
+      178
+    ],
+    "HSV": [
+      41,
+      10,
+      77
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "713",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#AAA290",
+    "RGB": [
+      170,
+      162,
+      144
+    ],
+    "HSV": [
+      42,
+      15,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "714",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#908773",
+    "RGB": [
+      144,
+      135,
+      115
+    ],
+    "HSV": [
+      41,
+      20,
+      56
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "715",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#786E5B",
+    "RGB": [
+      120,
+      110,
+      91
+    ],
+    "HSV": [
+      39,
+      24,
+      47
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "716",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#645B46",
+    "RGB": [
+      100,
+      91,
+      70
+    ],
+    "HSV": [
+      42,
+      30,
+      39
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "717",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#615740",
+    "RGB": [
+      97,
+      87,
+      64
+    ],
+    "HSV": [
+      42,
+      34,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "718",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#443E2B",
+    "RGB": [
+      68,
+      62,
+      43
+    ],
+    "HSV": [
+      46,
+      37,
+      27
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "151",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#CBC4B3",
+    "RGB": [
+      203,
+      196,
+      179
+    ],
+    "HSV": [
+      43,
+      12,
+      80
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "890",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#ACA99C",
+    "RGB": [
+      172,
+      169,
+      156
+    ],
+    "HSV": [
+      49,
+      9,
+      67
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "891",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#979283",
+    "RGB": [
+      151,
+      146,
+      131
+    ],
+    "HSV": [
+      45,
+      13,
+      59
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "892",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#858177",
+    "RGB": [
+      133,
+      129,
+      119
+    ],
+    "HSV": [
+      43,
+      11,
+      52
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "893",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#6C6C66",
+    "RGB": [
+      108,
+      108,
+      102
+    ],
+    "HSV": [
+      60,
+      6,
+      42
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "894",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#585550",
+    "RGB": [
+      88,
+      85,
+      80
+    ],
+    "HSV": [
+      37,
+      9,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "895",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#383633",
+    "RGB": [
+      56,
+      54,
+      51
+    ],
+    "HSV": [
+      36,
+      9,
+      22
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "472",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#C1AEAE",
+    "RGB": [
+      193,
+      174,
+      174
+    ],
+    "HSV": [
+      0,
+      10,
+      76
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "473",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B19FA2",
+    "RGB": [
+      177,
+      159,
+      162
+    ],
+    "HSV": [
+      350,
+      10,
+      69
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "474",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#9B888D",
+    "RGB": [
+      155,
+      136,
+      141
+    ],
+    "HSV": [
+      344,
+      12,
+      61
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "475",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#78646C",
+    "RGB": [
+      120,
+      100,
+      108
+    ],
+    "HSV": [
+      336,
+      17,
+      47
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "476",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#614B58",
+    "RGB": [
+      97,
+      75,
+      88
+    ],
+    "HSV": [
+      325,
+      23,
+      38
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "477",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#3B2E37",
+    "RGB": [
+      59,
+      46,
+      55
+    ],
+    "HSV": [
+      318,
+      22,
+      23
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "478",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#36313C",
+    "RGB": [
+      54,
+      49,
+      60
+    ],
+    "HSV": [
+      267,
+      18,
+      24
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "603",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#201823",
+    "RGB": [
+      32,
+      24,
+      35
+    ],
+    "HSV": [
+      284,
+      31,
+      14
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2151",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#B2ADA3",
+    "RGB": [
+      178,
+      173,
+      163
+    ],
+    "HSV": [
+      40,
+      8,
+      70
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "152A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#93918A",
+    "RGB": [
+      147,
+      145,
+      138
+    ],
+    "HSV": [
+      47,
+      6,
+      58
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "153A",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#7A7A78",
+    "RGB": [
+      122,
+      122,
+      120
+    ],
+    "HSV": [
+      60,
+      2,
+      48
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "154",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#696767",
+    "RGB": [
+      105,
+      103,
+      103
+    ],
+    "HSV": [
+      0,
+      2,
+      41
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2154",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#545358",
+    "RGB": [
+      84,
+      83,
+      88
+    ],
+    "HSV": [
+      252,
+      6,
+      35
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "155",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#45454B",
+    "RGB": [
+      69,
+      69,
+      75
+    ],
+    "HSV": [
+      240,
+      8,
+      29
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "156",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#323133",
+    "RGB": [
+      50,
+      49,
+      51
+    ],
+    "HSV": [
+      270,
+      4,
+      20
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "601",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#2E2A31",
+    "RGB": [
+      46,
+      42,
+      49
+    ],
+    "HSV": [
+      274,
+      14,
+      19
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "600",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#101113",
+    "RGB": [
+      16,
+      17,
+      19
+    ],
+    "HSV": [
+      220,
+      16,
+      7
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2500",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F5F5F5",
+    "RGB": [
+      245,
+      245,
+      245
+    ],
+    "HSV": [
+      0,
+      0,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "500",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F7F7F7",
+    "RGB": [
+      247,
+      247,
+      247
+    ],
+    "HSV": [
+      0,
+      0,
+      97
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "100",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#F4F4F4",
+    "RGB": [
+      244,
+      244,
+      244
+    ],
+    "HSV": [
+      0,
+      0,
+      96
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "110",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#FCFCF2",
+    "RGB": [
+      252,
+      252,
+      242
+    ],
+    "HSV": [
+      60,
+      4,
+      99
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "1000",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#E7D6B6",
+    "RGB": [
+      231,
+      214,
+      182
+    ],
+    "HSV": [
+      39,
+      21,
+      91
+    ]
+  },
+  {
+    "BRAND": "COSMO",
+    "COLOR_CODE": "2041",
+    "COLOR_NAME_EN": "",
+    "RGB_COLOR": "#474639",
+    "RGB": [
+      71,
+      70,
+      57
+    ],
+    "HSV": [
+      56,
+      20,
+      28
+    ]
+  }
+]

@@ -1,0 +1,453 @@
+<script>
+  import Carousel from '../lib/Carousel.svelte';
+  import ImageUpload from '../lib/ImageUpload.svelte';
+  import PatternDisplay from '../lib/PatternDisplay.svelte';
+  import ShoppingList from '../lib/ShoppingList.svelte';
+  import { rgbDistance, getAverageColor } from '../lib/colorUtils.js';
+  import html2canvas from 'html2canvas';
+
+  // マスターデータのインポート
+  import dmcColors from '../lib/dmc_raw.json';
+  import cosmoColors from '../lib/cosmo_raw.json';
+
+  const slides = [
+    {
+      title: '画像から図案を自動生成',
+      description: 'お気に入りの写真やイラストから、クロスステッチの図案を簡単に作成できます。'
+    },
+    {
+      title: 'DMC・COSMO対応',
+      description: 'DMCとCOSMOの刺繍糸マスターデータに対応。最適な色を自動で割り当てます。'
+    },
+    {
+      title: '買い物リストを自動作成',
+      description: '必要な刺繍糸の種類と本数を自動で計算し、買い物リストとして出力します。'
+    }
+  ];
+
+  let uploadedImage = null;
+  let horizontalCells = 50; // デフォルト値
+  let verticalCells = 50; // デフォルト値
+  let selectedBrand = 'DMC'; // 選択されたブランド
+  let numColorsToUse = 30; // 使用する色数のデフォルト値
+
+  let patternData = null; // 生成された図案データ
+  let isGenerating = false; // 図案生成中かどうかを示すフラグ
+
+  function handleImageSelected(event) {
+    uploadedImage = event.detail.dataUrl;
+    console.log('Image selected:', uploadedImage);
+  }
+
+  async function generatePattern() {
+    if (!uploadedImage) {
+      alert('画像をアップロードしてください。');
+      return;
+    }
+
+    isGenerating = true; // 生成開始
+    patternData = null; // 以前の図案をクリア
+
+    const img = new Image();
+    img.src = uploadedImage;
+
+    img.onload = () => {
+      try {
+        // 元の画像を一時的なキャンバスに描画
+        const originalCanvas = document.createElement('canvas');
+        const originalCtx = originalCanvas.getContext('2d');
+        originalCanvas.width = img.width;
+        originalCanvas.height = img.height;
+        originalCtx.drawImage(img, 0, 0);
+
+        const cellWidthPx = img.width / horizontalCells;
+        const cellHeightPx = img.height / verticalCells;
+
+        const availableColors = selectedBrand === 'DMC' ? dmcColors : cosmoColors;
+        const patternCells = [];
+
+        // 平均色を取得するための小さな一時キャンバス
+        const tinyCanvas = document.createElement('canvas');
+        tinyCanvas.width = 1;
+        tinyCanvas.height = 1;
+        const tinyCtx = tinyCanvas.getContext('2d');
+
+        // --- パス1: 全色を使って各セルの最も近い色を仮決定し、色の出現数をカウント --- //
+        const colorUsageCounts = new Map();
+
+        for (let y = 0; y < verticalCells; y++) {
+          for (let x = 0; x < horizontalCells; x++) {
+            const sx = x * cellWidthPx;
+            const sy = y * cellHeightPx;
+            const sWidth = cellWidthPx;
+            const sHeight = cellHeightPx;
+
+            tinyCtx.drawImage(originalCanvas, sx, sy, sWidth, sHeight, 0, 0, 1, 1);
+            const pixel = tinyCtx.getImageData(0, 0, 1, 1).data;
+            const avgColor = [pixel[0], pixel[1], pixel[2]];
+
+            let minDistance = Infinity;
+            let bestMatch = null;
+
+            for (const color of availableColors) {
+              const distance = rgbDistance(avgColor, color.RGB);
+              if (distance < minDistance) {
+                minDistance = distance;
+                bestMatch = color;
+              }
+            }
+            colorUsageCounts.set(bestMatch.COLOR_CODE, (colorUsageCounts.get(bestMatch.COLOR_CODE) || 0) + 1);
+          }
+        }
+
+        // --- 使用する色数を制限する場合、上位の色を選定 --- //
+        let finalTargetColors = availableColors;
+        if (numColorsToUse > 0 && numColorsToUse < availableColors.length) {
+          const sortedColorsByUsage = Array.from(colorUsageCounts.entries())
+            .sort(([, countA], [, countB]) => countB - countA) // 出現数で降順ソート
+            .slice(0, numColorsToUse) // 上位numColorsToUse個の色コードを取得
+            .map(([code]) => code);
+
+          // 上位の色コードに対応するカラーオブジェクトをavailableColorsから取得
+          finalTargetColors = availableColors.filter(color => sortedColorsByUsage.includes(color.COLOR_CODE));
+        }
+
+        // --- パス2: 選定された色のみを使って各セルの最終的な色を決定 --- //
+        for (let y = 0; y < verticalCells; y++) {
+          const row = [];
+          for (let x = 0; x < horizontalCells; x++) {
+            const sx = x * cellWidthPx;
+            const sy = y * cellHeightPx;
+            const sWidth = cellWidthPx;
+            const sHeight = cellHeightPx;
+
+            tinyCtx.drawImage(originalCanvas, sx, sy, sWidth, sHeight, 0, 0, 1, 1);
+            const pixel = tinyCtx.getImageData(0, 0, 1, 1).data;
+            const avgColor = [pixel[0], pixel[1], pixel[2]];
+
+            let minDistance = Infinity;
+            let bestMatch = null;
+
+            for (const color of finalTargetColors) {
+              const distance = rgbDistance(avgColor, color.RGB);
+              if (distance < minDistance) {
+                minDistance = distance;
+                bestMatch = color;
+              }
+            }
+            row.push(bestMatch.COLOR_CODE);
+          }
+          patternCells.push(row);
+        }
+
+        patternData = {
+          gridSize: [horizontalCells, verticalCells],
+          brand: selectedBrand,
+          cells: patternCells
+        };
+
+        console.log('Pattern generated:', patternData);
+      } catch (error) {
+        console.error('Error generating pattern:', error);
+        alert('図案生成中にエラーが発生しました。コンソールを確認してください。');
+      } finally {
+        isGenerating = false; // 生成終了
+      }
+    };
+    img.onerror = () => {
+      alert('画像の読み込みに失敗しました。');
+      isGenerating = false; // 生成終了
+    };
+  }
+
+  async function downloadImage() {
+    const targetElement = document.getElementById('pattern-and-list');
+    if (targetElement) {
+      html2canvas(targetElement, { scale: 2 }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = 'stitch_pattern_and_list.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    } else {
+      alert('ダウンロード対象の要素が見つかりません。');
+    }
+  }
+
+  function downloadPatternJson() {
+    if (!patternData) {
+      alert('図案データがありません。');
+      return;
+    }
+    const jsonString = JSON.stringify(patternData, null, 2);
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'stitch_pattern.json';
+    link.click();
+    URL.revokeObjectURL(url);
+  }
+
+  async function shareOnTwitter() {
+    const tweetText = encodeURIComponent(
+      "Stitchでクロスステッチ図案を生成しました！あなたも試してみませんか？ #StitchApp #クロスステッチ\n" +
+      window.location.origin // アプリケーションへのリンク
+    );
+
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}`;
+    window.open(twitterUrl, '_blank');
+  }
+</script>
+
+<div class="homepage-container">
+  <div class="logo-section">
+    <!-- サービスロゴのプレースホルダー -->
+    <img src="/favicon.png" alt="Stitch Logo" class="service-logo" />
+    <h2>Stitch</h2>
+    <p>あなたのアイデアをクロスステッチ図案に</p>
+  </div>
+
+  <section class="introduction-section">
+    <h3>Stitchでできること</h3>
+    <Carousel {slides} />
+  </section>
+
+  <section class="upload-section">
+    <h3>画像をアップロードして始めましょう</h3>
+    <ImageUpload on:imageSelected={handleImageSelected} />
+
+    {#if uploadedImage}
+      <div class="grid-settings">
+        <h3>グリッドサイズを設定</h3>
+        <div class="input-group">
+          <label for="horizontal">横のマス数:</label>
+          <input type="number" id="horizontal" bind:value={horizontalCells} min="1" />
+        </div>
+        <div class="input-group">
+          <label for="vertical">縦のマス数:</label>
+          <input type="number" id="vertical" bind:value={verticalCells} min="1" />
+        </div>
+        <div class="input-group">
+          <label for="brand">使用ブランド:</label>
+          <select id="brand" bind:value={selectedBrand}>
+            <option value="DMC">DMC</option>
+            <option value="COSMO">COSMO</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="numColors">使用色数:</label>
+          <input type="number" id="numColors" bind:value={numColorsToUse} min="1" />
+        </div>
+        <button on:click={generatePattern} class="generate-button" disabled={isGenerating}>
+          {#if isGenerating}
+            図案生成中...
+          {:else}
+            図案を生成
+          {/if}
+        </button>
+      </div>
+    {/if}
+
+    {#if patternData}
+      <div id="pattern-and-list">
+        <section class="pattern-display">
+          <h3>生成された図案</h3>
+          <PatternDisplay
+            {patternData}
+            allDmcColors={dmcColors}
+            allCosmoColors={cosmoColors}
+          />
+        </section>
+
+        <section class="shopping-list-section">
+          <h3>買い物リスト</h3>
+          <ShoppingList
+            {patternData}
+            allDmcColors={dmcColors}
+            allCosmoColors={cosmoColors}
+          />
+        </section>
+      </div>
+
+      <div class="action-buttons">
+        <button on:click={downloadImage} class="download-button">
+          画像としてダウンロード
+        </button>
+        <button on:click={downloadPatternJson} class="download-json-button">
+          図案データをJSONでダウンロード
+        </button>
+      </div>
+    {/if}
+
+    <div class="action-buttons always-visible-buttons">
+      <button on:click={shareOnTwitter} class="share-twitter-button">
+        Xでシェア
+      </button>
+    </div>
+  </section>
+</div>
+
+<style>
+  .homepage-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .logo-section {
+    margin-bottom: 40px;
+  }
+
+  .service-logo {
+    width: 150px; /* ロゴのサイズを調整 */
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .logo-section h2 {
+    font-size: 2.5em;
+    color: var(--theme-color);
+    margin-bottom: 5px;
+  }
+
+  .logo-section p {
+    font-size: 1.2em;
+    color: #666;
+  }
+
+  .introduction-section h3,
+  .upload-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .grid-settings {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .grid-settings h3 {
+    color: var(--theme-color);
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .input-group label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+    color: #555;
+  }
+
+  .input-group input[type="number"],
+  .input-group select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+  }
+
+  .generate-button {
+    background-color: var(--theme-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .generate-button:hover {
+    background-color: darken(var(--theme-color), 10%);
+  }
+
+  .generate-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+
+  .pattern-display,
+  .shopping-list-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .pattern-display h3,
+  .shopping-list-section h3 {
+    color: var(--theme-color);
+    margin-bottom: 20px;
+  }
+
+  .action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* ボタン間のスペース */
+  }
+
+  .download-button {
+    background-color: #4CAF50; /* 緑系の色 */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+
+  .download-button:hover {
+    background-color: #45a049;
+  }
+
+  .download-json-button {
+    background-color: #007bff; /* 青系の色 */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+
+  .download-json-button:hover {
+    background-color: #0056b3;
+  }
+
+  .share-twitter-button {
+    background-color: #000000; /* Xのサービスカラー（黒） */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+
+  .share-twitter-button:hover {
+    background-color: #333333; /* ホバー時の色を少し明るく */
+  }
+
+  .always-visible-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px; /* 下に余白を追加 */
+  }
+</style>

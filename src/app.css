@@ -1,0 +1,10 @@
+
+:root {
+  --theme-color: #70AF0A;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
