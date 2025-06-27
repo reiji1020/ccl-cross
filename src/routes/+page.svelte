@@ -191,25 +191,23 @@
 
   async function shareOnTwitter() {
     const tweetText = encodeURIComponent(
-      "Stitchでクロスステッチ図案を生成しました！あなたも試してみませんか？ #StitchApp #クロスステッチ\n" +
+      "CROSSでクロスステッチ図案を生成しましょう！あなたも試してみませんか？ #cclcross\n" +
       window.location.origin // アプリケーションへのリンク
     );
 
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}`;
+    const twitterUrl = `https://x.com/intent/tweet?text=${tweetText}`;
     window.open(twitterUrl, '_blank');
   }
 </script>
 
 <div class="homepage-container">
   <div class="logo-section">
-    <!-- サービスロゴのプレースホルダー -->
-    <img src="/favicon.png" alt="Stitch Logo" class="service-logo" />
-    <h2>Stitch</h2>
+    <div class="service-logo"></div>
     <p>あなたのアイデアをクロスステッチ図案に</p>
   </div>
 
   <section class="introduction-section">
-    <h3>Stitchでできること</h3>
+    <h3>CROSSでできること</h3>
     <Carousel {slides} />
   </section>
 
@@ -299,9 +297,19 @@
   }
 
   .service-logo {
-    width: 150px; /* ロゴのサイズを調整 */
-    height: 150px;
+    width: 512px; /* ロゴのサイズを調整 */
+    height: 170px;
     margin-bottom: 10px;
+    background-color: var(--theme-color);
+    -webkit-mask-image: url(/logo-512.svg);
+    mask-image: url(/logo-512.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    display: inline-block; /* 中央揃えのため */
   }
 
   .logo-section h2 {

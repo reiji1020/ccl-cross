@@ -3,7 +3,9 @@
 </script>
 
 <header>
-  <h1>Stitch</h1>
+  <a href="/">
+    <img src="/logo-256.svg" alt="Stitch Logo" class="logo" />
+  </a>
 </header>
 
 <main>
@@ -11,7 +13,7 @@
 </main>
 
 <footer>
-  <p>&copy; 2025 Stitch. All rights reserved.</p>
+  <p>&copy; 2025 CANDY CHUPS Lab. All rights reserved.</p>
 </footer>
 
 <style>
@@ -28,7 +30,7 @@
   }
 
   footer {
-    background-color: #333;
+    background-color: #5F5F60;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -38,5 +40,10 @@
   footer p {
     margin: 0;
     font-size: 0.9em;
+  }
+
+  .logo {
+    height: 50px;
+    vertical-align: middle;
   }
 </style>
