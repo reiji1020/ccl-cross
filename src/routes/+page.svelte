@@ -36,7 +36,7 @@
 
   function handleImageSelected(event) {
     uploadedImage = event.detail.dataUrl;
-    console.log('Image selected:', uploadedImage);
+    
   }
 
   async function generatePattern() {
@@ -146,9 +146,9 @@
           cells: patternCells
         };
 
-        console.log('Pattern generated:', patternData);
+        
       } catch (error) {
-        console.error('Error generating pattern:', error);
+        
         alert('図案生成中にエラーが発生しました。コンソールを確認してください。');
       } finally {
         isGenerating = false; // 生成終了
@@ -214,6 +214,7 @@
   <section class="upload-section">
     <h3>画像をアップロードして始めましょう</h3>
     <ImageUpload on:imageSelected={handleImageSelected} />
+    <p class="safety-message">※アップロードされた画像は収集されず、図案生成のみに使用されます。</p>
 
     {#if uploadedImage}
       <div class="grid-settings">
@@ -457,5 +458,30 @@
   .always-visible-buttons {
     margin-top: 20px;
     margin-bottom: 20px; /* 下に余白を追加 */
+  }
+
+  .safety-message {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* レスポンシブ対応 */
+  @media (max-width: 768px) {
+    .service-logo {
+      width: 100%; /* 画面幅に合わせて調整 */
+      height: auto; /* アスペクト比を維持 */
+      min-height: 80px; /* 最小の高さを設定 */
+      max-height: 120px; /* 小さい画面での最大高さを設定 */
+    }
+
+    .logo-section h2 {
+      font-size: 2em;
+    }
+
+    .logo-section p {
+      font-size: 1em;
+    }
   }
 </style>

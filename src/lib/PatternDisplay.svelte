@@ -2,8 +2,11 @@
   export let patternData; // { gridSize: [w, h], brand: 'DMC'|'COSMO', cells: [[code, ...], ...] }
   export let allDmcColors; // 全DMCカラーデータ
   export let allCosmoColors; // 全COSMOカラーデータ
+  export let screenWidth; // 親コンポーネントから渡される画面幅
+  export let isModal = false; // モーダル内での表示かどうかを示すフラグ
 
   let colorMap = new Map();
+  let cellSize; // リアクティブな変数として定義を先に移動
 
   $: {
     // patternDataまたはカラーデータが変更されたらカラーマップを再構築
@@ -12,7 +15,19 @@
   }
 
   // 各セルのサイズを動的に計算
-  const cellSize = 20; // 1セルの表示サイズ（ピクセル）を20に拡大
+  $: {
+    let baseCellSize = 20; // 1セルの表示サイズ（ピクセル）
+    if (isModal) {
+      cellSize = baseCellSize; // モーダル内では常に基本サイズ
+    } else if (screenWidth < 768) { // 例: 768px以下をスマホと仮定
+      const maxGridWidth = screenWidth - 40; // 左右のパディングを考慮
+      const calculatedCellSize = maxGridWidth / patternData.gridSize[0];
+      cellSize = Math.min(baseCellSize, calculatedCellSize); // 基本サイズか、画面に収まるサイズか小さい方
+    } else {
+      cellSize = baseCellSize;
+    }
+  }
+
   $: gridWidth = patternData.gridSize[0] * cellSize;
   $: gridHeight = patternData.gridSize[1] * cellSize;
 </script>
@@ -39,6 +54,8 @@
     justify-content: center;
     align-items: center;
     overflow-x: auto; /* 横スクロールを可能にする */
+    max-width: 100%; /* 親要素の幅に合わせる */
+    box-sizing: border-box; /* パディングとボーダーを幅に含める */
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 8px;

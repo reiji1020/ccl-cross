@@ -13,7 +13,7 @@
 </main>
 
 <footer>
-  <p>&copy; 2025 CANDY CHUPS Lab. All rights reserved.</p>
+  <p>&copy; 2025 <a href="https://candychupslab.netlify.app/" target="_blank" referrerpolicy="no-referrer">CANDY CHUPS Lab. </a>All rights reserved.</p>
 </footer>
 
 <style>
@@ -42,8 +42,19 @@
     font-size: 0.9em;
   }
 
+  footer a {
+    color: white; /* リンクの色を白に */
+    text-decoration: none; /* 下線を削除 */
+  }
+
+  footer a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+  }
+
   .logo {
-    height: 50px;
-    vertical-align: middle;
+    max-height: 50px; /* 最大の高さを設定 */
+    width: auto; /* 幅を自動調整してアスペクト比を維持 */
+    display: block; /* ブロック要素にして中央寄せを可能に */
+    margin: 0 auto; /* 中央寄せ */
   }
 </style>
