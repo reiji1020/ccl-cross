@@ -197,7 +197,7 @@
   </div>
 
   <section class="introduction-section">
-    <Carousel src={carouselImages} csWidth="100%" />
+    <Carousel src={carouselImages} csWidth="900px" />
   </section>
 
   <section class="upload-section">
