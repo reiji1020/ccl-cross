@@ -192,7 +192,7 @@
 <div class="homepage-container">
   <div class="logo-section">
     <div class="service-logo"></div>
-    <p>お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を買うまで、CROSSでワンステップ。</p>
+    <p>お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を選ぶまで、CROSSでワンステップ。</p>
     <p>※利用推奨環境：PC/タブレット、Google Chrome</p>
   </div>
 
