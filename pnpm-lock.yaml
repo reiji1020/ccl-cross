@@ -9,8 +9,8 @@ onlyBuiltDependencies:
 
 dependencies:
   cclkit4svelte:
-    specifier: ^1.2.6
-    version: 1.2.6
+    specifier: ^1.2.7
+    version: 1.2.7
   html2canvas:
     specifier: ^1.4.1
     version: 1.4.1
@@ -909,8 +909,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /cclkit4svelte@1.2.6:
-    resolution: {integrity: sha512-XDkmlKYrhmnrTalt6sU0iwhpug/K8knhg/f5rRobnIw/iEVgP+LgOKbXQ4DzzQK1pfaCyjiblUJSu0XLNr26ew==}
+  /cclkit4svelte@1.2.7:
+    resolution: {integrity: sha512-4lMoCjv1whFiJzEEBlKgoQ6D266M+FgemRl+CPFmrJjt3XJI7RMWmZjlG0xyM6NzSy/68XZH+oit39hvIxwpvw==}
     dependencies:
       luxon: 3.6.1
     dev: false
