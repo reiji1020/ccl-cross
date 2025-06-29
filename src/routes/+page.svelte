@@ -1,28 +1,20 @@
 <script>
-  import Carousel from '../lib/Carousel.svelte';
+  import { Carousel } from 'cclkit4svelte';
+  import XIcon from '../lib/XIcon.svelte'
   import ImageUpload from '../lib/ImageUpload.svelte';
   import PatternDisplay from '../lib/PatternDisplay.svelte';
   import ShoppingList from '../lib/ShoppingList.svelte';
-  import { rgbDistance, getAverageColor } from '../lib/colorUtils.js';
+  import { rgbDistance } from '../lib/colorUtils.js';
   import html2canvas from 'html2canvas';
 
   // マスターデータのインポート
   import dmcColors from '../lib/dmc_raw.json';
   import cosmoColors from '../lib/cosmo_raw.json';
 
-  const slides = [
-    {
-      title: '画像から図案を自動生成',
-      description: 'お気に入りの写真やイラストから、クロスステッチの図案を簡単に作成できます。'
-    },
-    {
-      title: 'DMC・COSMO対応',
-      description: 'DMCとCOSMOの刺繍糸マスターデータに対応。最適な色を自動で割り当てます。'
-    },
-    {
-      title: '買い物リストを自動作成',
-      description: '必要な刺繍糸の種類と本数を自動で計算し、買い物リストとして出力します。'
-    }
+  const carouselImages = [
+    { src: '/carousel_01.png', alt: 'Carousel Image 1' },
+    { src: '/carousel_02.png', alt: 'Carousel Image 2' },
+    { src: '/carousel_03.png', alt: 'Carousel Image 3' }
   ];
 
   let uploadedImage = null;
@@ -36,7 +28,6 @@
 
   function handleImageSelected(event) {
     uploadedImage = event.detail.dataUrl;
-    
   }
 
   async function generatePattern() {
@@ -70,7 +61,7 @@
         const tinyCanvas = document.createElement('canvas');
         tinyCanvas.width = 1;
         tinyCanvas.height = 1;
-        const tinyCtx = tinyCanvas.getContext('2d');
+        const tinyCtx = tinyCanvas.getContext('2d', { willReadFrequently: true });
 
         // --- パス1: 全色を使って各セルの最も近い色を仮決定し、色の出現数をカウント --- //
         const colorUsageCounts = new Map();
@@ -189,26 +180,24 @@
     URL.revokeObjectURL(url);
   }
 
-  async function shareOnTwitter() {
-    const tweetText = encodeURIComponent(
-      "CROSSでクロスステッチ図案を生成しましょう！あなたも試してみませんか？ #cclcross\n" +
-      window.location.origin // アプリケーションへのリンク
-    );
+  // shareOnTwitter 関数は削除
 
-    const twitterUrl = `https://x.com/intent/tweet?text=${tweetText}`;
-    window.open(twitterUrl, '_blank');
-  }
+  // XIcon に渡す URL を生成
+  $: twitterShareUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(
+    "CROSSでクロスステッチの図案と買い物リストを作りましょう！あなたも試してみませんか？ #cclcross\n" +
+    'https://ccl-cross.netlify.app/'
+  )}`;
 </script>
 
 <div class="homepage-container">
   <div class="logo-section">
     <div class="service-logo"></div>
-    <p>あなたのアイデアをクロスステッチ図案に</p>
+    <p>お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を買うまで、CROSSでワンステップ。</p>
+    <p>※利用推奨環境：PC/タブレット、Google Chrome</p>
   </div>
 
   <section class="introduction-section">
-    <h3>CROSSでできること</h3>
-    <Carousel {slides} />
+    <Carousel src={carouselImages} csWidth="100%" />
   </section>
 
   <section class="upload-section">
@@ -238,7 +227,7 @@
           <label for="numColors">使用色数:</label>
           <input type="number" id="numColors" bind:value={numColorsToUse} min="1" />
         </div>
-        <button on:click={generatePattern} class="generate-button" disabled={isGenerating}>
+        <button on:click={generatePattern} class="app-button" disabled={isGenerating}>
           {#if isGenerating}
             図案生成中...
           {:else}
@@ -270,19 +259,17 @@
       </div>
 
       <div class="action-buttons">
-        <button on:click={downloadImage} class="download-button">
+        <button on:click={downloadImage} class="app-button">
           画像としてダウンロード
         </button>
-        <button on:click={downloadPatternJson} class="download-json-button">
+        <button on:click={downloadPatternJson} class="app-button">
           図案データをJSONでダウンロード
         </button>
       </div>
     {/if}
 
     <div class="action-buttons always-visible-buttons">
-      <button on:click={shareOnTwitter} class="share-twitter-button">
-        Xでシェア
-      </button>
+      <XIcon url={twitterShareUrl} />
     </div>
   </section>
 </div>
@@ -331,6 +318,12 @@
     margin-bottom: 20px;
   }
 
+  .introduction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .grid-settings {
     margin-top: 30px;
     padding: 20px;
@@ -366,41 +359,24 @@
     text-align: center;
   }
 
-  .generate-button {
+  .app-button {
     background-color: var(--theme-color);
     color: white;
     border: none;
-    padding: 12px 25px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.1em;
-    margin-top: 20px;
+    font-size: 1em;
     transition: background-color 0.3s ease;
   }
 
-  .generate-button:hover {
+  .app-button:hover {
     background-color: darken(var(--theme-color), 10%);
   }
 
-  .generate-button:disabled {
+  .app-button:disabled {
     background-color: #cccccc;
     cursor: not-allowed;
-  }
-
-  .pattern-display,
-  .shopping-list-section {
-    margin-top: 30px;
-    padding: 20px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  }
-
-  .pattern-display h3,
-  .shopping-list-section h3 {
-    color: var(--theme-color);
-    margin-bottom: 20px;
   }
 
   .action-buttons {
@@ -408,51 +384,7 @@
     display: flex;
     justify-content: center;
     gap: 10px; /* ボタン間のスペース */
-  }
-
-  .download-button {
-    background-color: #4CAF50; /* 緑系の色 */
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
-  }
-
-  .download-button:hover {
-    background-color: #45a049;
-  }
-
-  .download-json-button {
-    background-color: #007bff; /* 青系の色 */
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
-  }
-
-  .download-json-button:hover {
-    background-color: #0056b3;
-  }
-
-  .share-twitter-button {
-    background-color: #000000; /* Xのサービスカラー（黒） */
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
-  }
-
-  .share-twitter-button:hover {
-    background-color: #333333; /* ホバー時の色を少し明るく */
+    width: 100%;
   }
 
   .always-visible-buttons {

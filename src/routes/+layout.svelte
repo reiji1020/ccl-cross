@@ -1,60 +1,88 @@
 <script>
   import '../app.css';
+  import { CommonHeader, Footer } from 'cclkit4svelte';
 </script>
 
-<header>
-  <a href="/">
-    <img src="/logo-256.svg" alt="Stitch Logo" class="logo" />
-  </a>
-</header>
+<CommonHeader
+  logo="/logo-256.svg"
+  logoHeight="50px"
+  height="--hd-normal"
+  bgColor="--melon-green"
+/>
+
+<a class="github-fork-ribbon" href="https://github.com/reiji1020/ccl-cross" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" target="_blank">Fork me on GitHub</a>
 
 <main>
   <slot />
 </main>
 
-<footer>
-  <p>&copy; 2025 <a href="https://candychupslab.netlify.app/" target="_blank" referrerpolicy="no-referrer">CANDY CHUPS Lab. </a>All rights reserved.</p>
-</footer>
+<Footer bgColor="--wrap-grey" />
 
 <style>
-  header {
-    background-color: var(--theme-color);
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-
   main {
     padding: 1rem;
     min-height: calc(100vh - 100px); /* ヘッダーとフッターの高さ分を引く */
   }
 
-  footer {
-    background-color: #5F5F60;
-    color: white;
-    padding: 1rem;
+  /* GitHubリボンのCSS */
+  .github-fork-ribbon {
+    width: 12.1em;
+    height: 12.1em;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    pointer-events: none;
+    font-size: 13px;
+    text-decoration: none;
+    text-indent: -999999px;
+  }
+
+  .github-fork-ribbon:before, .github-fork-ribbon:after {
+    position: absolute;
+    display: block;
+    width: 15.38em;
+    height: 1.54em;
+    top: 3.23em;
+    right: -3.23em;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .github-fork-ribbon:before {
+    content: "";
+    padding: .38em 0;
+    background-color: #ED3B7D;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.15)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    -webkit-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+    pointer-events: auto;
+  }
+
+  .github-fork-ribbon:after {
+    content: attr(data-ribbon);
+    color: #fff;
+    font: 700 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.54em;
+    text-decoration: none;
+    text-shadow: 0 -0.08em rgba(0, 0, 0, 0.5);
     text-align: center;
-    margin-top: 20px; /* コンテンツとの間に余白 */
-  }
-
-  footer p {
-    margin: 0;
-    font-size: 0.9em;
-  }
-
-  footer a {
-    color: white; /* リンクの色を白に */
-    text-decoration: none; /* 下線を削除 */
-  }
-
-  footer a:hover {
-    text-decoration: underline; /* ホバー時に下線を表示 */
-  }
-
-  .logo {
-    max-height: 50px; /* 最大の高さを設定 */
-    width: auto; /* 幅を自動調整してアスペクト比を維持 */
-    display: block; /* ブロック要素にして中央寄せを可能に */
-    margin: 0 auto; /* 中央寄せ */
+    text-indent: 0;
+    padding: .15em 0;
+    margin: .15em 0;
+    border-width: .08em 0;
+    border-style: dotted;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.7);
   }
 </style>
