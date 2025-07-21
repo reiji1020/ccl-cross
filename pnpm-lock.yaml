@@ -9,8 +9,8 @@ onlyBuiltDependencies:
 
 dependencies:
   cclkit4svelte:
-    specifier: ^1.2.7
-    version: 1.2.7
+    specifier: ^2.0.2
+    version: 2.0.2
   html2canvas:
     specifier: ^1.4.1
     version: 1.4.1
@@ -909,10 +909,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /cclkit4svelte@1.2.7:
-    resolution: {integrity: sha512-4lMoCjv1whFiJzEEBlKgoQ6D266M+FgemRl+CPFmrJjt3XJI7RMWmZjlG0xyM6NzSy/68XZH+oit39hvIxwpvw==}
+  /cclkit4svelte@2.0.2:
+    resolution: {integrity: sha512-6xWUIceoVEDRiRyqWTrVnjQKN7cgbS+PC2ZJ6QTHdsm4EM8j2Y9sa0PIKjQiGDw7jZ2F/ssA+J46w5vhZZcBDQ==}
     dependencies:
-      luxon: 3.6.1
+      luxon: 3.7.1
     dev: false
 
   /chalk@4.1.2:
@@ -1418,8 +1418,8 @@ packages:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
 
-  /luxon@3.6.1:
-    resolution: {integrity: sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==}
+  /luxon@3.7.1:
+    resolution: {integrity: sha512-RkRWjA926cTvz5rAb1BqyWkKbbjzCGchDUIKMCUvNi17j6f6j8uHGDV82Aqcqtzd+icoYpELmG3ksgGiFNNcNg==}
     engines: {node: '>=12'}
     dev: false
 

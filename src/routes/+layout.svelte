@@ -8,6 +8,7 @@
   logoHeight="50px"
   height="--hd-normal"
   bgColor="--melon-green"
+  href="https://ccl-cross.netlify.app/"
 />
 
 <a class="github-fork-ribbon" href="https://github.com/reiji1020/ccl-cross" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" target="_blank">Fork me on GitHub</a>

@@ -38,7 +38,7 @@
 		]
 	},
 	"dependencies": {
-		"cclkit4svelte": "^1.2.7",
+		"cclkit4svelte": "^2.0.2",
 		"html2canvas": "^1.4.1"
 	}
 }
