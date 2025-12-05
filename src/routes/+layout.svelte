@@ -17,7 +17,7 @@
   <slot />
 </main>
 
-<Footer bgColor="--wrap-grey" />
+<Footer bgColor="--melon-green" />
 
 <style>
   main {

@@ -57,7 +57,7 @@
     max-width: 100%; /* 親要素の幅に合わせる */
     box-sizing: border-box; /* パディングとボーダーを幅に含める */
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
   }

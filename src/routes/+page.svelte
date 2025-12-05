@@ -1,5 +1,5 @@
 <script>
-	import { Carousel } from 'cclkit4svelte';
+	import { Carousel, Button, Input, Select, FormGroup, Spinner } from 'cclkit4svelte';
 	import XIcon from '../lib/XIcon.svelte';
 	import ImageUpload from '../lib/ImageUpload.svelte';
 	import PatternDisplay from '../lib/PatternDisplay.svelte';
@@ -25,6 +25,11 @@
 
 	let patternData = null; // 生成された図案データ
 	let isGenerating = false; // 図案生成中かどうかを示すフラグ
+
+	const brandOptions = [
+		{ label: 'DMC', value: 'DMC' },
+		{ label: 'COSMO', value: 'COSMO' }
+	];
 
 	function handleImageSelected(event) {
 		uploadedImage = event.detail.dataUrl;
@@ -212,34 +217,36 @@
 		{#if uploadedImage}
 			<div class="grid-settings">
 				<h3>グリッドサイズを設定</h3>
-				<div class="input-group">
-					<label for="horizontal">横のマス数:</label>
-					<input type="number" id="horizontal" bind:value={horizontalCells} min="1" />
-				</div>
-				<div class="input-group">
-					<label for="vertical">縦のマス数:</label>
-					<input type="number" id="vertical" bind:value={verticalCells} min="1" />
-				</div>
-				<div class="input-group">
-					<label for="brand">使用ブランド:</label>
-					<select id="brand" bind:value={selectedBrand}>
-						<option value="DMC">DMC</option>
-						<option value="COSMO">COSMO</option>
-					</select>
-				</div>
-				<div class="input-group">
-					<label for="numColors">使用色数:</label>
-					<input type="number" id="numColors" bind:value={numColorsToUse} min="1" />
-				</div>
-				<button on:click={generatePattern} class="app-button" disabled={isGenerating}>
+				<FormGroup label="横のマス数" forId="horizontal">
+					<Input id="horizontal" type="number" bind:value={horizontalCells} borderColor="--melon-green" />
+				</FormGroup>
+				<FormGroup label="縦のマス数" forId="vertical">
+					<Input id="vertical" type="number" bind:value={verticalCells} borderColor="--melon-green" />
+				</FormGroup>
+				<FormGroup label="使用ブランド" forId="brand">
+					<Select id="brand" options={brandOptions} bind:value={selectedBrand} borderColor="--melon-green" />
+				</FormGroup>
+				<FormGroup label="使用色数" forId="numColors">
+					<Input id="numColors" type="number" bind:value={numColorsToUse} borderColor="--melon-green" />
+				</FormGroup>
+
+				<div class="generate-button-wrap">
+					<Button
+						label={isGenerating ? '図案生成中...' : '図案を生成'}
+						onClick={generatePattern}
+						disabled={isGenerating}
+						bgColor="--melon-green"
+					/>
+
 					{#if isGenerating}
-						図案生成中...
-					{:else}
-						図案を生成
+						<div class="generating-indicator">
+							<Spinner size="24px" color="--melon-green" />
+							<span>生成中です…</span>
+						</div>
 					{/if}
-				</button>
-			</div>
-		{/if}
+				</div>
+				</div>
+			{/if}
 
 		{#if patternData}
 			<div id="pattern-and-list">
@@ -254,12 +261,10 @@
 				</section>
 			</div>
 
-			<div class="action-buttons">
-				<button on:click={downloadImage} class="app-button"> 画像としてダウンロード </button>
-				<button on:click={downloadPatternJson} class="app-button">
-					図案データをJSONでダウンロード
-				</button>
-			</div>
+				<div class="action-buttons">
+					<Button label="画像としてダウンロード" onClick={downloadImage} bgColor="--melon-green" />
+					<Button label="図案データをJSONでダウンロード" onClick={downloadPatternJson} bgColor="--melon-green" />
+				</div>
 		{/if}
 
 		<div class="action-buttons always-visible-buttons">
@@ -312,19 +317,24 @@
 		align-items: center;
 	}
 
-	.grid-settings {
-		margin-top: 30px;
-		padding: 20px;
-		border: 1px solid #eee;
-		border-radius: 8px;
-		background-color: #fff;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-	}
+		.grid-settings {
+			margin-top: 30px;
+			padding: 20px;
+			border: 1px solid #eee;
+			border-radius: 8px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+			max-width: var(--content-width, 900px);
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+		}
 
-	.grid-settings h3 {
-		color: var(--theme-color);
-		margin-bottom: 20px;
-	}
+		.grid-settings h3 {
+			color: var(--theme-color);
+			margin-bottom: 20px;
+			text-align: center;
+		}
 
 	.input-group {
 		margin-bottom: 15px;
@@ -375,10 +385,26 @@
 		width: 100%;
 	}
 
-	.always-visible-buttons {
-		margin-top: 20px;
-		margin-bottom: 20px; /* 下に余白を追加 */
-	}
+		.always-visible-buttons {
+			margin-top: 20px;
+			margin-bottom: 20px; /* 下に余白を追加 */
+		}
+
+		.generating-indicator {
+			margin-top: 12px;
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			color: #555;
+		}
+
+		.generate-button-wrap {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 4px;
+			margin-top: 8px;
+		}
 
 	.safety-message {
 		font-size: 0.9em;

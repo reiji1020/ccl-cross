@@ -1,5 +1,6 @@
 <script>
 	import { createEventDispatcher } from 'svelte';
+	import { Button } from 'cclkit4svelte';
 
 	const dispatch = createEventDispatcher();
 
@@ -60,7 +61,7 @@
 
 	{#if previewUrl}
 		<img src={previewUrl} alt="Preview" class="image-preview" />
-		<button on:click={() => fileInput.click()} class="change-image-button"> 画像を再選択 </button>
+		<Button label="画像を再選択" onClick={() => fileInput.click()} bgColor="--melon-green" />
 	{:else}
 		<div
 			class="upload-area"
@@ -83,7 +84,7 @@
 		text-align: center;
 		cursor: pointer;
 		margin: 20px auto;
-		max-width: 600px;
+		max-width: var(--content-width, 900px);
 		background-color: #f9f9f9;
 		min-height: 200px;
 		display: flex;
@@ -105,18 +106,5 @@
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	}
 
-	.change-image-button {
-		background-color: var(--theme-color);
-		color: white;
-		border: none;
-		padding: 10px 20px;
-		border-radius: 5px;
-		cursor: pointer;
-		font-size: 1em;
-		transition: background-color 0.3s ease;
-	}
 
-	.change-image-button:hover {
-		background-color: darken(var(--theme-color), 10%);
-	}
 </style>

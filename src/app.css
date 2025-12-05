@@ -1,10 +1,11 @@
 
 :root {
-  --theme-color: #70AF0A;
+  --theme-color: var(--melon-green);
+  --content-width: 900px;
 }
 
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
