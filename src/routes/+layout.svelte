@@ -1,7 +1,28 @@
 <script>
   import '../app.css';
   import { CommonHeader, Footer } from 'cclkit4svelte';
+  import { page } from '$app/stores';
 </script>
+
+<svelte:head>
+  <title>CROSS - お気に入りの画像でクロスステッチ図案を作ろう</title>
+  <meta property="og:title" content="CROSS - お気に入りの画像でクロスステッチ図案を作ろう" />
+  <meta
+    property="og:description"
+    content="お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を選ぶまで、CROSSでワンステップ。"
+  />
+  <meta property="og:image" content="{$page.url.origin}/OGP.png" />
+  <meta property="og:url" content="{$page.url.href}" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CROSS - お気に入りの画像でクロスステッチ図案を作ろう" />
+  <meta
+    name="twitter:description"
+    content="お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を選ぶまで、CROSSでワンステップ。"
+  />
+  <meta name="twitter:image" content="{$page.url.origin}/OGP.png" />
+</svelte:head>
 
 <CommonHeader
   logo="/logo-256.svg"
