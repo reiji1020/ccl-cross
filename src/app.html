@@ -1,5 +1,9 @@
+<script>
+	import { page } from '$app/stores';
+</script>
+
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
@@ -8,7 +12,7 @@
 		%sveltekit.head%
 		<meta property="og:title" content="CROSS - お気に入りの画像でクロスステッチ図案を作ろう" />
 		<meta property="og:description" content="お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を選ぶまで、CROSSでワンステップ。" />
-		<meta property="og:image" content="%sveltekit.assets%/OGP.png" />
+		<meta property="og:image" content="{$page.url.origin}/OGP.png" />
 		<meta property="og:url" content="https://ccl-cross.netlify.app/" />
 		<meta property="og:type" content="website" />
 
