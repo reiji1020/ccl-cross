@@ -7,6 +7,16 @@
 	let fileInput;
 	let previewUrl = null;
 
+	function openFilePicker() {
+		if (!fileInput) {
+			return;
+		}
+
+		// Allow re-selecting the same file and keep the click path consistent.
+		fileInput.value = '';
+		fileInput.click();
+	}
+
 	function handleFileChange(event) {
 		const file = event.target.files[0];
 		if (file) {
@@ -47,6 +57,8 @@
 	on:drop={handleDrop}
 	on:dragover={preventDefaults}
 	on:dragleave={preventDefaults}
+	on:click={openFilePicker}
+	on:keydown={(e) => (e.key === 'Enter' || e.key === ' ') && openFilePicker()}
 	role="button"
 	tabindex="0"
 	aria-label="画像をアップロード"
@@ -61,14 +73,10 @@
 
 	{#if previewUrl}
 		<img src={previewUrl} alt="Preview" class="image-preview" />
-		<Button label="画像を再選択" onClick={() => fileInput.click()} bgColor="--melon-green" />
+		<Button label="画像を再選択" onClick={openFilePicker} bgColor="--melon-green" />
 	{:else}
 		<div
 			class="upload-area"
-			role="button"
-			tabindex="0"
-			on:click={() => fileInput.click()}
-			on:keydown={(e) => (e.key === 'Enter' || e.key === ' ') && fileInput.click()}
 		>
 			<p>画像をドラッグ＆ドロップするか、クリックして選択</p>
 			<p>(PNG/JPEG対応)</p>

@@ -5,7 +5,7 @@
 	import PatternDisplay from '../lib/PatternDisplay.svelte';
 	import ShoppingList from '../lib/ShoppingList.svelte';
 	import { rgbDistance } from '../lib/colorUtils.js';
-	import html2canvas from 'html2canvas';
+	import { buildPatternExportSvg } from '../lib/patternExport.js';
 
 	// マスターデータのインポート
 	import dmcColors from '../lib/dmc_raw.json';
@@ -158,17 +158,75 @@
 		};
 	}
 
-	async function downloadImage() {
-		const targetElement = document.getElementById('pattern-and-list');
-		if (targetElement) {
-			html2canvas(targetElement, { scale: 2 }).then((canvas) => {
-				const link = document.createElement('a');
-				link.download = 'stitch_pattern_and_list.png';
-				link.href = canvas.toDataURL('image/png');
-				link.click();
+	function triggerDownload(url, filename) {
+		const link = document.createElement('a');
+		link.href = url;
+		link.download = filename;
+		link.click();
+	}
+
+	function buildExportPattern() {
+		if (!patternData) {
+			alert('図案データがありません。');
+			return null;
+		}
+
+		return buildPatternExportSvg(patternData, dmcColors, cosmoColors);
+	}
+
+	function downloadPatternSvg() {
+		const exportData = buildExportPattern();
+		if (!exportData) {
+			return;
+		}
+
+		const { filename, svg } = exportData;
+		const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
+		const url = URL.createObjectURL(blob);
+		triggerDownload(url, filename);
+
+		setTimeout(() => URL.revokeObjectURL(url), 1000);
+	}
+
+	async function downloadPatternPng() {
+		const exportData = buildExportPattern();
+		if (!exportData) {
+			return;
+		}
+
+		const { filename, svg } = exportData;
+		const svgBlob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
+		const svgUrl = URL.createObjectURL(svgBlob);
+
+		try {
+			const image = new Image();
+			const loadPromise = new Promise((resolve, reject) => {
+				image.onload = resolve;
+				image.onerror = reject;
 			});
-		} else {
-			alert('ダウンロード対象の要素が見つかりません。');
+
+			image.src = svgUrl;
+			await loadPromise;
+
+			const canvas = document.createElement('canvas');
+			canvas.width = image.width;
+			canvas.height = image.height;
+			const ctx = canvas.getContext('2d');
+
+			if (!ctx) {
+				throw new Error('Canvas context unavailable');
+			}
+
+			ctx.fillStyle = '#ffffff';
+			ctx.fillRect(0, 0, canvas.width, canvas.height);
+			ctx.drawImage(image, 0, 0);
+
+			const pngUrl = canvas.toDataURL('image/png');
+			triggerDownload(pngUrl, filename.replace(/\.svg$/i, '.png'));
+		} catch (error) {
+			alert('PNGへの変換に失敗しました。');
+		} finally {
+			URL.revokeObjectURL(svgUrl);
 		}
 	}
 
@@ -261,10 +319,11 @@
 				</section>
 			</div>
 
-				<div class="action-buttons">
-					<Button label="画像としてダウンロード" onClick={downloadImage} bgColor="--melon-green" />
-					<Button label="図案データをJSONでダウンロード" onClick={downloadPatternJson} bgColor="--melon-green" />
-				</div>
+					<div class="action-buttons">
+						<Button label="図案をSVGで保存" onClick={downloadPatternSvg} bgColor="--melon-green" />
+						<Button label="図案をPNGで保存" onClick={downloadPatternPng} bgColor="--melon-green" />
+						<Button label="図案データをJSONでダウンロード" onClick={downloadPatternJson} bgColor="--melon-green" />
+					</div>
 		{/if}
 
 		<div class="action-buttons always-visible-buttons">
