@@ -1,17 +1,21 @@
-<script>
-  export let patternData; // { gridSize: [w, h], brand: 'DMC'|'COSMO', cells: [[code, ...], ...] }
-  export let allDmcColors; // 全DMCカラーデータ
-  export let allCosmoColors; // 全COSMOカラーデータ
-  export let screenWidth; // 親コンポーネントから渡される画面幅
-  export let isModal = false; // モーダル内での表示かどうかを示すフラグ
+<script lang="ts">
+  import type { PatternData, ThreadColor } from './types';
 
-  let colorMap = new Map();
-  let cellSize; // リアクティブな変数として定義を先に移動
+  export let patternData: PatternData;
+  export let allDmcColors: ThreadColor[];
+  export let allCosmoColors: ThreadColor[];
+  export let screenWidth: number | undefined = undefined;
+  export let isModal = false;
+
+  let colorMap = new Map<string, string>();
+  let cellSize = 20;
+  let gridWidth = 0;
+  let gridHeight = 0;
 
   $: {
     // patternDataまたはカラーデータが変更されたらカラーマップを再構築
     const targetColors = patternData.brand === 'DMC' ? allDmcColors : allCosmoColors;
-    colorMap = new Map(targetColors.map(color => [color.COLOR_CODE, color.RGB_COLOR]));
+    colorMap = new Map(targetColors.map((color) => [color.COLOR_CODE, color.RGB_COLOR]));
   }
 
   // 各セルのサイズを動的に計算

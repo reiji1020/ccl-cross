@@ -1,3 +1,5 @@
+import type { PatternData, PatternExport, ThreadColor } from './types';
+
 const SYMBOL_SET = [
 	'●',
 	'■',
@@ -49,7 +51,7 @@ const SYMBOL_SET = [
 	'9'
 ];
 
-function escapeXml(value) {
+function escapeXml(value: string | number): string {
 	return String(value)
 		.replaceAll('&', '&amp;')
 		.replaceAll('<', '&lt;')
@@ -58,7 +60,7 @@ function escapeXml(value) {
 		.replaceAll("'", '&apos;');
 }
 
-function buildSymbol(index) {
+function buildSymbol(index: number): string {
 	if (index < SYMBOL_SET.length) {
 		return SYMBOL_SET[index];
 	}
@@ -68,14 +70,15 @@ function buildSymbol(index) {
 	return `${second}${first}`;
 }
 
-function hexToRgb(hexColor) {
+function hexToRgb(hexColor: string): { r: number; g: number; b: number } {
 	const normalized = hexColor.replace('#', '');
-	const safeHex = normalized.length === 3
-		? normalized
-				.split('')
-				.map((char) => char + char)
-				.join('')
-		: normalized;
+	const safeHex =
+		normalized.length === 3
+			? normalized
+					.split('')
+					.map((char) => char + char)
+					.join('')
+			: normalized;
 
 	const value = Number.parseInt(safeHex, 16);
 	return {
@@ -85,15 +88,15 @@ function hexToRgb(hexColor) {
 	};
 }
 
-function buildTintColor(hexColor, amount = 0.82) {
+function buildTintColor(hexColor: string, amount = 0.82): string {
 	const { r, g, b } = hexToRgb(hexColor);
-	const tint = (channel) => Math.round(channel + (255 - channel) * amount);
+	const tint = (channel: number) => Math.round(channel + (255 - channel) * amount);
 	return `rgb(${tint(r)}, ${tint(g)}, ${tint(b)})`;
 }
 
-function collectUsedColors(patternData, targetColors) {
+function collectUsedColors(patternData: PatternData, targetColors: ThreadColor[]): Array<ThreadColor & { count: number }> {
 	const colorMap = new Map(targetColors.map((color) => [color.COLOR_CODE, color]));
-	const usageCounts = new Map();
+	const usageCounts = new Map<string, number>();
 
 	for (const row of patternData.cells) {
 		for (const code of row) {
@@ -103,13 +106,17 @@ function collectUsedColors(patternData, targetColors) {
 
 	return Array.from(usageCounts.entries())
 		.map(([code, count]) => ({
-			...colorMap.get(code),
+			...colorMap.get(code)!,
 			count
 		}))
 		.sort((a, b) => a.COLOR_CODE.localeCompare(b.COLOR_CODE, undefined, { numeric: true }));
 }
 
-export function buildPatternExportSvg(patternData, allDmcColors, allCosmoColors) {
+export function buildPatternExportSvg(
+	patternData: PatternData,
+	allDmcColors: ThreadColor[],
+	allCosmoColors: ThreadColor[]
+): PatternExport {
 	const targetColors = patternData.brand === 'DMC' ? allDmcColors : allCosmoColors;
 	const usedColors = collectUsedColors(patternData, targetColors);
 	const symbolMap = new Map(usedColors.map((color, index) => [color.COLOR_CODE, buildSymbol(index)]));
@@ -141,18 +148,16 @@ export function buildPatternExportSvg(patternData, allDmcColors, allCosmoColors)
 	];
 
 	for (let y = 10; y < rows; y += 10) {
-		const label = y;
 		const py = gridOriginY + y * cellSize + cellSize / 2 + 4;
 		parts.push(
-			`<text x="${gridOriginX - 10}" y="${py}" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#444444">${label}</text>`
+			`<text x="${gridOriginX - 10}" y="${py}" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#444444">${y}</text>`
 		);
 	}
 
 	for (let x = 10; x < cols; x += 10) {
-		const label = x;
 		const px = gridOriginX + x * cellSize + cellSize / 2;
 		parts.push(
-			`<text x="${px}" y="${gridOriginY - 10}" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#444444">${label}</text>`
+			`<text x="${px}" y="${gridOriginY - 10}" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#444444">${x}</text>`
 		);
 	}
 
@@ -187,7 +192,6 @@ export function buildPatternExportSvg(patternData, allDmcColors, allCosmoColors)
 			parts.push(
 				`<rect x="${cellX}" y="${cellY}" width="${cellSize}" height="${cellSize}" fill="${escapeXml(backgroundColor)}" />`
 			);
-
 			parts.push(
 				`<text x="${centerX}" y="${centerY}" text-anchor="middle" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="${fontSize}" font-weight="700" fill="#111111">${escapeXml(symbol)}</text>`
 			);
@@ -203,7 +207,7 @@ export function buildPatternExportSvg(patternData, allDmcColors, allCosmoColors)
 
 	usedColors.forEach((color, index) => {
 		const y = legendY + 42 + index * legendRowHeight;
-		const symbol = symbolMap.get(color.COLOR_CODE);
+		const symbol = symbolMap.get(color.COLOR_CODE) || '?';
 		const colorName = color.COLOR_NAME_EN || '-';
 		parts.push(
 			`<text x="${legendX}" y="${y}" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="14" font-weight="700" fill="#111111">${escapeXml(symbol)}</text>`

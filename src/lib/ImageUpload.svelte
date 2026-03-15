@@ -1,11 +1,12 @@
-<script>
+<script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { Button } from 'cclkit4svelte';
+	import type { ImageSelectedDetail } from './types';
 
-	const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher<{ imageSelected: ImageSelectedDetail }>();
 
-	let fileInput;
-	let previewUrl = null;
+	let fileInput: HTMLInputElement;
+	let previewUrl: string | null = null;
 
 	function openFilePicker() {
 		if (!fileInput) {
@@ -17,22 +18,23 @@
 		fileInput.click();
 	}
 
-	function handleFileChange(event) {
-		const file = event.target.files[0];
+	function handleFileChange(event: Event) {
+		const target = event.currentTarget as HTMLInputElement;
+		const file = target.files?.[0];
 		if (file) {
 			readFile(file);
 		}
 	}
 
-	function handleDrop(event) {
+	function handleDrop(event: DragEvent) {
 		event.preventDefault();
-		const file = event.dataTransfer.files[0];
+		const file = event.dataTransfer?.files?.[0];
 		if (file) {
 			readFile(file);
 		}
 	}
 
-	function readFile(file) {
+	function readFile(file: File) {
 		if (!file.type.startsWith('image/')) {
 			alert('画像ファイルを選択してください。');
 			return;
@@ -40,13 +42,13 @@
 
 		const reader = new FileReader();
 		reader.onload = (e) => {
-			previewUrl = e.target.result;
+			previewUrl = e.target?.result as string;
 			dispatch('imageSelected', { file, dataUrl: previewUrl });
 		};
 		reader.readAsDataURL(file);
 	}
 
-	function preventDefaults(event) {
+	function preventDefaults(event: Event) {
 		event.preventDefault();
 		event.stopPropagation();
 	}

@@ -1,11 +1,12 @@
-<script>
+<script lang="ts">
 	import { Carousel, Button, Input, Select, FormGroup, Spinner } from 'cclkit4svelte';
 	import XIcon from '../lib/XIcon.svelte';
 	import ImageUpload from '../lib/ImageUpload.svelte';
 	import PatternDisplay from '../lib/PatternDisplay.svelte';
 	import ShoppingList from '../lib/ShoppingList.svelte';
-	import { rgbDistance } from '../lib/colorUtils.js';
-	import { buildPatternExportSvg } from '../lib/patternExport.js';
+	import { rgbDistance } from '../lib/colorUtils';
+	import { buildPatternExportSvg } from '../lib/patternExport';
+	import type { Brand, ImageSelectedDetail, PatternData, ThreadColor } from '../lib/types';
 
 	// マスターデータのインポート
 	import dmcColors from '../lib/dmc_raw.json';
@@ -17,22 +18,26 @@
 		{ src: '/carousel_03.png', alt: 'Carousel Image 3' }
 	];
 
-	let uploadedImage = null;
+	let uploadedImage: string | null = null;
 	let horizontalCells = 50; // デフォルト値
 	let verticalCells = 50; // デフォルト値
-	let selectedBrand = 'DMC'; // 選択されたブランド
+	let selectedBrand: Brand = 'DMC'; // 選択されたブランド
 	let numColorsToUse = 30; // 使用する色数のデフォルト値
 
-	let patternData = null; // 生成された図案データ
+	let patternData: PatternData | null = null; // 生成された図案データ
 	let isGenerating = false; // 図案生成中かどうかを示すフラグ
 
-	const brandOptions = [
+	const brandOptions: Array<{ label: Brand; value: Brand }> = [
 		{ label: 'DMC', value: 'DMC' },
 		{ label: 'COSMO', value: 'COSMO' }
 	];
 
-	function handleImageSelected(event) {
+	function handleImageSelected(event: CustomEvent<ImageSelectedDetail>) {
 		uploadedImage = event.detail.dataUrl;
+	}
+
+	function getAvailableColors(): ThreadColor[] {
+		return (selectedBrand === 'DMC' ? dmcColors : cosmoColors) as ThreadColor[];
 	}
 
 	async function generatePattern() {
@@ -52,6 +57,9 @@
 				// 元の画像を一時的なキャンバスに描画
 				const originalCanvas = document.createElement('canvas');
 				const originalCtx = originalCanvas.getContext('2d');
+				if (!originalCtx) {
+					throw new Error('Original canvas context unavailable');
+				}
 				originalCanvas.width = img.width;
 				originalCanvas.height = img.height;
 				originalCtx.drawImage(img, 0, 0);
@@ -59,14 +67,17 @@
 				const cellWidthPx = img.width / horizontalCells;
 				const cellHeightPx = img.height / verticalCells;
 
-				const availableColors = selectedBrand === 'DMC' ? dmcColors : cosmoColors;
-				const patternCells = [];
+				const availableColors = getAvailableColors();
+				const patternCells: string[][] = [];
 
 				// 平均色を取得するための小さな一時キャンバス
 				const tinyCanvas = document.createElement('canvas');
 				tinyCanvas.width = 1;
 				tinyCanvas.height = 1;
 				const tinyCtx = tinyCanvas.getContext('2d', { willReadFrequently: true });
+				if (!tinyCtx) {
+					throw new Error('Tiny canvas context unavailable');
+				}
 
 				// --- パス1: 全色を使って各セルの最も近い色を仮決定し、色の出現数をカウント --- //
 				const colorUsageCounts = new Map();
@@ -80,10 +91,10 @@
 
 						tinyCtx.drawImage(originalCanvas, sx, sy, sWidth, sHeight, 0, 0, 1, 1);
 						const pixel = tinyCtx.getImageData(0, 0, 1, 1).data;
-						const avgColor = [pixel[0], pixel[1], pixel[2]];
+						const avgColor: [number, number, number] = [pixel[0], pixel[1], pixel[2]];
 
 						let minDistance = Infinity;
-						let bestMatch = null;
+						let bestMatch: ThreadColor | null = null;
 
 						for (const color of availableColors) {
 							const distance = rgbDistance(avgColor, color.RGB);
@@ -92,15 +103,17 @@
 								bestMatch = color;
 							}
 						}
-						colorUsageCounts.set(
-							bestMatch.COLOR_CODE,
-							(colorUsageCounts.get(bestMatch.COLOR_CODE) || 0) + 1
-						);
+						if (bestMatch) {
+							colorUsageCounts.set(
+								bestMatch.COLOR_CODE,
+								(colorUsageCounts.get(bestMatch.COLOR_CODE) || 0) + 1
+							);
+						}
 					}
 				}
 
 				// --- 使用する色数を制限する場合、上位の色を選定 --- //
-				let finalTargetColors = availableColors;
+				let finalTargetColors: ThreadColor[] = availableColors;
 				if (numColorsToUse > 0 && numColorsToUse < availableColors.length) {
 					const sortedColorsByUsage = Array.from(colorUsageCounts.entries())
 						.sort(([, countA], [, countB]) => countB - countA) // 出現数で降順ソート
@@ -115,7 +128,7 @@
 
 				// --- パス2: 選定された色のみを使って各セルの最終的な色を決定 --- //
 				for (let y = 0; y < verticalCells; y++) {
-					const row = [];
+					const row: string[] = [];
 					for (let x = 0; x < horizontalCells; x++) {
 						const sx = x * cellWidthPx;
 						const sy = y * cellHeightPx;
@@ -124,10 +137,10 @@
 
 						tinyCtx.drawImage(originalCanvas, sx, sy, sWidth, sHeight, 0, 0, 1, 1);
 						const pixel = tinyCtx.getImageData(0, 0, 1, 1).data;
-						const avgColor = [pixel[0], pixel[1], pixel[2]];
+						const avgColor: [number, number, number] = [pixel[0], pixel[1], pixel[2]];
 
 						let minDistance = Infinity;
-						let bestMatch = null;
+						let bestMatch: ThreadColor | null = null;
 
 						for (const color of finalTargetColors) {
 							const distance = rgbDistance(avgColor, color.RGB);
@@ -136,7 +149,9 @@
 								bestMatch = color;
 							}
 						}
-						row.push(bestMatch.COLOR_CODE);
+						if (bestMatch) {
+							row.push(bestMatch.COLOR_CODE);
+						}
 					}
 					patternCells.push(row);
 				}
@@ -158,7 +173,7 @@
 		};
 	}
 
-	function triggerDownload(url, filename) {
+	function triggerDownload(url: string, filename: string) {
 		const link = document.createElement('a');
 		link.href = url;
 		link.download = filename;
@@ -171,7 +186,11 @@
 			return null;
 		}
 
-		return buildPatternExportSvg(patternData, dmcColors, cosmoColors);
+		return buildPatternExportSvg(
+			patternData,
+			dmcColors as ThreadColor[],
+			cosmoColors as ThreadColor[]
+		);
 	}
 
 	function downloadPatternSvg() {
@@ -200,9 +219,9 @@
 
 		try {
 			const image = new Image();
-			const loadPromise = new Promise((resolve, reject) => {
-				image.onload = resolve;
-				image.onerror = reject;
+			const loadPromise = new Promise<void>((resolve, reject) => {
+				image.onload = () => resolve();
+				image.onerror = () => reject(new Error('Failed to load SVG image'));
 			});
 
 			image.src = svgUrl;

@@ -1,25 +1,27 @@
 
-<script>
-  export let patternData; // { gridSize: [w, h], brand: 'DMC'|'COSMO', cells: [[code, ...], ...] }
-  export let allDmcColors; // 全DMCカラーデータ
-  export let allCosmoColors; // 全COSMOカラーデータ
+<script lang="ts">
+  import type { PatternData, ThreadColor } from './types';
 
-  let usedColors = [];
+  export let patternData: PatternData;
+  export let allDmcColors: ThreadColor[];
+  export let allCosmoColors: ThreadColor[];
+
+  let usedColors: Array<ThreadColor & { count: number }> = [];
 
   $: {
     if (patternData && patternData.cells) {
       const targetColors = patternData.brand === 'DMC' ? allDmcColors : allCosmoColors;
-      const colorMap = new Map(targetColors.map(color => [color.COLOR_CODE, color]));
+      const colorMap = new Map(targetColors.map((color) => [color.COLOR_CODE, color]));
 
-      const colorCounts = {};
-      patternData.cells.flat().forEach(code => {
+      const colorCounts: Record<string, number> = {};
+      patternData.cells.flat().forEach((code) => {
         colorCounts[code] = (colorCounts[code] || 0) + 1;
       });
 
-      usedColors = Object.keys(colorCounts).map(code => ({
-        ...colorMap.get(code),
+      usedColors = Object.keys(colorCounts).map((code) => ({
+        ...colorMap.get(code)!,
         count: colorCounts[code]
-      })).sort((a, b) => a.COLOR_CODE.localeCompare(b.COLOR_CODE)); // 色番号でソート
+      })).sort((a, b) => a.COLOR_CODE.localeCompare(b.COLOR_CODE, undefined, { numeric: true })); // 色番号でソート
     }
   }
 </script>

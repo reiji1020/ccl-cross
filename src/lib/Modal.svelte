@@ -1,14 +1,15 @@
-<script>
+<script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import PatternDisplay from './PatternDisplay.svelte';
   import html2canvas from 'html2canvas';
+  import type { PatternData, ThreadColor } from './types';
 
-  export let patternData;
-  export let allDmcColors;
-  export let allCosmoColors;
-  export let screenWidth; // 親から受け取る画面幅
+  export let patternData: PatternData;
+  export let allDmcColors: ThreadColor[];
+  export let allCosmoColors: ThreadColor[];
+  export let screenWidth: number | undefined = undefined;
 
-  const dispatch = createEventDispatcher();
+  const dispatch = createEventDispatcher<{ close: void }>();
 
   function closeModal() {
     dispatch('close');
@@ -18,7 +19,7 @@
     const targetElement = document.getElementById('modal-pattern-display');
     if (targetElement) {
       // モーダル内の図案グリッドの実際のサイズを取得
-      const patternGrid = targetElement.querySelector('.pattern-grid');
+      const patternGrid = targetElement.querySelector('.pattern-grid') as HTMLElement | null;
       let scale = 2; // デフォルトのスケール
       if (patternGrid) {
         // 表示されている図案の幅と、本来の図案の幅（cellSize * gridSize[0]）を比較してスケールを決定
@@ -30,7 +31,7 @@
         }
       }
 
-      html2canvas(targetElement, { scale: 3 }).then(canvas => {
+      html2canvas(targetElement, { scale: 3 }).then((canvas) => {
         const link = document.createElement('a');
         link.download = 'full_size_stitch_pattern.png';
         link.href = canvas.toDataURL('image/png');

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import '../app.css';
   import { CommonHeader, Footer } from 'cclkit4svelte';
   import { page } from '$app/stores';
