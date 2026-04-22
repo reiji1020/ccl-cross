@@ -198,7 +198,7 @@ export function buildPatternExportSvg(
 				`<rect x="${cellX}" y="${cellY}" width="${cellSize}" height="${cellSize}" fill="${escapeXml(backgroundColor)}" />`
 			);
 			parts.push(
-				`<text x="${centerX}" y="${centerY}" text-anchor="middle" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="${fontSize}" font-weight="700" fill="#111111">${escapeXml(symbol)}</text>`
+				`<text x="${centerX}" y="${centerY}" text-anchor="middle" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="${fontSize}" font-weight="700" fill="${escapeXml(color?.RGB_COLOR || '#111111')}">${escapeXml(symbol)}</text>`
 			);
 		}
 	}
@@ -215,7 +215,7 @@ export function buildPatternExportSvg(
 			const symbol = symbolMap.get(color.COLOR_CODE) || '?';
 			const colorName = color.COLOR_NAME_EN || '-';
 			parts.push(
-				`<text x="${legendX}" y="${y}" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="14" font-weight="700" fill="#111111">${escapeXml(symbol)}</text>`
+				`<text x="${legendX}" y="${y}" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="14" font-weight="700" fill="${escapeXml(color.RGB_COLOR || '#111111')}">${escapeXml(symbol)}</text>`
 			);
 			parts.push(
 				`<rect x="${legendX + 30}" y="${y - 16}" width="${swatchSize}" height="${swatchSize}" rx="4" ry="4" fill="${escapeXml(color.RGB_COLOR || '#ffffff')}" stroke="#999999" stroke-width="0.8" />`
