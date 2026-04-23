@@ -47,6 +47,132 @@
 		return (selectedBrand === 'DMC' ? dmcColors : cosmoColors) as ThreadColor[];
 	}
 
+	function findNearestThreadColor(rgb: [number, number, number], colors: ThreadColor[]): ThreadColor | null {
+		let minDistance = Infinity;
+		let bestMatch: ThreadColor | null = null;
+
+		for (const color of colors) {
+			const distance = rgbDistance(rgb, color.RGB);
+			if (distance < minDistance) {
+				minDistance = distance;
+				bestMatch = color;
+			}
+		}
+
+		return bestMatch;
+	}
+
+	function getRgbRange(samples: Array<[number, number, number]>) {
+		let minR = 255;
+		let minG = 255;
+		let minB = 255;
+		let maxR = 0;
+		let maxG = 0;
+		let maxB = 0;
+
+		for (const [r, g, b] of samples) {
+			minR = Math.min(minR, r);
+			minG = Math.min(minG, g);
+			minB = Math.min(minB, b);
+			maxR = Math.max(maxR, r);
+			maxG = Math.max(maxG, g);
+			maxB = Math.max(maxB, b);
+		}
+
+		return {
+			r: maxR - minR,
+			g: maxG - minG,
+			b: maxB - minB
+		};
+	}
+
+	function selectRepresentativeColors(
+		sampledColors: Array<[number, number, number]>,
+		availableColors: ThreadColor[],
+		colorUsageCounts: Map<string, number>
+	): ThreadColor[] {
+		if (numColorsToUse <= 0 || numColorsToUse >= availableColors.length) {
+			return availableColors;
+		}
+
+		const buckets: Array<Array<[number, number, number]>> = [sampledColors];
+
+		while (buckets.length < numColorsToUse) {
+			let splitIndex = -1;
+			let maxScore = -1;
+
+			for (let i = 0; i < buckets.length; i++) {
+				const bucket = buckets[i];
+				if (bucket.length < 2) {
+					continue;
+				}
+
+				const range = getRgbRange(bucket);
+				const score = Math.max(range.r, range.g, range.b) * bucket.length;
+				if (score > maxScore) {
+					maxScore = score;
+					splitIndex = i;
+				}
+			}
+
+			if (splitIndex === -1) {
+				break;
+			}
+
+			const bucket = buckets.splice(splitIndex, 1)[0];
+			const range = getRgbRange(bucket);
+			const channelIndex = range.r >= range.g && range.r >= range.b ? 0 : range.g >= range.b ? 1 : 2;
+			const sortedBucket = [...bucket].sort((a, b) => a[channelIndex] - b[channelIndex]);
+			const midpoint = Math.floor(sortedBucket.length / 2);
+			buckets.push(sortedBucket.slice(0, midpoint), sortedBucket.slice(midpoint));
+		}
+
+		const selectedColors: ThreadColor[] = [];
+		const selectedCodes = new Set<string>();
+
+		for (const bucket of buckets) {
+			if (bucket.length === 0) {
+				continue;
+			}
+
+			const sum = bucket.reduce(
+				(total, [r, g, b]) => {
+					total[0] += r;
+					total[1] += g;
+					total[2] += b;
+					return total;
+				},
+				[0, 0, 0]
+			);
+			const average: [number, number, number] = [
+				Math.round(sum[0] / bucket.length),
+				Math.round(sum[1] / bucket.length),
+				Math.round(sum[2] / bucket.length)
+			];
+			const nearestColor = findNearestThreadColor(average, availableColors);
+
+			if (nearestColor && !selectedCodes.has(nearestColor.COLOR_CODE)) {
+				selectedCodes.add(nearestColor.COLOR_CODE);
+				selectedColors.push(nearestColor);
+			}
+		}
+
+		const colorMap = new Map(availableColors.map((color) => [color.COLOR_CODE, color]));
+		for (const [code] of Array.from(colorUsageCounts.entries()).sort(([, countA], [, countB]) => countB - countA)) {
+			if (selectedColors.length >= numColorsToUse) {
+				break;
+			}
+
+			const color = colorMap.get(code);
+			if (color && !selectedCodes.has(code)) {
+				selectedCodes.add(code);
+				selectedColors.push(color);
+			}
+		}
+
+		return selectedColors;
+	}
+
 	async function generatePattern() {
 		if (!uploadedImage) {
 			alert('画像をアップロードしてください。');
@@ -61,55 +187,59 @@
 
 		img.onload = () => {
 			try {
-				// 元の画像を一時的なキャンバスに描画
+				const availableColors = getAvailableColors();
+				const patternCells: string[][] = [];
+
+				const sampleCanvas = document.createElement('canvas');
+				sampleCanvas.width = horizontalCells;
+				sampleCanvas.height = verticalCells;
+				const sampleCtx = sampleCanvas.getContext('2d', { willReadFrequently: true });
+				if (!sampleCtx) {
+					throw new Error('Sample canvas context unavailable');
+				}
+
 				const originalCanvas = document.createElement('canvas');
+				originalCanvas.width = img.width;
+				originalCanvas.height = img.height;
 				const originalCtx = originalCanvas.getContext('2d');
 				if (!originalCtx) {
 					throw new Error('Original canvas context unavailable');
 				}
-				originalCanvas.width = img.width;
-				originalCanvas.height = img.height;
 				originalCtx.drawImage(img, 0, 0);
 
 				const cellWidthPx = img.width / horizontalCells;
 				const cellHeightPx = img.height / verticalCells;
+				for (let y = 0; y < verticalCells; y++) {
+					for (let x = 0; x < horizontalCells; x++) {
+						sampleCtx.drawImage(
+							originalCanvas,
+							x * cellWidthPx,
+							y * cellHeightPx,
+							cellWidthPx,
+							cellHeightPx,
+							x,
+							y,
+							1,
+							1
+						);
+					}
+				}
+				const sampledPixels = sampleCtx.getImageData(0, 0, horizontalCells, verticalCells).data;
 
-				const availableColors = getAvailableColors();
-				const patternCells: string[][] = [];
-
-				// 平均色を取得するための小さな一時キャンバス
-				const tinyCanvas = document.createElement('canvas');
-				tinyCanvas.width = 1;
-				tinyCanvas.height = 1;
-				const tinyCtx = tinyCanvas.getContext('2d', { willReadFrequently: true });
-				if (!tinyCtx) {
-					throw new Error('Tiny canvas context unavailable');
+				function getSampledColor(x: number, y: number): [number, number, number] {
+					const index = (y * horizontalCells + x) * 4;
+					return [sampledPixels[index], sampledPixels[index + 1], sampledPixels[index + 2]];
 				}
 
 				// --- パス1: 全色を使って各セルの最も近い色を仮決定し、色の出現数をカウント --- //
-				const colorUsageCounts = new Map();
+				const colorUsageCounts = new Map<string, number>();
+				const sampledColors: Array<[number, number, number]> = [];
 
 				for (let y = 0; y < verticalCells; y++) {
 					for (let x = 0; x < horizontalCells; x++) {
-						const sx = x * cellWidthPx;
-						const sy = y * cellHeightPx;
-						const sWidth = cellWidthPx;
-						const sHeight = cellHeightPx;
-
-						tinyCtx.drawImage(originalCanvas, sx, sy, sWidth, sHeight, 0, 0, 1, 1);
-						const pixel = tinyCtx.getImageData(0, 0, 1, 1).data;
-						const avgColor: [number, number, number] = [pixel[0], pixel[1], pixel[2]];
-
-						let minDistance = Infinity;
-						let bestMatch: ThreadColor | null = null;
-
-						for (const color of availableColors) {
-							const distance = rgbDistance(avgColor, color.RGB);
-							if (distance < minDistance) {
-								minDistance = distance;
-								bestMatch = color;
-							}
-						}
+						const avgColor = getSampledColor(x, y);
+						sampledColors.push(avgColor);
+						const bestMatch = findNearestThreadColor(avgColor, availableColors);
 						if (bestMatch) {
 							colorUsageCounts.set(
 								bestMatch.COLOR_CODE,
@@ -122,14 +252,10 @@
 				// --- 使用する色数を制限する場合、上位の色を選定 --- //
 				let finalTargetColors: ThreadColor[] = availableColors;
 				if (numColorsToUse > 0 && numColorsToUse < availableColors.length) {
-					const sortedColorsByUsage = Array.from(colorUsageCounts.entries())
-						.sort(([, countA], [, countB]) => countB - countA) // 出現数で降順ソート
-						.slice(0, numColorsToUse) // 上位numColorsToUse個の色コードを取得
-						.map(([code]) => code);
-
-					// 上位の色コードに対応するカラーオブジェクトをavailableColorsから取得
-					finalTargetColors = availableColors.filter((color) =>
-						sortedColorsByUsage.includes(color.COLOR_CODE)
+					finalTargetColors = selectRepresentativeColors(
+						sampledColors,
+						availableColors,
+						colorUsageCounts
 					);
 				}
 
@@ -137,25 +263,8 @@
 				for (let y = 0; y < verticalCells; y++) {
 					const row: string[] = [];
 					for (let x = 0; x < horizontalCells; x++) {
-						const sx = x * cellWidthPx;
-						const sy = y * cellHeightPx;
-						const sWidth = cellWidthPx;
-						const sHeight = cellHeightPx;
-
-						tinyCtx.drawImage(originalCanvas, sx, sy, sWidth, sHeight, 0, 0, 1, 1);
-						const pixel = tinyCtx.getImageData(0, 0, 1, 1).data;
-						const avgColor: [number, number, number] = [pixel[0], pixel[1], pixel[2]];
-
-						let minDistance = Infinity;
-						let bestMatch: ThreadColor | null = null;
-
-						for (const color of finalTargetColors) {
-							const distance = rgbDistance(avgColor, color.RGB);
-							if (distance < minDistance) {
-								minDistance = distance;
-								bestMatch = color;
-							}
-						}
+						const avgColor = sampledColors[y * horizontalCells + x];
+						const bestMatch = findNearestThreadColor(avgColor, finalTargetColors);
 						if (bestMatch) {
 							row.push(bestMatch.COLOR_CODE);
 						}
