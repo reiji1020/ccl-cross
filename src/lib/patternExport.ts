@@ -1,4 +1,4 @@
-import type { PatternData, PatternExport, ThreadColor } from './types';
+import type { PatternData, PatternExport, PatternExportOptions, ThreadColor } from './types';
 
 const SYMBOL_SET = [
 	'●',
@@ -115,7 +115,8 @@ function collectUsedColors(patternData: PatternData, targetColors: ThreadColor[]
 export function buildPatternExportSvg(
 	patternData: PatternData,
 	allDmcColors: ThreadColor[],
-	allCosmoColors: ThreadColor[]
+	allCosmoColors: ThreadColor[],
+	options: PatternExportOptions = { symbolColorMode: 'color' }
 ): PatternExport {
 	const targetColors = patternData.brand === 'DMC' ? allDmcColors : allCosmoColors;
 	const usedColors = collectUsedColors(patternData, targetColors);
@@ -193,12 +194,13 @@ export function buildPatternExportSvg(
 			const cellX = gridOriginX + x * cellSize;
 			const cellY = gridOriginY + y * cellSize;
 			const backgroundColor = buildTintColor(color?.RGB_COLOR || '#ffffff');
+			const symbolColor = options.symbolColorMode === 'black' ? '#111111' : color?.RGB_COLOR || '#111111';
 
 			parts.push(
 				`<rect x="${cellX}" y="${cellY}" width="${cellSize}" height="${cellSize}" fill="${escapeXml(backgroundColor)}" />`
 			);
 			parts.push(
-				`<text x="${centerX}" y="${centerY}" text-anchor="middle" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="${fontSize}" font-weight="700" fill="${escapeXml(color?.RGB_COLOR || '#111111')}">${escapeXml(symbol)}</text>`
+				`<text x="${centerX}" y="${centerY}" text-anchor="middle" font-family="'Segoe UI Symbol', 'Arial Unicode MS', sans-serif" font-size="${fontSize}" font-weight="700" fill="${escapeXml(symbolColor)}">${escapeXml(symbol)}</text>`
 			);
 		}
 	}

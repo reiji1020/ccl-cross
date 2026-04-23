@@ -20,6 +20,12 @@ export type PatternExport = {
 	svg: string;
 };
 
+export type SymbolColorMode = 'color' | 'black';
+
+export type PatternExportOptions = {
+	symbolColorMode: SymbolColorMode;
+};
+
 export type ImageSelectedDetail = {
 	file: File;
 	dataUrl: string;

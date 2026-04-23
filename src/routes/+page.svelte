@@ -6,7 +6,7 @@
 	import ShoppingList from '../lib/ShoppingList.svelte';
 	import { rgbDistance } from '../lib/colorUtils';
 	import { buildPatternExportSvg } from '../lib/patternExport';
-	import type { Brand, ImageSelectedDetail, PatternData, ThreadColor } from '../lib/types';
+	import type { Brand, ImageSelectedDetail, PatternData, SymbolColorMode, ThreadColor } from '../lib/types';
 
 	// マスターデータのインポート
 	import dmcColors from '../lib/dmc_raw.json';
@@ -27,9 +27,16 @@
 	let patternData: PatternData | null = null; // 生成された図案データ
 	let isGenerating = false; // 図案生成中かどうかを示すフラグ
 
+	let symbolColorMode: SymbolColorMode = 'color';
+
 	const brandOptions: Array<{ label: Brand; value: Brand }> = [
 		{ label: 'DMC', value: 'DMC' },
 		{ label: 'COSMO', value: 'COSMO' }
+	];
+
+	const symbolColorOptions: Array<{ label: string; value: SymbolColorMode }> = [
+		{ label: 'カラー', value: 'color' },
+		{ label: '黒', value: 'black' }
 	];
 
 	function handleImageSelected(event: CustomEvent<ImageSelectedDetail>) {
@@ -189,7 +196,8 @@
 		return buildPatternExportSvg(
 			patternData,
 			dmcColors as ThreadColor[],
-			cosmoColors as ThreadColor[]
+			cosmoColors as ThreadColor[],
+			{ symbolColorMode }
 		);
 	}
 
@@ -305,6 +313,14 @@
 				</FormGroup>
 				<FormGroup label="使用色数" forId="numColors">
 					<Input id="numColors" type="number" bind:value={numColorsToUse} borderColor="--melon-green" />
+				</FormGroup>
+				<FormGroup label="記号色" forId="symbolColorMode">
+					<Select
+						id="symbolColorMode"
+						options={symbolColorOptions}
+						bind:value={symbolColorMode}
+						borderColor="--melon-green"
+					/>
 				</FormGroup>
 
 				<div class="generate-button-wrap">
