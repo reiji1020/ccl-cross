@@ -1,120 +1,126 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte';
-  import PatternDisplay from './PatternDisplay.svelte';
-  import html2canvas from 'html2canvas';
-  import type { PatternData, ThreadColor } from './types';
+	import PatternDisplay from './PatternDisplay.svelte';
+	import html2canvas from 'html2canvas';
+	import type { PatternData, ThreadColor } from './types';
 
-  export let patternData: PatternData;
-  export let allDmcColors: ThreadColor[];
-  export let allCosmoColors: ThreadColor[];
-  export let screenWidth: number | undefined = undefined;
+	type Props = {
+		patternData: PatternData;
+		allDmcColors: ThreadColor[];
+		allCosmoColors: ThreadColor[];
+		screenWidth?: number;
+		onClose?: () => void;
+	};
 
-  const dispatch = createEventDispatcher<{ close: void }>();
+	let {
+		patternData,
+		allDmcColors,
+		allCosmoColors,
+		screenWidth = undefined,
+		onClose
+	}: Props = $props();
 
-  function closeModal() {
-    dispatch('close');
-  }
+	function closeModal() {
+		onClose?.();
+	}
 
-  async function downloadFullSizeImage() {
-    const targetElement = document.getElementById('modal-pattern-display');
-    if (targetElement) {
-      // モーダル内の図案グリッドの実際のサイズを取得
-      const patternGrid = targetElement.querySelector('.pattern-grid') as HTMLElement | null;
-      let scale = 2; // デフォルトのスケール
-      if (patternGrid) {
-        // 表示されている図案の幅と、本来の図案の幅（cellSize * gridSize[0]）を比較してスケールを決定
-        // ここでは、表示されている図案の幅が小さい場合に、より大きなスケールでキャプチャするように調整
-        const currentWidth = patternGrid.offsetWidth;
-        const originalWidth = patternData.gridSize[0] * 20; // 1セル20pxで計算
-        if (currentWidth < originalWidth) {
-          scale = originalWidth / currentWidth; // 実際のサイズに合わせてスケールを調整
-        }
-      }
+	async function downloadFullSizeImage() {
+		const targetElement = document.getElementById('modal-pattern-display');
+		if (targetElement) {
+			const patternGrid = targetElement.querySelector('.pattern-grid') as HTMLElement | null;
+			let scale = 2;
+			if (patternGrid) {
+				const currentWidth = patternGrid.offsetWidth;
+				const originalWidth = patternData.gridSize[0] * 20;
+				if (currentWidth < originalWidth) {
+					scale = originalWidth / currentWidth;
+				}
+			}
 
-      html2canvas(targetElement, { scale: 3 }).then((canvas) => {
-        const link = document.createElement('a');
-        link.download = 'full_size_stitch_pattern.png';
-        link.href = canvas.toDataURL('image/png');
-        link.click();
-      });
-    } else {
-      alert('ダウンロード対象の要素が見つかりません。');
-    }
-  }
+			html2canvas(targetElement, { scale: 3 }).then((canvas) => {
+				const link = document.createElement('a');
+				link.download = 'full_size_stitch_pattern.png';
+				link.href = canvas.toDataURL('image/png');
+				link.click();
+			});
+		} else {
+			alert('ダウンロード対象の要素が見つかりません。');
+		}
+	}
 </script>
 
-<div class="modal-overlay" on:click={closeModal}>
-  <div class="modal-content" on:click|stopPropagation>
-    <button class="close-button" on:click={closeModal}>&times;</button>
-    <h3>フルサイズ図案</h3>
-    <div id="modal-pattern-display">
-      <PatternDisplay
-        {patternData}
-        {allDmcColors}
-        {allCosmoColors}
-        isModal={true} <!-- モーダル内であることを伝えるフラグ -->
-      />
-    </div>
-    <button on:click={downloadFullSizeImage} class="download-button">
-      フルサイズ画像をダウンロード
-    </button>
-  </div>
+<div class="modal-overlay" onclick={closeModal}>
+	<div class="modal-content" onclick={(event) => event.stopPropagation()}>
+		<button class="close-button" onclick={closeModal}>&times;</button>
+		<h3>フルサイズ図案</h3>
+		<div id="modal-pattern-display">
+			<PatternDisplay
+				{patternData}
+				{allDmcColors}
+				{allCosmoColors}
+				{screenWidth}
+				isModal={true}
+			/>
+		</div>
+		<button onclick={downloadFullSizeImage} class="download-button">
+			フルサイズ画像をダウンロード
+		</button>
+	</div>
 </div>
 
 <style>
-  .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
+	.modal-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+	}
 
-  .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 90%;
-    max-height: 90%;
-    overflow: auto; /* モーダル内容がはみ出る場合にスクロール可能にする */
-    position: relative;
-    text-align: center;
-  }
+	.modal-content {
+		background-color: white;
+		padding: 20px;
+		border-radius: 8px;
+		max-width: 90%;
+		max-height: 90%;
+		overflow: auto;
+		position: relative;
+		text-align: center;
+	}
 
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 2em;
-    cursor: pointer;
-    color: #333;
-  }
+	.close-button {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		background: none;
+		border: none;
+		font-size: 2em;
+		cursor: pointer;
+		color: #333;
+	}
 
-  .modal-content h3 {
-    color: var(--theme-color);
-    margin-bottom: 15px;
-  }
+	.modal-content h3 {
+		color: var(--theme-color);
+		margin-bottom: 15px;
+	}
 
-  .download-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-  }
+	.download-button {
+		background-color: #4caf50;
+		color: white;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 1em;
+		margin-top: 20px;
+		transition: background-color 0.3s ease;
+	}
 
-  .download-button:hover {
-    background-color: #45a049;
-  }
+	.download-button:hover {
+		background-color: #45a049;
+	}
 </style>

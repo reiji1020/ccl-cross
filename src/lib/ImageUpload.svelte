@@ -1,12 +1,14 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import { Button } from 'cclkit4svelte';
 	import type { ImageSelectedDetail } from './types';
 
-	const dispatch = createEventDispatcher<{ imageSelected: ImageSelectedDetail }>();
+	type Props = {
+		onImageSelected?: (detail: ImageSelectedDetail) => void;
+	};
 
-	let fileInput: HTMLInputElement;
-	let previewUrl: string | null = null;
+	let { onImageSelected }: Props = $props();
+	let fileInput = $state<HTMLInputElement>();
+	let previewUrl = $state<string | null>(null);
 
 	function openFilePicker() {
 		if (!fileInput) {
@@ -41,9 +43,9 @@
 		}
 
 		const reader = new FileReader();
-		reader.onload = (e) => {
-			previewUrl = e.target?.result as string;
-			dispatch('imageSelected', { file, dataUrl: previewUrl });
+		reader.onload = (event) => {
+			previewUrl = event.target?.result as string;
+			onImageSelected?.({ file, dataUrl: previewUrl });
 		};
 		reader.readAsDataURL(file);
 	}
@@ -56,11 +58,11 @@
 
 <div
 	class="image-upload-container"
-	on:drop={handleDrop}
-	on:dragover={preventDefaults}
-	on:dragleave={preventDefaults}
-	on:click={openFilePicker}
-	on:keydown={(e) => (e.key === 'Enter' || e.key === ' ') && openFilePicker()}
+	ondrop={handleDrop}
+	ondragover={preventDefaults}
+	ondragleave={preventDefaults}
+	onclick={openFilePicker}
+	onkeydown={(event) => (event.key === 'Enter' || event.key === ' ') && openFilePicker()}
 	role="button"
 	tabindex="0"
 	aria-label="画像をアップロード"
@@ -69,7 +71,7 @@
 		type="file"
 		accept="image/png, image/jpeg"
 		bind:this={fileInput}
-		on:change={handleFileChange}
+		onchange={handleFileChange}
 		style="display: none;"
 	/>
 
@@ -77,10 +79,8 @@
 		<img src={previewUrl} alt="Preview" class="image-preview" />
 		<Button label="画像を再選択" onClick={openFilePicker} bgColor="--melon-green" />
 	{:else}
-		<div
-			class="upload-area"
-		>
-			<p>画像をドラッグ＆ドロップするか、クリックして選択</p>
+		<div class="upload-area">
+			<p>画像をドラッグ&ドロップするか、クリックして選択</p>
 			<p>(PNG/JPEG対応)</p>
 		</div>
 	{/if}
@@ -115,6 +115,4 @@
 		border-radius: 4px;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	}
-
-
 </style>

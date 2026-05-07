@@ -1,7 +1,10 @@
 <script lang="ts">
   import '../app.css';
+  import type { Snippet } from 'svelte';
   import { CommonHeader, Footer } from 'cclkit4svelte';
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
+
+  let { children }: { children: Snippet } = $props();
 </script>
 
 <svelte:head>
@@ -11,8 +14,8 @@
     property="og:description"
     content="お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を選ぶまで、CROSSでワンステップ。"
   />
-  <meta property="og:image" content="{$page.url.origin}/OGP.png" />
-  <meta property="og:url" content="{$page.url.href}" />
+  <meta property="og:image" content="{page.url.origin}/OGP.png" />
+  <meta property="og:url" content="{page.url.href}" />
   <meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -21,7 +24,7 @@
     name="twitter:description"
     content="お気に入りの画像でクロスステッチを始めましょう。図案を作って刺繍糸を選ぶまで、CROSSでワンステップ。"
   />
-  <meta name="twitter:image" content="{$page.url.origin}/OGP.png" />
+  <meta name="twitter:image" content="{page.url.origin}/OGP.png" />
 </svelte:head>
 
 <CommonHeader
@@ -35,8 +38,14 @@
 <a class="github-fork-ribbon" href="https://github.com/reiji1020/ccl-cross" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" target="_blank">Fork me on GitHub</a>
 
 <main>
-  <slot />
+  {@render children()}
 </main>
+
+<aside class="palette-banner-wrap" aria-label="Palette service link">
+  <a class="palette-banner" href="https://ccl-palette.netlify.app/" target="_blank" rel="noreferrer">
+    <img src="/2.png" alt="PALETTE - CROSS pattern gallery" />
+  </a>
+</aside>
 
 <Footer bgColor="--melon-green" />
 
@@ -47,6 +56,35 @@
   }
 
   /* GitHubリボンのCSS */
+  .palette-banner-wrap {
+    width: min(100%, 900px);
+    margin: 0 auto;
+    padding: 0 18px 28px;
+  }
+
+  .palette-banner {
+    display: block;
+    overflow: hidden;
+    border: 1px solid var(--line, #e6eee3);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(50, 77, 45, 0.1);
+    transition:
+      transform 0.16s ease,
+      box-shadow 0.16s ease;
+  }
+
+  .palette-banner:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 34px rgba(50, 77, 45, 0.14);
+  }
+
+  .palette-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   .github-fork-ribbon {
     width: 12.1em;
     height: 12.1em;
@@ -106,5 +144,11 @@
     border-style: dotted;
     border-color: #fff;
     border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  @media (max-width: 680px) {
+    .palette-banner-wrap {
+      padding-inline: 14px;
+    }
   }
 </style>

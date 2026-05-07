@@ -12,22 +12,28 @@
 	import dmcColors from '../lib/dmc_raw.json';
 	import cosmoColors from '../lib/cosmo_raw.json';
 
+	const allDmcColors = dmcColors as ThreadColor[];
+	const allCosmoColors = cosmoColors as ThreadColor[];
+
 	const carouselImages = [
 		{ src: '/carousel_01.png', alt: 'Carousel Image 1' },
 		{ src: '/carousel_02.png', alt: 'Carousel Image 2' },
 		{ src: '/carousel_03.png', alt: 'Carousel Image 3' }
 	];
 
-	let uploadedImage: string | null = null;
-	let horizontalCells = 50; // デフォルト値
-	let verticalCells = 50; // デフォルト値
-	let selectedBrand: Brand = 'DMC'; // 選択されたブランド
-	let numColorsToUse = 30; // 使用する色数のデフォルト値
+	let uploadedImage = $state<string | null>(null);
+	let horizontalCellsInput = $state('50');
+	let verticalCellsInput = $state('50');
+	let selectedBrand = $state<Brand>('DMC');
+	let numColorsToUseInput = $state('30');
 
-	let patternData: PatternData | null = null; // 生成された図案データ
-	let isGenerating = false; // 図案生成中かどうかを示すフラグ
+	let patternData = $state<PatternData | null>(null);
+	let isGenerating = $state(false);
 
-	let symbolColorMode: SymbolColorMode = 'color';
+	let symbolColorMode = $state<SymbolColorMode>('color');
+	const horizontalCells = $derived(Math.max(1, Number(horizontalCellsInput) || 1));
+	const verticalCells = $derived(Math.max(1, Number(verticalCellsInput) || 1));
+	const numColorsToUse = $derived(Math.max(0, Number(numColorsToUseInput) || 0));
 
 	const brandOptions: Array<{ label: Brand; value: Brand }> = [
 		{ label: 'DMC', value: 'DMC' },
@@ -39,12 +45,12 @@
 		{ label: '黒', value: 'black' }
 	];
 
-	function handleImageSelected(event: CustomEvent<ImageSelectedDetail>) {
-		uploadedImage = event.detail.dataUrl;
+	function handleImageSelected(detail: ImageSelectedDetail) {
+		uploadedImage = detail.dataUrl;
 	}
 
 	function getAvailableColors(): ThreadColor[] {
-		return (selectedBrand === 'DMC' ? dmcColors : cosmoColors) as ThreadColor[];
+		return selectedBrand === 'DMC' ? allDmcColors : allCosmoColors;
 	}
 
 	function findNearestThreadColor(rgb: [number, number, number], colors: ThreadColor[]): ThreadColor | null {
@@ -304,8 +310,8 @@
 
 		return buildPatternExportSvg(
 			patternData,
-			dmcColors as ThreadColor[],
-			cosmoColors as ThreadColor[],
+			allDmcColors,
+			allCosmoColors,
 			{ symbolColorMode }
 		);
 	}
@@ -373,8 +379,8 @@
 		}
 		const exportData = buildPatternExportJson(
 			patternData,
-			dmcColors as ThreadColor[],
-			cosmoColors as ThreadColor[],
+			allDmcColors,
+			allCosmoColors,
 			{
 				maxColors: numColorsToUse,
 				symbolColorMode
@@ -393,10 +399,10 @@
 	// shareOnTwitter 関数は削除
 
 	// XIcon に渡す URL を生成
-	$: twitterShareUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(
+	const twitterShareUrl = $derived(`https://x.com/intent/tweet?text=${encodeURIComponent(
 		'CROSSでクロスステッチの図案と買い物リストを作りましょう！あなたも試してみませんか？ #cclcross\n' +
 			'https://ccl-cross.netlify.app/'
-	)}`;
+	)}`);
 </script>
 
 <div class="homepage-container">
@@ -414,23 +420,23 @@
 
 	<section class="upload-section">
 		<h3>画像をアップロードして始めましょう</h3>
-		<ImageUpload on:imageSelected={handleImageSelected} />
+		<ImageUpload onImageSelected={handleImageSelected} />
 		<p class="safety-message">※アップロードされた画像は収集されず、図案生成のみに使用されます。</p>
 
 		{#if uploadedImage}
 			<div class="grid-settings">
 				<h3>グリッドサイズを設定</h3>
 				<FormGroup label="横のマス数" forId="horizontal">
-					<Input id="horizontal" type="number" bind:value={horizontalCells} borderColor="--melon-green" />
+					<Input id="horizontal" type="number" bind:value={horizontalCellsInput} borderColor="--melon-green" />
 				</FormGroup>
 				<FormGroup label="縦のマス数" forId="vertical">
-					<Input id="vertical" type="number" bind:value={verticalCells} borderColor="--melon-green" />
+					<Input id="vertical" type="number" bind:value={verticalCellsInput} borderColor="--melon-green" />
 				</FormGroup>
 				<FormGroup label="使用ブランド" forId="brand">
 					<Select id="brand" options={brandOptions} bind:value={selectedBrand} borderColor="--melon-green" />
 				</FormGroup>
 				<FormGroup label="使用色数" forId="numColors">
-					<Input id="numColors" type="number" bind:value={numColorsToUse} borderColor="--melon-green" />
+					<Input id="numColors" type="number" bind:value={numColorsToUseInput} borderColor="--melon-green" />
 				</FormGroup>
 				<FormGroup label="記号色" forId="symbolColorMode">
 					<Select
@@ -463,12 +469,12 @@
 			<div id="pattern-and-list">
 				<section class="pattern-display">
 					<h3>生成された図案</h3>
-					<PatternDisplay {patternData} allDmcColors={dmcColors} allCosmoColors={cosmoColors} />
+					<PatternDisplay {patternData} allDmcColors={allDmcColors} allCosmoColors={allCosmoColors} />
 				</section>
 
 				<section class="shopping-list-section">
 					<h3>買い物リスト</h3>
-					<ShoppingList {patternData} allDmcColors={dmcColors} allCosmoColors={cosmoColors} />
+					<ShoppingList {patternData} allDmcColors={allDmcColors} allCosmoColors={allCosmoColors} />
 				</section>
 			</div>
 

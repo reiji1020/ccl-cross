@@ -1,8 +1,5 @@
 <script lang="ts">
-	/**
-	 * Xのプロフィールページへのリンク
-	 */
-	export let url: string;
+	let { url }: { url: string } = $props();
 </script>
 
 <div class="x-logo">
