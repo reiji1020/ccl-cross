@@ -5,7 +5,7 @@
 	import PatternDisplay from '../lib/PatternDisplay.svelte';
 	import ShoppingList from '../lib/ShoppingList.svelte';
 	import { rgbDistance } from '../lib/colorUtils';
-	import { buildPatternExportSvg } from '../lib/patternExport';
+	import { buildPatternExportJson, buildPatternExportSvg } from '../lib/patternExport';
 	import type { Brand, ImageSelectedDetail, PatternData, SymbolColorMode, ThreadColor } from '../lib/types';
 
 	// マスターデータのインポート
@@ -371,12 +371,21 @@
 			alert('図案データがありません。');
 			return;
 		}
-		const jsonString = JSON.stringify(patternData, null, 2);
+		const exportData = buildPatternExportJson(
+			patternData,
+			dmcColors as ThreadColor[],
+			cosmoColors as ThreadColor[],
+			{
+				maxColors: numColorsToUse,
+				symbolColorMode
+			}
+		);
+		const jsonString = JSON.stringify(exportData, null, 2);
 		const blob = new Blob([jsonString], { type: 'application/json' });
 		const url = URL.createObjectURL(blob);
 		const link = document.createElement('a');
 		link.href = url;
-		link.download = 'stitch_pattern.json';
+		link.download = `stitch_pattern_${patternData.brand.toLowerCase()}_${patternData.gridSize[0]}x${patternData.gridSize[1]}.json`;
 		link.click();
 		URL.revokeObjectURL(url);
 	}

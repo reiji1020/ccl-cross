@@ -26,6 +26,38 @@ export type PatternExportOptions = {
 	symbolColorMode: SymbolColorMode;
 };
 
+export type PatternJsonExportOptions = PatternExportOptions & {
+	maxColors: number;
+	createdAt?: string;
+};
+
+export type ExportedPatternJson = {
+	format: 'ccl-cross-pattern';
+	version: '1.0';
+	createdAt: string;
+	generator: {
+		name: 'CROSS';
+		url: string;
+	};
+	pattern: {
+		width: number;
+		height: number;
+		brand: Brand;
+		cells: string[][];
+	};
+	palette: Array<{
+		code: string;
+		name: string;
+		rgb: string;
+		count: number;
+		symbol: string;
+	}>;
+	settings: {
+		maxColors: number;
+		symbolColorMode: SymbolColorMode;
+	};
+};
+
 export type ImageSelectedDetail = {
 	file: File;
 	dataUrl: string;

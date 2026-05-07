@@ -1,4 +1,11 @@
-import type { PatternData, PatternExport, PatternExportOptions, ThreadColor } from './types';
+import type {
+	ExportedPatternJson,
+	PatternData,
+	PatternExport,
+	PatternExportOptions,
+	PatternJsonExportOptions,
+	ThreadColor
+} from './types';
 
 const SYMBOL_SET = [
 	'●',
@@ -252,5 +259,42 @@ export function buildPatternExportSvg(
 	return {
 		filename: `stitch_pattern_${patternData.brand.toLowerCase()}_${cols}x${rows}.svg`,
 		svg: parts.join('')
+	};
+}
+
+export function buildPatternExportJson(
+	patternData: PatternData,
+	allDmcColors: ThreadColor[],
+	allCosmoColors: ThreadColor[],
+	options: PatternJsonExportOptions
+): ExportedPatternJson {
+	const targetColors = patternData.brand === 'DMC' ? allDmcColors : allCosmoColors;
+	const usedColors = collectUsedColors(patternData, targetColors);
+
+	return {
+		format: 'ccl-cross-pattern',
+		version: '1.0',
+		createdAt: options.createdAt ?? new Date().toISOString(),
+		generator: {
+			name: 'CROSS',
+			url: 'https://ccl-cross.netlify.app/'
+		},
+		pattern: {
+			width: patternData.gridSize[0],
+			height: patternData.gridSize[1],
+			brand: patternData.brand,
+			cells: patternData.cells
+		},
+		palette: usedColors.map((color, index) => ({
+			code: color.COLOR_CODE,
+			name: color.COLOR_NAME_EN || '',
+			rgb: color.RGB_COLOR,
+			count: color.count,
+			symbol: buildSymbol(index)
+		})),
+		settings: {
+			maxColors: options.maxColors,
+			symbolColorMode: options.symbolColorMode
+		}
 	};
 }
